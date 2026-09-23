@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>The Five Security Gaps We Find in Almost Every Small Clinic | Clearpine Technologies</title>
+<meta name="description" content="Flat networks, shared logins, no MFA, untested backups, default firewalls: the five gaps we find in nearly every clinic, and what fixing them costs.">
+<link rel="canonical" href="https://clearpinetech.ca/blog/five-clinic-security-gaps">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#123b2f">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Clearpine Technologies">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://clearpinetech.ca/blog/five-clinic-security-gaps">
+<meta property="og:title" content="The Five Security Gaps We Find in Almost Every Small Clinic">
+<meta property="og:description" content="Flat networks, shared logins, no MFA, untested backups, default firewalls: the five gaps we find in nearly every clinic, and what fixing them costs.">
+<meta property="og:image" content="https://clearpinetech.ca/img/og-clearpine.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/css/styles.css" as="style">
+<link rel="stylesheet" href="/css/styles.css">
+<script defer src="/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://clearpinetech.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://clearpinetech.ca/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "The Five Security Gaps We Find in Almost Every Small Clinic", "item": "https://clearpinetech.ca/blog/five-clinic-security-gaps" }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://clearpinetech.ca/blog/five-clinic-security-gaps#article",
+      "headline": "The Five Security Gaps We Find in Almost Every Small Clinic",
+      "url": "https://clearpinetech.ca/blog/five-clinic-security-gaps",
+      "datePublished": "2026-09-22",
+      "dateModified": "2026-09-22",
+      "description": "Flat networks, shared logins, no MFA, untested backups, default firewalls: the five gaps we find in nearly every clinic, and what fixing them costs.",
+      "image": "https://clearpinetech.ca/img/og-clearpine.png",
+      "inLanguage": "en-CA",
+      "author": { "@id": "https://clearpinetech.ca/#organization" },
+      "publisher": { "@id": "https://clearpinetech.ca/#organization" },
+      "mainEntityOfPage": "https://clearpinetech.ca/blog/five-clinic-security-gaps"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="Clearpine Technologies logo" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="9" fill="#123b2f"/>
+        <path d="M20 8l6.5 11h-3.6L27 26.5h-4.4L20 32l-2.6-5.5H13L17.1 19h-3.6L20 8z" fill="#2d8a6b"/>
+        <rect x="18.7" y="27" width="2.6" height="6" rx="1.1" fill="#c9a227"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Clearpine</span>
+        <span class="brand-tag">Technologies</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/industries">Industries</a></li>
+        <li><a href="/projects">Case studies</a></li>
+        <li><a href="/capabilities">Capabilities</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="nav-phone"><a href="tel:+12362583060">(236) 258-3060</a></li>
+        <li><a class="btn btn-primary" href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li>The Five Security Gaps We Find in Almost Every Small Clinic</li>
+        </ol>
+      </nav>
+      <h1>The Five Security Gaps We Find in Almost Every Small Clinic</h1>
+      <p class="post-meta">Security &middot; <time datetime="2026-09-22">22 September 2026</time></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <article class="post-body">
+
+        <p>We've run security assessments on enough Fraser Valley clinics now to stop being surprised. The same five gaps show up whether it's a two-chair dental office or a nine-provider multidisciplinary clinic. None of them are exotic. None of them require a six-figure security program to fix. They persist because nobody built the network with security in mind in the first place — it grew, one workstation and one "just get it working" decision at a time.</p>
+
+        <p>Here's what we find, in the order we usually find it.</p>
+
+        <h2>1. One flat network for everything</h2>
+        <p>The front-desk PC, the workstation running your EMR, and the guest on your Wi-Fi checking email are often all on the same network, able to see each other. If any one device gets compromised — and the easiest way in is still a phishing email opened at the front desk — the attacker isn't contained to that machine. They can see everything else on the wire.</p>
+        <p>The fix is VLAN segmentation: clinical systems on one segment, admin workstations on another, guest Wi-Fi walled off entirely, and firewall rules that only allow the traffic that actually needs to cross between them. For a typical clinic network, this is a half-day to full-day project on hardware you likely already own — most business-grade firewalls and switches support VLANs, they're just never turned on. Budget $800–$2,000 if you need a consultant to design and implement it properly.</p>
+
+        <h2>2. Shared logins</h2>
+        <p>"Front Desk" is not a user account, it's a liability. When three people share one login, you lose the ability to know who did what — which matters when "what" is a patient record that got accessed or a file that got deleted. It also means when someone leaves the practice, you either reset a password everyone else uses too, or you don't bother, and a former employee's access just stays valid.</p>
+        <p>Individual accounts for every staff member, tied to your EMR's actual audit log, is not optional under PIPEDA's accountability principle — you need to be able to say who accessed what. Setup cost is close to zero; it's a policy and configuration change, not a hardware purchase. The friction is usually "but it's slower to log in separately," which is real but small next to the alternative.</p>
+
+        <h2>3. No multi-factor authentication</h2>
+        <p>Verizon's healthcare breach data consistently shows the large majority of web-application breaches in the sector trace back to stolen or guessed credentials. MFA is the single highest-leverage control against that — it stops a stolen password from being enough on its own. We still walk into clinics where email, EMR access, and remote desktop are all protected by password alone.</p>
+        <p>Most EMR platforms and Microsoft 365/Google Workspace already include MFA in the license you're paying for. Turning it on is typically a same-day project. The cost is almost entirely the disruption of asking staff to set up an authenticator app — plan for a short training session, not a budget line.</p>
+
+        <h2>4. Backups that have never been tested</h2>
+        <p>Nearly every clinic we assess has "backups" in the sense that something is scheduled to run overnight. Far fewer have ever actually restored from one. A backup job that reports "success" can still be backing up a corrupted database, missing the folder that matters, or producing a file nobody can actually restore under pressure. Ransomware operators know this too — a meaningful share of attacks now specifically target backup systems before triggering encryption, because a working backup is the one thing that lets you refuse to pay.</p>
+        <p>Fixing this means a documented, tested restore at least twice a year, off-site or immutable backup storage that ransomware on your main network can't reach or delete, and a written recovery time objective — how many hours of downtime can the clinic actually tolerate. Expect $150–$400/month for backup infrastructure sized for a small clinic, plus the time to run and document a real test restore.</p>
+
+        <h2>5. The firewall on factory defaults</h2>
+        <p>The firewall is often the single most important piece of security hardware on the network, and the one least likely to have ever been configured. Default admin credentials never changed, default rules left wide open, firmware that hasn't been updated since installation — we see this constantly on hardware that's otherwise perfectly capable of doing its job properly.</p>
+        <p>This is usually a 1–2 hour remediation once someone actually logs in and looks: change defaults, apply current firmware, tighten rules to what the clinic actually needs, enable logging. There's rarely a hardware cost attached — the box you have is fine. What's missing is someone treating it as more than a box you plug the internet into.</p>
+
+        <h2>What this actually costs</h2>
+        <p>Fixed together, as one project rather than five separate fire drills, these five gaps typically run $2,500–$5,000 in one-time work for a clinic of 5–15 workstations, plus modest ongoing costs for MFA licensing (often already included) and tested backup storage. Compare that to the cost of explaining a breach to your patients, or to BC's Office of the Information and Privacy Commissioner.</p>
+
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <h2>Want a straight answer on where your clinic stands?</h2>
+        <p>We do fixed-scope security assessments — no upsell, just a prioritized list like this one, specific to your network.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="/contact">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Clearpine Technologies</h4>
+        <p>Managed IT, cybersecurity and infrastructure deployment for Canadian clinics and public sector. Abbotsford, British Columbia.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#managed-it">Managed IT support</a></li>
+          <li><a href="/services#cybersecurity">Cybersecurity</a></li>
+          <li><a href="/services#deployment">Hardware deployment</a></li>
+          <li><a href="/services#project-management">Project management</a></li>
+          <li><a href="/services#additional">Additional services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/industries">Industries</a></li>
+          <li><a href="/projects">Case studies</a></li>
+          <li><a href="/capabilities">Capabilities statement</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+12362583060">(236) 258-3060</a></li>
+          <li><a href="mailto:info@clearpinetech.ca">info@clearpinetech.ca</a></li>
+          <li>Abbotsford, BC, Canada</li>
+          <li>Serving the Fraser Valley,<br>Lower Mainland &amp; Canada-wide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Clearpine Technologies Inc. All rights reserved.</span>
+      <span>Corporation number 1818348-1 &middot; BC registration A0143401</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

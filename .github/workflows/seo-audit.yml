@@ -1,0 +1,37 @@
+# Automated SEO audit — runs scripts/seo_audit.py and posts the report to the
+# workflow run summary. Fails (and GitHub emails you) if any ERROR is found:
+# broken internal links, missing titles/descriptions/canonicals, bad JSON-LD,
+# pages missing from sitemap.xml, etc. Warnings are reported but never fail.
+name: SEO audit
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  # Weekly check every Monday at 15:00 UTC (8am Pacific)
+  schedule:
+    - cron: "0 15 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history so the sitemap lastmod check can see real change dates
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run SEO audit
+        run: |
+          set -o pipefail
+          python3 scripts/seo_audit.py --markdown | tee -a "$GITHUB_STEP_SUMMARY"

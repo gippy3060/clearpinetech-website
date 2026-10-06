@@ -92,6 +92,25 @@ You own both `.ca` and `.com`. Recommended setup:
 
 ---
 
+## SEO — automated audit
+
+`.github/workflows/seo-audit.yml` runs `scripts/seo_audit.py` on every push to
+`main`, on pull requests, and every Monday morning. Open the run under the
+**Actions** tab to see the report. It checks:
+
+- Title, meta description, canonical, one `h1`, `lang`, Open Graph tags
+- JSON-LD blocks parse as valid JSON; images have alt text
+- Every internal link and asset resolves to a real file
+- No duplicate titles or descriptions across pages
+- `sitemap.xml` lists every page, has no dead URLs, and `lastmod` dates
+  aren't older than the page's last commit
+- `robots.txt` points to the sitemap and doesn't block the site
+
+Errors fail the run (GitHub emails you); warnings are reported only.
+Run it locally with `python3 scripts/seo_audit.py`.
+
+---
+
 ## SEO — what you need to do
 
 Ranking is earned after launch, not at launch. In priority order:

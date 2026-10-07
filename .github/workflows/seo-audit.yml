@@ -8,9 +8,9 @@ on:
   push:
     branches: ["main"]
   pull_request:
-  # Weekly check every Monday at 15:00 UTC (8am Pacific)
+  # Daily check at 14:00 UTC (7am Pacific in summer, 6am in winter)
   schedule:
-    - cron: "0 15 * * 1"
+    - cron: "0 14 * * *"
   workflow_dispatch:
 
 permissions:

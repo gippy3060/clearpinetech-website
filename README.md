@@ -95,7 +95,7 @@ You own both `.ca` and `.com`. Recommended setup:
 ## SEO — automated audit
 
 `.github/workflows/seo-audit.yml` runs `scripts/seo_audit.py` on every push to
-`main`, on pull requests, and every Monday morning. Open the run under the
+`main`, on pull requests, and every morning. Open the run under the
 **Actions** tab to see the report. It checks:
 
 - Title, meta description, canonical, one `h1`, `lang`, Open Graph tags

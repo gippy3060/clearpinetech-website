@@ -50,7 +50,7 @@
         "@type": "Offer",
         "price": "100",
         "priceCurrency": "CAD",
-        "description": "Flat-rate, one-time remote support session",
+        "description": "Flat-rate, one-time remote support session. No fix, no charge.",
         "url": "https://clearpinetech.ca/home-support/"
       }
     },
@@ -63,6 +63,10 @@
           "acceptedAnswer": { "@type": "Answer", "text": "Remote sessions only happen with your permission, and you can end the session at any time. You stay at your computer and can watch everything we do." } },
         { "@type": "Question", "name": "Are you affiliated with HP, Netgear, Microsoft or other brands?",
           "acceptedAnswer": { "@type": "Answer", "text": "No. Clearpine Technologies is an independent support provider and is not affiliated with, endorsed by, or an authorised service provider of any brand named on this site. For free manufacturer support, contact the manufacturer directly." } },
+        { "@type": "Question", "name": "What if you cannot fix my problem?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No fix, no charge. If we cannot fix the problem, you do not pay." } },
+        { "@type": "Question", "name": "What remote tools do you use?",
+          "acceptedAnswer": { "@type": "Answer", "text": "We use AnyDesk, or Quick Assist on Windows. You allow the connection, you can watch everything we do, and you can end the session at any time." } },
         { "@type": "Question", "name": "Do you support customers outside British Columbia?",
           "acceptedAnswer": { "@type": "Answer", "text": "Yes. Remote support is available in every province and territory, including Toronto, Montreal, Calgary, Edmonton, Ottawa, Winnipeg, Halifax and Vancouver." } }
       ]
@@ -124,7 +128,7 @@
       </p>
       <p class="form-note">
         Clearpine Technologies is an independent support provider and is not affiliated with, endorsed by,
-        or an authorised service provider of Microsoft, Apple, Google, HP, Brother, Canon, Epson, Lexmark, Xerox,
+        or an authorised service provider of Microsoft, Apple, Google, AnyDesk, HP, Brother, Canon, Epson, Lexmark, Xerox,
         Samsung, D-Link, Linksys, Netgear, TP-Link, ASUS, Eero, Rogers, Bell, Telus, Shaw or Videotron.
         Brand names are trademarks of their respective owners. For free manufacturer support, contact the
         manufacturer directly.
@@ -179,11 +183,10 @@
         </article>
         <article class="card">
           <div class="stat-num">4</div>
-          <h3>Pay one flat fee</h3>
-          <p>$100 CAD for the session. You can end the session at any time.</p>
+          <h3>Pay only if it is fixed</h3>
+          <p>$100 CAD for the session, and nothing if we cannot fix it. You can end the session at any time.</p>
         </article>
       </div>
-      <!-- TODO owner: confirm what happens (and what is charged) if the problem cannot be fixed remotely, and which remote-access tool is used -->
     </div>
   </section>
 
@@ -200,6 +203,13 @@
           <p>
             Remote sessions only happen with your permission, and you can end the session at any time.
             We are based in Abbotsford, BC, and serve home users in every province and territory.
+          </p>
+          <p>
+            <strong>No fix, no charge.</strong> If we cannot fix your problem, you do not pay.
+          </p>
+          <p>
+            We connect using AnyDesk, or Quick Assist on Windows. Both are free to install or already
+            built in, and you choose whether to allow the connection.
           </p>
         </div>
         <div class="panel">
@@ -234,6 +244,14 @@
           <p>No. Clearpine Technologies is an independent support provider and is not affiliated with, endorsed by, or an authorised service provider of any brand named on this site. For free manufacturer support, contact the manufacturer directly.</p>
         </details>
         <details>
+          <summary>What if you cannot fix my problem?</summary>
+          <p>No fix, no charge. If we cannot fix the problem, you do not pay.</p>
+        </details>
+        <details>
+          <summary>What remote tools do you use?</summary>
+          <p>We use AnyDesk, or Quick Assist on Windows. You allow the connection, you can watch everything we do, and you can end the session at any time.</p>
+        </details>
+        <details>
           <summary>Do you support customers outside British Columbia?</summary>
           <p>Yes. Remote support is available in every province and territory, including Toronto, Montreal, Calgary, Edmonton, Ottawa, Winnipeg, Halifax and Vancouver.</p>
         </details>
@@ -252,7 +270,7 @@
         </div>
         <p class="form-note">
           Clearpine Technologies is an independent support provider and is not affiliated with, endorsed by,
-          or an authorised service provider of Microsoft, Apple, Google, HP, Brother, Canon, Epson, Lexmark, Xerox,
+          or an authorised service provider of Microsoft, Apple, Google, AnyDesk, HP, Brother, Canon, Epson, Lexmark, Xerox,
           Samsung, D-Link, Linksys, Netgear, TP-Link, ASUS, Eero, Rogers, Bell, Telus, Shaw or Videotron.
           Brand names are trademarks of their respective owners. For free manufacturer support, contact the
           manufacturer directly.

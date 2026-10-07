@@ -15,3 +15,7 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 3. `/home-support/computer-help`, `virus-removal`, `software-help`
 4. Blog: "Why does my printer say offline?", "How to fix weak Wi-Fi in a Canadian home"
 5. Link each child from the hub cards (cards currently anchor to the hub sections).
+
+## 2026-10-07 (update)
+- Owner confirmed: "No fix, no charge" and remote tools are AnyDesk and Quick Assist (Windows). Added to hub (how-it-works, price section, FAQ + FAQPage JSON-LD, Offer description), added AnyDesk to the brand disclaimers, removed the TODO comment.
+- Reuse this wording on child pages. Do not mention other remote tools.

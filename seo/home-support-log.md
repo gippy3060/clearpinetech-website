@@ -20,7 +20,7 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 - Added `/home-support/printer-help/`: above-the-fold call CTA, brand disclaimer (top and bottom), permission/end-session statement, problem cards, a real "printer offline" Windows/Mac self-help checklist, limits of remote support, FAQ, Service + Offer ($100 CAD, areaServed Canada) + HowTo + FAQPage + Breadcrumb JSON-LD.
 - Linked it from the hub printer card and the footer "Printer help" link on hub and new page; added to `sitemap.xml`.
 - `scripts/seo_audit.py`: 0 errors (warnings pre-exist on other pages).
-- Open owner question (TODO comment): what happens if a printer problem can't be fixed remotely.
+- Owner confirmed 2026-10-08: no charge if the problem cannot be fixed. Added to printer page and hub; TODO removed (hub still has a TODO on which remote tool is used).
 - Target keywords: printer help Canada, printer offline fix, wifi printer setup, remote printer support.
 - Note: the footer "Printer help" link on other site pages still points to `/home-support/#printer`; update site-wide when convenient.
 

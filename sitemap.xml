@@ -13,7 +13,9 @@
   <url><loc>https://clearpinetech.ca/locations/new-westminster</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://clearpinetech.ca/locations/north-vancouver</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://clearpinetech.ca/locations/whistler</loc><lastmod>2026-09-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://clearpinetech.ca/industries</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://clearpinetech.ca/industries</loc><lastmod>2026-10-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://clearpinetech.ca/industries/law-firms</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://clearpinetech.ca/industries/medical-clinics</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://clearpinetech.ca/projects</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://clearpinetech.ca/capabilities</loc><lastmod>2026-08-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://clearpinetech.ca/about</loc><lastmod>2026-08-24</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
@@ -28,4 +30,8 @@
   <url><loc>https://clearpinetech.ca/blog/independent-contractor-vs-msp</loc><lastmod>2026-09-28</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://clearpinetech.ca/blog/backups-probably-not-working</loc><lastmod>2026-10-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://clearpinetech.ca/blog/first-government-contract-small-it-firm</loc><lastmod>2026-10-01</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://clearpinetech.ca/home-support/</loc><lastmod>2026-10-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://clearpinetech.ca/home-support/printer-help/</loc><lastmod>2026-10-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://clearpinetech.ca/home-support/wifi-router-help/</loc><lastmod>2026-10-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://clearpinetech.ca/blog/it-requirements-new-law-firm-bc</loc><lastmod>2026-10-08</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
 </urlset>

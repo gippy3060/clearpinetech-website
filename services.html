@@ -44,7 +44,11 @@
           "description": "Helpdesk, endpoint management, patching, monitoring and backup verification under a service agreement with defined response times.",
           "serviceType": "Managed IT services",
           "provider": { "@id": "https://clearpinetech.ca/#organization" },
-          "areaServed": { "@type": "Country", "name": "Canada" } },
+          "areaServed": { "@type": "Country", "name": "Canada" },
+          "offers": { "@type": "Offer", "priceCurrency": "CAD", "price": "95",
+            "priceSpecification": { "@type": "UnitPriceSpecification", "price": "95", "priceCurrency": "CAD", "unitText": "per user per month" },
+            "eligibleQuantity": { "@type": "QuantitativeValue", "minValue": 5, "unitText": "users" },
+            "description": "Minimum 5 users, 1-year agreement. Microsoft 365 licences, after-hours support and on-site visits billed separately; on-site visits are free if an issue cannot be fixed remotely." } },
         { "@type": "Service", "position": 2, "name": "Cybersecurity",
           "description": "Firewall design and configuration, endpoint protection, multi-factor authentication, access control, network segmentation, backup testing and security assessments.",
           "serviceType": "Cybersecurity services",
@@ -127,6 +131,11 @@
         We lead with support, security, deployment and delivery management because that is where
         organizations feel the pain — and where our experience is deepest.
       </p>
+      <p>
+        Managed IT support is $95 per user per month. Not sure where to start?
+        <a href="/free-it-assessment">Book a free IT assessment</a>: a no-obligation review of your
+        security, Microsoft 365, backups and network, on site anywhere within 300 km of Abbotsford.
+      </p>
     </div>
   </section>
 
@@ -138,6 +147,8 @@
           <span class="eyebrow">Core service 01</span>
           <h2>Managed IT support</h2>
           <p class="form-note">Helpdesk · Endpoints · Patching · Backup · Monitoring</p>
+          <p style="font-size:1.35rem;margin:.75rem 0 .25rem"><strong>$95</strong> per user / month</p>
+          <p class="form-note">Minimum 5 users · 1-year agreement</p>
           <div class="tags">
             <span class="tag">Defined SLAs</span><span class="tag">Microsoft 365</span>
             <span class="tag">Endpoint management</span><span class="tag">Monitoring</span>
@@ -162,6 +173,18 @@
             <li><strong>Proactive monitoring</strong> — disk, memory, service and backup alerts so failures surface before users notice</li>
             <li><strong>Asset and licence inventory</strong> — kept current, so renewals and end-of-life hardware never ambush a budget</li>
           </ul>
+          <p>
+            <strong>Pricing: $95 per user per month</strong>, minimum 5 users on a 1-year agreement.
+          </p>
+          <ul class="checklist">
+            <li><strong>Included:</strong> everything above, delivered remotely during business hours</li>
+            <li><strong>On-site visits:</strong> billed separately, but <strong>free if we can't fix the problem remotely</strong></li>
+            <li><strong>After-hours support:</strong> billed separately</li>
+            <li><strong>Microsoft 365 licences:</strong> billed separately (we manage them; you pay the licence cost)</li>
+          </ul>
+          <p>
+            Not sure it's the right fit? Start with a <a href="/free-it-assessment">free IT assessment</a>, on site anywhere within 300 km of Abbotsford.
+          </p>
         </div>
       </article>
 
@@ -423,6 +446,7 @@
         <h4>Services</h4>
         <ul>
           <li><a href="/services#managed-it">Managed IT support</a></li>
+          <li><a href="/free-it-assessment">Free IT assessment</a></li>
           <li><a href="/services#co-managed-it">Co-managed IT</a></li>
           <li><a href="/services#cybersecurity">Cybersecurity</a></li>
           <li><a href="/services#deployment">Hardware deployment</a></li>

@@ -32,6 +32,15 @@
   // Contact form: mailto fallback so the site works on static hosting with no backend.
   var form = document.getElementById("contact-form");
   if (form) {
+    // Preselect the topic from ?service=... (e.g. links from the free assessment page)
+    var wanted = new URLSearchParams(window.location.search).get("service");
+    var select = form.querySelector("#service");
+    if (wanted && select) {
+      for (var j = 0; j < select.options.length; j++) {
+        if (select.options[j].value === wanted) { select.selectedIndex = j; break; }
+      }
+    }
+
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       var data = new FormData(form);

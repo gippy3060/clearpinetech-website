@@ -29,3 +29,16 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. `/home-support/computer-help`, `virus-removal`, `software-help`
 3. Brand pages: `printer-help/hp`, `brother`, `canon`
 4. Blog: "Why does my printer say offline? Fixes for HP, Brother & Canon", "How to fix weak Wi-Fi in a Canadian home"
+
+## 2026-10-09
+- Added `/home-support/wifi-router-help/`: above-the-fold call CTA, brand/ISP disclaimer (top and bottom), permission/end-session statement, problem cards, routers-we-work-with cards (Netgear, TP-Link, ASUS, D-Link, Linksys, Eero, Google Nest Wifi, Rogers/Bell/Telus/Shaw/Videotron), self-help checklist for weak Wi-Fi, limits of remote support, FAQ, Service + Offer ($100 CAD, areaServed Canada) + HowTo + FAQPage + Breadcrumb JSON-LD.
+- Linked from the hub Wi-Fi card and the "Wi-Fi & router help" footer link (hub, printer page, new page); added to `sitemap.xml`.
+- `scripts/seo_audit.py`: 0 errors.
+- Target keywords: wifi router help Canada, fix weak wifi, router setup help, mesh wifi setup.
+- Note: the footer "Wi-Fi & router help" link on other site pages (outside /home-support/) may still point to `/home-support/#wifi`; update site-wide when convenient.
+
+### Next steps
+1. `/home-support/wifi-extender-setup`
+2. `/home-support/computer-help`, `virus-removal`, `software-help`
+3. Brand pages: `printer-help/hp`, `brother`, `canon`; `wifi-router-help/tp-link`
+4. Blog: "Why does my printer say offline? Fixes for HP, Brother & Canon", "How to fix weak Wi-Fi in a Canadian home"

@@ -41,7 +41,7 @@ competitors each week and updates this file. Last updated: 2026-10-09.
 
 Market guides put Vancouver managed IT at roughly $100–$200/user/mo, with $160–$310 for regulated
 (healthcare/finance) work. Clearpine offer: **free, no-obligation IT assessment** at `/free-it-assessment`.
-Clearpine monthly pricing is not published yet: owner decision pending.
+Clearpine pricing (owner-confirmed 2026-10-09): **managed IT $95/user/month**; free assessment **on site anywhere within 300 km of Abbotsford**.
 
 ## Keyword clusters → target page
 

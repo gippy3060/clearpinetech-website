@@ -44,7 +44,9 @@
           "description": "Helpdesk, endpoint management, patching, monitoring and backup verification under a service agreement with defined response times.",
           "serviceType": "Managed IT services",
           "provider": { "@id": "https://clearpinetech.ca/#organization" },
-          "areaServed": { "@type": "Country", "name": "Canada" } },
+          "areaServed": { "@type": "Country", "name": "Canada" },
+          "offers": { "@type": "Offer", "priceCurrency": "CAD", "price": "95",
+            "priceSpecification": { "@type": "UnitPriceSpecification", "price": "95", "priceCurrency": "CAD", "unitText": "per user per month" } } },
         { "@type": "Service", "position": 2, "name": "Cybersecurity",
           "description": "Firewall design and configuration, endpoint protection, multi-factor authentication, access control, network segmentation, backup testing and security assessments.",
           "serviceType": "Cybersecurity services",
@@ -128,8 +130,9 @@
         organizations feel the pain — and where our experience is deepest.
       </p>
       <p>
-        Not sure where to start? <a href="/free-it-assessment">Book a free IT assessment</a>:
-        a no-obligation review of your security, Microsoft 365, backups and network.
+        Managed IT support is $95 per user per month. Not sure where to start?
+        <a href="/free-it-assessment">Book a free IT assessment</a>: a no-obligation review of your
+        security, Microsoft 365, backups and network, on site anywhere within 300 km of Abbotsford.
       </p>
     </div>
   </section>
@@ -142,6 +145,7 @@
           <span class="eyebrow">Core service 01</span>
           <h2>Managed IT support</h2>
           <p class="form-note">Helpdesk · Endpoints · Patching · Backup · Monitoring</p>
+          <p style="font-size:1.35rem;margin:.75rem 0"><strong>$95</strong> per user / month</p>
           <div class="tags">
             <span class="tag">Defined SLAs</span><span class="tag">Microsoft 365</span>
             <span class="tag">Endpoint management</span><span class="tag">Monitoring</span>
@@ -166,6 +170,10 @@
             <li><strong>Proactive monitoring</strong> — disk, memory, service and backup alerts so failures surface before users notice</li>
             <li><strong>Asset and licence inventory</strong> — kept current, so renewals and end-of-life hardware never ambush a budget</li>
           </ul>
+          <p>
+            <strong>Pricing: $95 per user per month.</strong> <!-- TODO owner: confirm what's included vs extra (e.g. Microsoft 365 licences, on-site visits, after-hours, hardware) and any minimum users or contract term. -->
+            Not sure it's the right fit? Start with a <a href="/free-it-assessment">free IT assessment</a>, on site anywhere within 300 km of Abbotsford.
+          </p>
         </div>
       </article>
 

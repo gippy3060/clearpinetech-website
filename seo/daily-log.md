@@ -12,3 +12,9 @@
 - Added to `blog/index.html` (list + JSON-LD), `sitemap.xml`, and linked from `/industries/law-firms`.
 - Target keywords: IT requirements new law firm BC, law firm IT setup checklist BC, Law Society of BC cloud computing.
 - Next steps: `/industries/medical-clinics` and `/industries/dental` pages; "Is Clio secure enough for Law Society of BC rules" post; link law-firms page from location pages; shorten long titles flagged by the audit (blog posts mostly); owner to verify Law Society wording.
+
+## 2026-10-09
+- New vertical page `/industries/medical-clinics` (Service + FAQPage + Breadcrumb JSON-LD): EMR environments (OSCAR Pro, Accuro, TELUS PS Suite, Med Access named only as software we support around, not partnerships), PIPA/PIPEDA safeguards, backups, ransomware readiness, e-fax, imaging, front-desk reliability. Regulators described generally with a defer-to-college/counsel note; no prices, stats or clients.
+- Linked from `industries.html` clinic section, `industries/law-firms`, and all 10 location pages (short cross-link sentence only; no city-swapped content). Added to `sitemap.xml`.
+- Target keywords: IT support medical clinics BC, dental office IT support Lower Mainland, EMR IT support BC, clinic managed IT.
+- Next steps: `/industries/dental` page only if it can be distinct (dental imaging, practice software); blog "EMR backup best practices for BC clinics"; "Is Clio secure enough for Law Society of BC rules" post; give location pages genuinely local content; shorten long titles flagged by audit (blog posts, services description 204 chars); owner to confirm college names and which EMRs the team actually supports.

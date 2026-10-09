@@ -27,6 +27,22 @@ competitors each week and updates this file. Last updated: 2026-10-09.
 4. "Free IT assessment" or "network audit" offers as the conversion point.
 5. FAQ sections with FAQPage schema on service pages.
 
+## Competitor pricing & offers (published, Oct 2026)
+
+| Provider | Published price | Offer |
+|---|---|---|
+| Integrity Tech Consulting (Langley) | from $80/user/mo ($80–$105) | month-to-month, no onboarding fee |
+| North Star IT (Mission/Fraser Valley) | from $89/user/mo; hourly/on-site extra | free IT assessment |
+| Hexafusion (Vancouver) | tiers ~$70–$100 / $100–$145 / $145–$200 per user/mo | flat-rate |
+| A Vancouver MSP (vancouveritservice.ca) | $99 Standard / $150 Complete per user/mo; ~$200 compliance | — |
+| Fusion Computing (Surrey/Vancouver) | $180+/user/mo | fixed-fee (paid) assessment |
+| SFS Technologies (Abbotsford) | not published | complimentary discovery call + environment audit |
+| Empyrion (Abbotsford/Chilliwack) | not published | free 15-min assessment |
+
+Market guides put Vancouver managed IT at roughly $100–$200/user/mo, with $160–$310 for regulated
+(healthcare/finance) work. Clearpine offer: **free, no-obligation IT assessment** at `/free-it-assessment`.
+Clearpine monthly pricing is not published yet: owner decision pending.
+
 ## Keyword clusters → target page
 
 Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
@@ -60,7 +76,8 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 ### 3. Comparison & cost (buyers researching)
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
-| managed IT services cost BC, how much does an MSP cost Canada | blog: "Managed IT pricing in BC" | A | todo |
+| managed IT services cost BC, how much does an MSP cost Canada | blog: "Managed IT pricing in BC" (use the benchmarks above, cite sources) | A | todo |
+| free IT assessment, IT audit small business, network assessment Abbotsford | `/free-it-assessment` | A | done (/free-it-assessment) |
 | break-fix vs managed IT | blog | B | todo |
 | how to choose an MSP, questions to ask an IT provider | blog | B | todo |
 | switching IT providers, MSP onboarding | blog | C | todo |

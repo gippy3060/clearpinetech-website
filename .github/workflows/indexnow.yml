@@ -1,0 +1,39 @@
+# Tells IndexNow (Bing, Yandex, Seznam, Naver; via Bing also DuckDuckGo, Yahoo
+# and Copilot) about changed pages right after each successful Pages deploy.
+# Run it manually from the Actions tab to submit every page at once.
+name: IndexNow submit
+
+on:
+  workflow_run:
+    workflows: ["Deploy static content to Pages"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          fetch-depth: 2
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Submit changed pages
+        if: github.event_name == 'workflow_run'
+        run: |
+          # First parent of a merge commit = main before the PR, so this diff covers the whole PR
+          git diff --name-only HEAD^1 HEAD | python3 scripts/indexnow.py -
+
+      - name: Submit all pages
+        if: github.event_name == 'workflow_dispatch'
+        run: git ls-files '*.html' | python3 scripts/indexnow.py -

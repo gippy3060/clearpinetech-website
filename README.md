@@ -109,6 +109,14 @@ You own both `.ca` and `.com`. Recommended setup:
 Errors fail the run (GitHub emails you); warnings are reported only.
 Run it locally with `python3 scripts/seo_audit.py`.
 
+### Automatic search engine submission (IndexNow)
+
+`.github/workflows/indexnow.yml` runs after every successful Pages deploy and
+sends the pages changed by that merge to IndexNow (Bing, Yandex, Seznam, Naver;
+via Bing also DuckDuckGo, Yahoo and Copilot) using `scripts/indexnow.py`.
+The key file at the site root (`<key>.txt`) proves ownership — don't delete it.
+To submit every page at once, run **IndexNow submit** manually from the Actions tab.
+
 ---
 
 ## SEO — what you need to do

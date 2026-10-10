@@ -50,7 +50,7 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 - Footer links: only home-support pages carry the "Printer help"/"Wi-Fi & router help" links and they already point to the real pages; other site pages only link the hub, so no site-wide edit was needed.
 - `scripts/seo_audit.py`: 0 errors.
 - Target keywords: remote tech support USA/Canada, online computer help, printer help, wifi router help (CA and US).
-- Owner confirmed (follow-up): remote tools "any connect and quick assist" (name of first tool unclear), all payment methods accepted, 2 sessions per issue. Added visible text to the three pages; TODO remains for tool name, whether 2 sessions fall under one $100 fee, and gift card/wire/crypto policy.
+- Owner confirmed (follow-up): remote tools "any connect and quick assist" (name of first tool unclear), all payment methods accepted, 2 sessions per issue. Added visible text to the three pages; TODO remains for tool name, whether 2 sessions fall under one $100 fee. Payment resolved: all major cards accepted; never gift card, wire or crypto.
 
 ### Next steps
 1. `/home-support/seniors` (with "How to spot a tech-support scam")

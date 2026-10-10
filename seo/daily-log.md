@@ -18,3 +18,10 @@
 - Linked from `industries.html` clinic section, `industries/law-firms`, and all 10 location pages (short cross-link sentence only; no city-swapped content). Added to `sitemap.xml`.
 - Target keywords: IT support medical clinics BC, dental office IT support Lower Mainland, EMR IT support BC, clinic managed IT.
 - Next steps: `/industries/dental` page only if it can be distinct (dental imaging, practice software); blog "EMR backup best practices for BC clinics"; "Is Clio secure enough for Law Society of BC rules" post; give location pages genuinely local content; shorten long titles flagged by audit (blog posts, services description 204 chars); owner to confirm college names and which EMRs the team actually supports.
+
+## 2026-10-10
+- Audit: 0 errors at start (52 length/lastmod warnings, mostly pre-existing).
+- New blog post `/blog/emr-backup-best-practices-bc-clinics` (~1,400 words, BlogPosting + Breadcrumb JSON-LD): hosted vs on-prem EMR, RPO/RTO, 3-2-1 plus isolated copy, what to include, encryption, restore testing, monitoring, recovery runbook, checklist. No prices, stats or clients; regulator references general with defer-to-advisors note. CTA: free IT assessment + phone.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics`; bumped lastmod for blog index and medical-clinics.
+- Target keywords: EMR backup best practices BC, clinic backup ransomware BC, EMR disaster recovery.
+- Next steps: "Is Clio secure enough for Law Society of BC rules" post; `/industries/dental` only if distinct; genuinely local content for location pages; stale sitemap lastmods (52 audit warnings); owner to confirm which EMRs/backup tools the team supports (TODO comment in post).

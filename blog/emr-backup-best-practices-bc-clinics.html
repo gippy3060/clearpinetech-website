@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>EMR Backup Best Practices for BC Clinics | Clearpine</title>
+<meta name="description" content="How BC clinics should back up an EMR: 3-2-1 plus an isolated copy, recovery targets, encryption, restore testing and a recovery runbook.">
+<link rel="canonical" href="https://clearpinetech.ca/blog/emr-backup-best-practices-bc-clinics">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#123b2f">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Clearpine Technologies">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://clearpinetech.ca/blog/emr-backup-best-practices-bc-clinics">
+<meta property="og:title" content="EMR Backup Best Practices for BC Clinics">
+<meta property="og:description" content="How BC clinics should back up an EMR: 3-2-1 plus an isolated copy, recovery targets, encryption, restore testing and a recovery runbook.">
+<meta property="og:image" content="https://clearpinetech.ca/img/og-clearpine.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/css/styles.css" as="style">
+<link rel="stylesheet" href="/css/styles.css">
+<script defer src="/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://clearpinetech.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://clearpinetech.ca/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "EMR backup best practices for BC clinics: what to back up and how to test it", "item": "https://clearpinetech.ca/blog/emr-backup-best-practices-bc-clinics" }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://clearpinetech.ca/blog/emr-backup-best-practices-bc-clinics#article",
+      "headline": "EMR backup best practices for BC clinics: what to back up and how to test it",
+      "description": "How BC clinics should back up an EMR: 3-2-1 plus an isolated copy, recovery targets, encryption, restore testing and a recovery runbook.",
+      "url": "https://clearpinetech.ca/blog/emr-backup-best-practices-bc-clinics",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://clearpinetech.ca/blog/emr-backup-best-practices-bc-clinics" },
+      "datePublished": "2026-10-10",
+      "dateModified": "2026-10-10",
+      "inLanguage": "en-CA",
+      "image": "https://clearpinetech.ca/img/og-clearpine.png",
+      "author": { "@id": "https://clearpinetech.ca/#organization" },
+      "publisher": { "@id": "https://clearpinetech.ca/#organization" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="Clearpine Technologies logo" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="9" fill="#123b2f"/>
+        <path d="M20 8l6.5 11h-3.6L27 26.5h-4.4L20 32l-2.6-5.5H13L17.1 19h-3.6L20 8z" fill="#2d8a6b"/>
+        <rect x="18.7" y="27" width="2.6" height="6" rx="1.1" fill="#c9a227"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Clearpine</span>
+        <span class="brand-tag">Technologies</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/industries">Industries</a></li>
+        <li><a href="/projects">Case studies</a></li>
+        <li><a href="/capabilities">Capabilities</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="nav-phone"><a href="tel:+12362583060">(236) 258-3060</a></li>
+        <li><a class="btn btn-primary" href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li>EMR backup best practices for BC clinics: what to back up and how to test it</li>
+        </ol>
+      </nav>
+      <h1>EMR backup best practices for BC clinics: what to back up and how to test it</h1>
+      <p class="post-meta">Medical clinics &middot; <time datetime="2026-10-10">10 October 2026</time></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <article class="post-content">
+
+        <p>If your clinic's EMR database disappeared tonight, how long until you could see patients again, and how much of today's charting would be gone? Most practice managers cannot answer that with confidence, and the honest answer is often "we've never tried." This article covers EMR backup best practices for BC clinics in plain terms: what to back up, how often, where copies should live, and how to prove a restore works. It is general information, not legal advice. Your privacy obligations come from BC's <em>Personal Information Protection Act</em> (PIPA), possibly PIPEDA, and your college's standards, so check current guidance from your regulator and advisors.</p>
+
+        <h2>Why EMR backups deserve more care than ordinary file backups</h2>
+        <p>An EMR is not a folder of documents. It is usually a database, an application, attached documents and images, interfaces to labs or billing, and a set of user accounts, all of which have to come back in a consistent state. Copying the files of a running database can produce a backup that looks fine and will not open. That is why a backup that "ran successfully every night" can still fail when you need it.</p>
+        <p>The stakes are also different. Lost clinical records affect patient care, and a clinic is expected to protect and retain those records for the periods set by its college and applicable law. Ransomware makes it worse: attackers deliberately look for backups and delete or encrypt them first.</p>
+
+        <h2>1. Know what you actually run</h2>
+        <p>Before choosing a method, find out where your EMR lives. The answer changes everything:</p>
+        <ul>
+          <li><strong>Vendor-hosted (cloud) EMR.</strong> The vendor runs the servers and backs up the main database. You should still read your agreement to see what is backed up, how long it is kept and how you export your data. You remain responsible for everything outside it: scanned documents on local PCs, shared drives, imaging, billing files and email.</li>
+          <li><strong>On-premises EMR.</strong> A server or workstation in your office runs the database (for example, a clinic running OSCAR Pro, Accuro, TELUS PS Suite or Med Access in a local or privately hosted setup). Backup is entirely your responsibility.</li>
+          <li><strong>A mix.</strong> Very common: a hosted EMR plus local scanners, a separate imaging system and a practice-management or billing tool. Each needs its own answer.</li>
+        </ul>
+        <p>Ask your EMR vendor for their backup recommendations for your version and setup. They know which database and file locations must be captured together.</p>
+
+        <h2>2. Decide how much loss and downtime you can tolerate</h2>
+        <p>Two numbers drive every backup design. Your <strong>recovery point objective</strong> is how much recent work you can afford to lose: one day of charting, or one hour. Your <strong>recovery time objective</strong> is how long you can be without the EMR before patient care suffers. A clinic that can fall back to paper for a morning has different needs from one booking patients every ten minutes all day.</p>
+        <p>Write both down, agree on them with the physicians or owners, and design to them. If you need to lose no more than an hour of work, a nightly backup will not meet that target, whatever the dashboard says.</p>
+
+        <h2>3. Follow the 3-2-1 idea, then add one more rule</h2>
+        <p>The long-standing guideline is three copies of your data, on two different kinds of storage, with one copy off site. For a clinic that means the live system, a local backup for fast restores, and an off-site or cloud copy that survives a fire, flood or theft. In today's threat environment add a fourth rule: <strong>at least one copy must be out of reach of a compromised account</strong>. Examples include immutable or write-once cloud storage, an offline rotated drive, or a copy under separate credentials. If an attacker who takes over your administrator login can also delete every backup, you effectively have no backups.</p>
+        <ul>
+          <li>Keep a fast local copy for routine restores, such as a deleted file or a bad software update.</li>
+          <li>Keep an off-site copy for disasters.</li>
+          <li>Keep an isolated or immutable copy for ransomware.</li>
+        </ul>
+
+        <h2>4. Back up the whole system, not just the database</h2>
+        <p>A restore that gets you the data but not the application, configuration or interfaces can still leave you down for days. Make a checklist of everything the clinic needs on the morning after a failure:</p>
+        <ul>
+          <li>The EMR database, captured with the method the vendor supports (not a plain file copy of a running database)</li>
+          <li>Attached documents, scans and lab results, wherever they are stored</li>
+          <li>Imaging and any separate practice or billing software</li>
+          <li>Server or workstation configuration, and licence keys or installation media</li>
+          <li>User accounts, printers, e-fax setup and scanner settings</li>
+          <li>Shared drives, email and any cloud documents your staff rely on</li>
+        </ul>
+        <p>Microsoft 365 deserves a specific mention. Having your mail and files in the cloud is not the same as having them backed up. Deleted items, ransomware syncing encrypted files and accidental overwrites are your problem unless you have retention settings or a separate backup in place.</p>
+
+        <h2>5. Encrypt backups and control who can reach them</h2>
+        <p>A backup contains the same personal health information as the live system, so it needs the same care. Encrypt backups in transit and at rest, restrict access to named administrators, require multi-factor authentication on backup consoles, and keep a record of who holds the keys or recovery passwords. Where a cloud provider stores copies, PIPA expects you to understand where the data is held and under what terms. Ask your provider and note the answer in your records. Don't leave an unlabelled USB drive in a desk drawer.</p>
+
+        <h2>6. Test restores, because a backup you haven't restored is a guess</h2>
+        <p>This is the step clinics most often skip. Backup software reports on whether a job ran, not on whether the result is usable. Build a restore test into your routine:</p>
+        <ol>
+          <li><strong>Monthly:</strong> restore a few random files and open them.</li>
+          <li><strong>At least once or twice a year:</strong> restore the EMR to a spare machine or test environment and confirm a staff member can log in and open a recent chart.</li>
+          <li><strong>After any major change:</strong> a server replacement, EMR upgrade or move to a new provider should be followed by a fresh restore test.</li>
+        </ol>
+        <p>Time the test. Compare the result to the recovery time you wrote down in step 2. If the number is far off, you have learned something cheaply, before an incident forces the lesson. We cover the failure modes in more detail in <a href="/blog/backups-probably-not-working">why your backups are probably not working</a>.</p>
+
+        <h2>7. Monitor, alert and assign ownership</h2>
+        <p>Backups fail quietly: a full disk, an expired password, a laptop that was off. Someone has to be responsible for reading the alerts. A good setup sends failures to a named person and a backup provider or IT partner, and produces a short regular report. If nobody can say who checks the backup status, nobody does.</p>
+
+        <h2>8. Plan for the bad day</h2>
+        <p>Even a perfect backup is only half the plan. Write a one-page recovery runbook: who to call, where the credentials are kept (not on the server that just failed), what the downtime procedure is for booking and charting, and in what order systems come back. Print a copy. If the incident involves unauthorized access to patient information, PIPA and your college may impose notification or reporting steps, so know in advance who you would speak to for legal advice.</p>
+
+        <h2>A short EMR backup checklist for BC clinics</h2>
+        <ul>
+          <li>We know whether our EMR is vendor-hosted, on-premises, or mixed.</li>
+          <li>Recovery point and recovery time targets are written down and agreed.</li>
+          <li>We have local, off-site and isolated or immutable copies.</li>
+          <li>Backups capture the database, documents, imaging, configuration and accounts.</li>
+          <li>Backups are encrypted, access-controlled and protected with MFA.</li>
+          <li>We have tested a full restore in the last 12 months and timed it.</li>
+          <li>Failures alert a named person, and someone reads the reports.</li>
+          <li>A printed recovery runbook exists, and staff know the downtime procedure.</li>
+        </ul>
+        <!-- TODO owner: confirm which EMR platforms and backup tools the team actually supports before adding named product guidance or any pricing. -->
+
+        <h2>Where Clearpine fits</h2>
+        <p>Clearpine Technologies is an Abbotsford managed IT provider supporting clinics across the Fraser Valley and Lower Mainland. We support the servers, network, backup and user accounts around your EMR and coordinate with your vendor on application questions; we don't replace the vendor's own support. If you aren't sure your backups would survive a real test, <a href="/free-it-assessment">book a free IT assessment</a>, on site within 300 km of Abbotsford or remote. Our <a href="/industries/medical-clinics">IT support for medical clinics</a> page explains how we work, and you can also read about <a href="/blog/pipeda-compliance-clinic-it">PIPEDA compliance and clinic IT</a> or call <a href="tel:+12362583060">(236) 258-3060</a>.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <h2>Not sure your backups would restore?</h2>
+        <p>Book a free IT assessment and we'll review how your EMR and clinic data are backed up.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="/free-it-assessment">Book a free IT assessment</a>
+          <a class="btn btn-light" href="tel:+12362583060">Call (236) 258-3060</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Clearpine Technologies</h4>
+        <p>Managed IT, cybersecurity and infrastructure deployment for Canadian clinics and public sector. Abbotsford, British Columbia.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#managed-it">Managed IT support</a></li>
+          <li><a href="/free-it-assessment">Free IT assessment</a></li>
+          <li><a href="/services#cybersecurity">Cybersecurity</a></li>
+          <li><a href="/services#deployment">Hardware deployment</a></li>
+          <li><a href="/services#project-management">Project management</a></li>
+          <li><a href="/services#additional">Additional services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/industries">Industries</a></li>
+          <li><a href="/projects">Case studies</a></li>
+          <li><a href="/capabilities">Capabilities statement</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+12362583060">(236) 258-3060</a></li>
+          <li><a href="mailto:info@clearpinetech.ca">info@clearpinetech.ca</a></li>
+          <li>Abbotsford, BC, Canada &middot; <a href="https://maps.app.goo.gl/QUKnd2QTRrVnYjWF9" rel="noopener">Google Maps</a></li>
+          <li><a href="https://g.page/r/CSSKcdn393goEBM/review" rel="noopener">Leave us a Google review</a></li>
+          <li>Serving the Fraser Valley,<br>Lower Mainland &amp; Canada-wide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Clearpine Technologies Inc. All rights reserved.</span>
+      <span>Corporation number 1818348-1 &middot; BC registration A0143401</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

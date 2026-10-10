@@ -25,3 +25,8 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics`; bumped lastmod for blog index and medical-clinics.
 - Target keywords: EMR backup best practices BC, clinic backup ransomware BC, EMR disaster recovery.
 - Next steps: "Is Clio secure enough for Law Society of BC rules" post; `/industries/dental` only if distinct; genuinely local content for location pages; stale sitemap lastmods (52 audit warnings); owner to confirm which EMRs/backup tools the team supports (TODO comment in post).
+
+## 2026-10-10 (competitive keywords routine)
+- New pillar page `/business-it-support` (Service + FAQPage + Breadcrumb JSON-LD) targeting business IT support Lower Mainland, small business IT support BC, MSP Fraser Valley. Uses only owner-confirmed facts ($95/user/mo, 5-user min, 1-year term, extras, free assessment within 300 km). No response-time, SLA number or certification claims.
+- Linked from home, services, and all 10 location pages; added to sitemap; keyword-map updated. Audit: 0 errors.
+- Next steps (map priority A): `/managed-it-services` pillar (needs distinct content from this page), cybersecurity and Microsoft 365 service pages, "managed IT pricing in BC" blog, strengthen Abbotsford/Surrey/Langley pages with local specifics.

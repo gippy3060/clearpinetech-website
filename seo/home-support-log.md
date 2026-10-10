@@ -42,3 +42,18 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. `/home-support/computer-help`, `virus-removal`, `software-help`
 3. Brand pages: `printer-help/hp`, `brother`, `canon`; `wifi-router-help/tp-link`
 4. Blog: "Why does my printer say offline? Fixes for HP, Brother & Canon", "How to fix weak Wi-Fi in a Canadian home"
+
+## 2026-10-10
+- Converted the hub, `/home-support/printer-help/` and `/home-support/wifi-router-help/` from "Canada" to "Canada and the USA": titles, meta/OG descriptions, H1s, copy, FAQ, Service JSON-LD `areaServed` (Canada + United States) and `hoursAvailable` (Mon–Fri 08:00–20:00).
+- Added to each page: hours block (Pacific Time with Mountain/Central/Eastern/Atlantic equivalents), CAD-to-USD card-conversion note, BC phone note for US callers, the "never call/text/email first, no pop-ups, no gift card/wire/crypto" statement, and hours in the bottom CTA.
+- Added US ISPs (Xfinity, Comcast, Spectrum, AT&T, Verizon Fios, Cox) to the Wi-Fi page card, FAQ and disclaimers; hub disclaimer now names more brands.
+- Footer links: only home-support pages carry the "Printer help"/"Wi-Fi & router help" links and they already point to the real pages; other site pages only link the hub, so no site-wide edit was needed.
+- `scripts/seo_audit.py`: 0 errors.
+- Target keywords: remote tech support USA/Canada, online computer help, printer help, wifi router help (CA and US).
+- Owner TODO (in hub, printer and Wi-Fi pages): remote tool used, accepted payment methods, session time limit.
+
+### Next steps
+1. `/home-support/seniors` (with "How to spot a tech-support scam")
+2. `/home-support/computer-help`, `virus-removal`, `email-help`
+3. `phone-tablet-help`, `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
+4. Brand pages: printer-help/hp, computer-help/mac, wifi-router-help/xfinity, spectrum, tp-link, netgear

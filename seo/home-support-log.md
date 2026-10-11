@@ -62,7 +62,7 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 - Added `/home-support/seniors/` ("Patient Remote Computer Help for Seniors"): large call buttons (new `.btn-lg` rule in `css/styles.css`), plain-language "what to expect" steps, problem cards, family-can-join/book section, "How to spot a tech-support scam" (with CAFC and ReportFraud.ftc.gov reporting), FAQ, safety promises, price/CAD note, hours, BC phone note, brand disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
 - Linked from hub intro and the footer of the three home-support pages; added to `sitemap.xml`.
 - Target keywords: online tech support for seniors, computer help for seniors (CA and US), tech help for elderly parents.
-- Owner TODOs: remote tool name(s), whether 2 sessions fall under one $100 fee (carried over).
+- Owner confirmed 2026-10-11: remote tools are Quick Assist (Windows) and LogMeIn (Mac); two sessions for the same issue are covered by the one $100 CAD fee. Added to all four pages, TODOs removed.
 
 ### Next steps
 1. `/home-support/computer-help`, `virus-removal` (incl. scam clean-up), `email-help`

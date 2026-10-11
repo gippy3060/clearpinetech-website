@@ -349,3 +349,6 @@ textarea { min-height: 140px; resize: vertical; }
   html { scroll-behavior: auto; }
   * { transition: none !important; animation: none !important; }
 }
+
+/* Larger call-to-action buttons (home support, seniors) */
+.btn-lg { font-size: 1.25rem; padding: 1rem 1.75rem; }

@@ -25,3 +25,10 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics`; bumped lastmod for blog index and medical-clinics.
 - Target keywords: EMR backup best practices BC, clinic backup ransomware BC, EMR disaster recovery.
 - Next steps: "Is Clio secure enough for Law Society of BC rules" post; `/industries/dental` only if distinct; genuinely local content for location pages; stale sitemap lastmods (52 audit warnings); owner to confirm which EMRs/backup tools the team supports (TODO comment in post).
+
+## 2026-10-11
+- Audit: 0 errors at start (45 mostly lastmod/length warnings).
+- New blog post `/blog/clio-law-society-bc-security` (~1,350 words, BlogPosting + Breadcrumb JSON-LD): vendor-vs-firm security layers, due-diligence questions, configuration baseline (MFA, least privilege, offboarding), trust-accounting safeguards, email/devices, checklist and FAQ. No prices, stats or clients; Law Society/PIPA statements general with defer-to-regulator note; TODO owner comments for linking current Law Society guidance, trust-accounting products and data residency.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/law-firms`; bumped lastmod for blog index and law-firms.
+- Target keywords: is Clio secure BC, Law Society of BC cloud computing, law firm practice management security.
+- Next steps: `/industries/dental` only if distinct; genuinely local content for location pages; stale sitemap lastmods; owner to review Law Society wording and TODOs.

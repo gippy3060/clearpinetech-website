@@ -32,3 +32,10 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/law-firms`; bumped lastmod for blog index and law-firms.
 - Target keywords: is Clio secure BC, Law Society of BC cloud computing, law firm practice management security.
 - Next steps: `/industries/dental` only if distinct; genuinely local content for location pages; stale sitemap lastmods; owner to review Law Society wording and TODOs.
+
+## 2026-10-12
+- Audit: 0 errors at start (44 mostly lastmod warnings).
+- New vertical page `/industries/dental` (Service + FAQPage + Breadcrumb JSON-LD): practice software (Dentrix, Eaglesoft, Open Dental named only as software supported around, not partnerships), digital imaging, backups, privacy, ransomware, new builds. Uses owner-confirmed pricing ($95/user/month, min 5, 1-year, extras billed separately, free on-site if not fixable remotely) and free assessment (within 300 km of Abbotsford or remote). CTA: Book a free IT assessment + phone.
+- Linked from `industries.html` and `/industries/medical-clinics` (whose CTA now reads "Book a free IT assessment"); added to `sitemap.xml`; bumped lastmod for industries and medical-clinics.
+- Target keywords: IT support dental office BC, dental IT Lower Mainland, managed IT dentist Abbotsford, orthodontist IT support.
+- Next steps: `/industries/physiotherapy` (or allied health) and `/industries/veterinary` only if distinct; genuinely local content for location pages; stale sitemap lastmods; owner to confirm dental software experience (TODO in page) and add pricing/CTA facts to law-firms page.

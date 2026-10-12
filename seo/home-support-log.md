@@ -69,3 +69,15 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. `phone-tablet-help`, `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
 3. Brand pages: printer-help/hp, computer-help/mac, wifi-router-help/xfinity, spectrum, tp-link, netgear
 4. Blog: "How to tell if a tech support call is a scam"
+
+## 2026-10-12
+- Added `/home-support/computer-help/` ("Remote Computer Help for Windows and Mac"): large call buttons, services cards (slow computer, new computer setup, software, Microsoft 365, backups, antivirus), a real Windows/Mac slow-computer checklist, honest limits of remote support (failed drives need a lab), FAQ, price/CAD note, hours, BC phone note, brand disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from the hub computer card; footer "Computer help" link on all home-support pages now points to the real page; added to `sitemap.xml`.
+- `scripts/seo_audit.py`: 0 errors.
+- Target keywords: remote computer help, slow computer fix, new computer setup help, Microsoft 365 help (CA and US).
+
+### Next steps
+1. `/home-support/virus-removal` (incl. scam clean-up), `email-help`
+2. `phone-tablet-help`, `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
+3. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
+4. Blog: "How to tell if a tech support call is a scam"

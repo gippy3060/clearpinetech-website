@@ -46,3 +46,4 @@
 - Linked from `industries.html`, `/industries/medical-clinics`, `/industries/dental`; added to `sitemap.xml`; bumped lastmod for industries and medical-clinics.
 - Target keywords: IT support physiotherapy clinic BC, chiropractor IT support, counselling office IT security, allied health managed IT Lower Mainland.
 - Next steps: `/industries/veterinary` only if distinct; add pricing/CTA facts to law-firms page; genuinely local content for location pages; stale lastmods; owner to resolve TODOs.
+- Owner request: added "custom billing for fewer than 5 users" (same $95/user/month structure otherwise) to every page that states pricing: services.html (Offer JSON-LD, pricing card, pricing line), free-it-assessment.html (FAQ + JSON-LD), industries/dental, industries/allied-health.

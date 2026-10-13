@@ -47,3 +47,8 @@
 - Target keywords: IT support physiotherapy clinic BC, chiropractor IT support, counselling office IT security, allied health managed IT Lower Mainland.
 - Next steps: `/industries/veterinary` only if distinct; add pricing/CTA facts to law-firms page; genuinely local content for location pages; stale lastmods; owner to resolve TODOs.
 - Owner request: added "custom billing for fewer than 5 users" (same $95/user/month structure otherwise) to every page that states pricing: services.html (Offer JSON-LD, pricing card, pricing line), free-it-assessment.html (FAQ + JSON-LD), industries/dental, industries/allied-health.
+
+## 2026-10-13 (competitive keywords routine)
+- New pillar page `/business-it-support` (Service + FAQPage + Breadcrumb JSON-LD) targeting business IT support Lower Mainland, small business IT support BC, MSP Fraser Valley. Uses only owner-confirmed facts ($95/user/month, min 5, 1-year, custom billing under 5, free on-site if not remotely fixable, free assessment within 300 km). No stats, clients or response-time numbers.
+- Linked from `services.html` intro and the Services column of site footers; added to `sitemap.xml`; keyword map updated.
+- Next: `/managed-it-services` pillar (best MSP Lower Mainland / managed service provider BC), blog "Managed IT pricing in BC", `/services/microsoft-365` and cybersecurity pages, strengthen Abbotsford/Surrey/Langley location pages with real local content.

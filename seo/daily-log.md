@@ -39,3 +39,11 @@
 - Linked from `industries.html` and `/industries/medical-clinics` (whose CTA now reads "Book a free IT assessment"); added to `sitemap.xml`; bumped lastmod for industries and medical-clinics.
 - Target keywords: IT support dental office BC, dental IT Lower Mainland, managed IT dentist Abbotsford, orthodontist IT support.
 - Next steps: `/industries/physiotherapy` (or allied health) and `/industries/veterinary` only if distinct; genuinely local content for location pages; stale sitemap lastmods; owner to confirm dental software experience (TODO in page) and add pricing/CTA facts to law-firms page.
+
+## 2026-10-13
+- Audit: 0 errors at start (47 mostly lastmod warnings); 0 errors at end.
+- New vertical page `/industries/allied-health` (Service + FAQPage + Breadcrumb JSON-LD) for physiotherapy, chiropractic, massage, naturopathic and counselling/psychology clinics: booking/charting access, confidential notes on devices, shared-space network segmentation, practitioner-owned devices, virtual care setup, backups, ransomware. Owner-confirmed pricing and free assessment facts used; no product names, clients, stats. Owner confirmed (follow-up): supports all major booking/charting products; custom billing for clinics under 5 users.
+- Linked from `industries.html`, `/industries/medical-clinics`, `/industries/dental`; added to `sitemap.xml`; bumped lastmod for industries and medical-clinics.
+- Target keywords: IT support physiotherapy clinic BC, chiropractor IT support, counselling office IT security, allied health managed IT Lower Mainland.
+- Next steps: `/industries/veterinary` only if distinct; add pricing/CTA facts to law-firms page; genuinely local content for location pages; stale lastmods; owner to resolve TODOs.
+- Owner request: added "custom billing for fewer than 5 users" (same $95/user/month structure otherwise) to every page that states pricing: services.html (Offer JSON-LD, pricing card, pricing line), free-it-assessment.html (FAQ + JSON-LD), industries/dental, industries/allied-health.

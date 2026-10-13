@@ -81,3 +81,15 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. `phone-tablet-help`, `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
 3. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
 4. Blog: "How to tell if a tech support call is a scam"
+
+## 2026-10-13
+- Added `/home-support/virus-removal/` ("Virus, Pop-up and Scam Clean-up Help"): large call buttons, problem cards (fake virus pop-ups, browser hijacks, remote-access software left by scammers, account security), a "do this first" checklist if a scammer had access (disconnect, call bank, change passwords from another device, report to the Canadian Anti-Fraud Centre / ReportFraud.ftc.gov), honest limits (cannot recover money, cannot guarantee every threat found), FAQ, price/CAD note, hours, BC phone note, brand disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from the hub intro, computer-help FAQ and the footer of all home-support pages; added to `sitemap.xml`.
+- `scripts/seo_audit.py`: 0 errors.
+- Target keywords: virus removal help, fake virus pop-up, remove scammer remote access, tech support scam clean-up (CA and US).
+
+### Next steps
+1. `/home-support/email-help`
+2. `phone-tablet-help`, `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
+3. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
+4. Blog: "How to tell if a tech support call is a scam"

@@ -43,6 +43,24 @@ Market guides put Vancouver managed IT at roughly $100–$200/user/mo, with $160
 (healthcare/finance) work. Clearpine offer: **free, no-obligation IT assessment** at `/free-it-assessment`.
 Clearpine pricing (owner-confirmed 2026-10-09): **managed IT $95/user/month, min 5 users, 1-year term**; M365 licences, after-hours and on-site visits extra (on-site free if it can't be fixed remotely); free assessment **on site anywhere within 300 km of Abbotsford, any business size**.
 
+## Search Console signals (owner screenshot, 2026-10-13, last 3 months)
+
+Google is already showing the site for these searches; no position data yet. These are the
+fastest wins, so they come first among the A rows. Re-check monthly and replace this table.
+
+| Query | Impressions | Clicks | Target page | Action |
+|---|---|---|---|---|
+| it provider near me | 26 | 0 | Google Business Profile + home page | "near me" is won by the Maps listing: reviews, hours, services |
+| it managed services chilliwack | 18 | 0 | `/locations/chilliwack` | Strengthen first (priority raised to A) |
+| managed service provider chilliwack | 16 | 0 | `/locations/chilliwack` | Same page; use "managed service provider" wording |
+| managed it company near me | 15 | 0 | Google Business Profile | Same as above |
+| managed it services surrey | 15 | 0 | `/locations/surrey` | Strengthen second |
+| in-house it vs managed services | 13 | 0 | `/blog/managed-it-vs-inhouse-smb` | Improve title/description to earn the click; add pricing comparison and link to `/free-it-assessment` |
+| managed it services abbotsford | 13 | 0 | `/locations/abbotsford` | Strengthen third |
+| home computer support near me | 2 | 1 | `/home-support/` | Home-support routine's area |
+
+Impressions rose from near zero to roughly 40–110 a day from 30 Sep 2026.
+
 ## Keyword clusters → target page
 
 Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
@@ -55,7 +73,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | IT company Abbotsford, IT services Abbotsford, managed IT Abbotsford | `/locations/abbotsford` (strengthen) | A | todo |
 | IT support Surrey, managed IT Surrey | `/locations/surrey` (strengthen) | A | todo |
 | IT support Langley, managed IT Langley | `/locations/langley` (strengthen) | A | todo |
-| IT support Chilliwack | `/locations/chilliwack` (strengthen) | B | todo |
+| IT support Chilliwack, managed IT services Chilliwack, managed service provider Chilliwack | `/locations/chilliwack` (strengthen) | A | todo |
 | IT services Vancouver, managed IT Vancouver | `/locations/vancouver` (strengthen) | B | todo |
 | IT support Burnaby / Richmond / Coquitlam / Delta | strengthen existing or add when content is unique | C | todo |
 | outsourced IT department, IT outsourcing BC | `/managed-it-services` section + blog | B | todo |

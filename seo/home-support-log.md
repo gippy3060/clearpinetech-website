@@ -93,3 +93,13 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. `phone-tablet-help`, `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
 3. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
 4. Blog: "How to tell if a tech support call is a scam"
+
+## 2026-10-14
+- Added `/home-support/email-help/` ("Remote Email and Account Help"): large call buttons, problem cards (Outlook/Gmail/Yahoo/iCloud setup, email stopped working, locked-out accounts, passwords, two-factor, contacts/full mailbox), a "try this first" checklist, honest limits (we cannot reset or unlock accounts; only the provider can), FAQ incl. phishing-style "account will be closed" emails, price/CAD note, hours, BC phone note, brand disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from the hub computer card and computer-help page; "Email help" added to the footer of all home-support pages; added to `sitemap.xml`.
+- Target keywords: email help, Outlook setup help, Gmail locked out, Yahoo mail not working, two-factor setup help (CA and US).
+
+### Next steps
+1. `phone-tablet-help`, `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
+2. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
+3. Blog: "How to tell if a tech support call is a scam"

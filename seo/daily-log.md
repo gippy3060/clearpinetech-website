@@ -47,3 +47,10 @@
 - Target keywords: IT support physiotherapy clinic BC, chiropractor IT support, counselling office IT security, allied health managed IT Lower Mainland.
 - Next steps: `/industries/veterinary` only if distinct; add pricing/CTA facts to law-firms page; genuinely local content for location pages; stale lastmods; owner to resolve TODOs.
 - Owner request: added "custom billing for fewer than 5 users" (same $95/user/month structure otherwise) to every page that states pricing: services.html (Offer JSON-LD, pricing card, pricing line), free-it-assessment.html (FAQ + JSON-LD), industries/dental, industries/allied-health.
+
+## 2026-10-14
+- Audit: 0 errors at start (50 mostly lastmod warnings).
+- `/industries/law-firms`: added owner-confirmed pricing section ($95/user/month, min 5, 1-year, remote business hours, M365/after-hours/on-site billed separately, free on-site if not fixable remotely, custom billing under 5 users) and free assessment details (on site within 300 km of Abbotsford, or remote). Added two FAQ entries (cost, on-site assessment) to visible FAQ and FAQPage JSON-LD. Main CTA is now "Book a free IT assessment" plus "Call (236) 258-3060" in body and bottom CTA.
+- Sitemap lastmod bumped for law-firms and dental (dental was stale vs 2026-10-13 edit).
+- Target keywords: law firm IT support cost BC, managed IT law firm Abbotsford, IT assessment law office.
+- Next steps: `/industries/veterinary` only if distinct; genuinely local content for location pages (check other logs first); stale lastmods on blog/location pages; owner to review Law Society wording and TODOs.

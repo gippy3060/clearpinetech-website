@@ -103,3 +103,15 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. `phone-tablet-help`, `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
 2. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
 3. Blog: "How to tell if a tech support call is a scam"
+
+## 2026-10-15
+- Added `/home-support/phone-tablet-help/` ("Remote Help with Your Phone or Tablet"): large call buttons, problem cards (new phone setup, moving to a new phone, photos and contacts, email on phone, Wi-Fi/Bluetooth/printing, everyday know-how), a "before you switch phones" checklist, honest limits (phone screen sharing varies; no passcode/activation-lock bypass; no hardware repair), FAQ incl. unexpected-text scam warning, price/CAD note, hours, BC phone note, brand disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from the hub and "Phone & tablet help" added to the footer of all home-support pages; added to `sitemap.xml`.
+- `scripts/seo_audit.py`: 0 errors.
+- Target keywords: iPhone setup help, move to new phone, transfer photos to new phone, Android help, iPad help (CA and US).
+
+### Next steps
+1. `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
+2. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
+3. Blog: "How to tell if a tech support call is a scam", "How to move everything to a new iPhone"
+- Owner confirmed 2026-10-15: phone support is offered by voice and with TeamViewer on phones/tablets. Updated phone-tablet-help (FAQ + JSON-LD, limits, "How we connect"); TODO resolved.

@@ -69,7 +69,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
 | managed IT services Lower Mainland, managed service provider BC, MSP Fraser Valley | `/managed-it-services` (new pillar) | A | todo |
-| business IT support Lower Mainland, small business IT support BC, IT support for small business | `/business-it-support` (new pillar) | A | todo |
+| business IT support Lower Mainland, small business IT support BC, IT support for small business | `/business-it-support` (new pillar) | A | done (/business-it-support, 2026-10-15) |
 | IT company Abbotsford, IT services Abbotsford, managed IT Abbotsford | `/locations/abbotsford` (strengthen) | A | todo |
 | IT support Surrey, managed IT Surrey | `/locations/surrey` (strengthen) | A | todo |
 | IT support Langley, managed IT Langley | `/locations/langley` (strengthen) | A | todo |

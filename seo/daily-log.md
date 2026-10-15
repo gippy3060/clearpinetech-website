@@ -54,3 +54,10 @@
 - Sitemap lastmod bumped for law-firms and dental (dental was stale vs 2026-10-13 edit).
 - Target keywords: law firm IT support cost BC, managed IT law firm Abbotsford, IT assessment law office.
 - Next steps: `/industries/veterinary` only if distinct; genuinely local content for location pages (check other logs first); stale lastmods on blog/location pages; owner to review Law Society wording and TODOs.
+
+## 2026-10-15 (competitive keywords)
+- Audit: 0 errors at start; 0 at end (page count 44).
+- New pillar `/business-it-support` (Service + FAQPage + Breadcrumb JSON-LD): small business IT support / managed IT Lower Mainland and Fraser Valley, scope list, owner-confirmed pricing ($95/user/month, min 5, 1-year, custom billing under 5, on-site free if not fixable remotely), "how to choose an MSP" checklist (no "best MSP" claims), free assessment within 300 km of Abbotsford. Links to services, blog comparisons, location and vertical pages.
+- Linked from the footer "Services" list on all 36 business pages and from the services.html managed IT block; added to `sitemap.xml`; lastmod bumped for touched pages. Keyword map row marked done.
+- Target keywords: small business IT support Lower Mainland, business IT support BC, managed IT services Fraser Valley, how to choose an MSP.
+- Next steps: `/managed-it-services` pillar; strengthen Chilliwack, Surrey, Abbotsford location pages (Search Console impressions); blog "Managed IT pricing in BC"; owner to add Google Business Profile reviews for "near me" searches.

@@ -57,7 +57,7 @@
 
 ## 2026-10-15
 - Audit: 0 errors at start (49 mostly lastmod warnings).
-- New vertical page `/industries/veterinary` (Service + FAQPage + Breadcrumb JSON-LD): distinct angle on clinical equipment networks (digital X-ray, ultrasound, lab analyzers), image archive backups, practice software, kennel/surgery environments, mobile/satellite sites. Owner-confirmed pricing (incl. custom billing under 5 users) and free assessment facts used; no clients, stats or product names (TODO owner comment for veterinary software experience; College of Veterinarians of BC referenced generally).
+- New vertical page `/industries/veterinary` (Service + FAQPage + Breadcrumb JSON-LD): distinct angle on clinical equipment networks (digital X-ray, ultrasound, lab analyzers), image archive backups, practice software, kennel/surgery environments, mobile/satellite sites. Owner-confirmed pricing (incl. custom billing under 5 users) and free assessment facts used; no clients, stats or product names. Owner confirmed (follow-up): supports all major veterinary software, now stated on the page, TODO removed; College of Veterinarians of BC referenced generally).
 - Linked from `industries.html`, medical-clinics, dental, allied-health; added to `sitemap.xml`; bumped lastmod for those pages.
 - Target keywords: IT support veterinary clinic BC, animal hospital IT Lower Mainland, vet clinic managed IT Abbotsford.
 - Next steps: genuinely local content for location pages (check other logs first); stale lastmods on blog/location pages; owner to resolve TODOs (vet software, Law Society wording).

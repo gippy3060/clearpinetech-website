@@ -114,3 +114,4 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. `smart-tv-streaming-help`, `wifi-extender-setup`, `smart-home-camera-help`
 2. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
 3. Blog: "How to tell if a tech support call is a scam", "How to move everything to a new iPhone"
+- Owner confirmed 2026-10-15: phone support is offered by voice and with TeamViewer on phones/tablets. Updated phone-tablet-help (FAQ + JSON-LD, limits, "How we connect"); TODO resolved.

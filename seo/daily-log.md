@@ -68,3 +68,7 @@
 - Sitemap lastmod bumped for abbotsford.
 - Target keywords: managed IT Abbotsford, IT support Abbotsford BC, IT support clinics Abbotsford, law firm IT Abbotsford.
 - Next steps: same treatment (pricing, assessment, vertical links, FAQ) for chilliwack/mission/langley/surrey, keeping each genuinely distinct (needs owner-supplied local facts, see TODO); stale blog/location lastmods; owner to resolve TODOs.
+
+## 2026-10-16 (competitive keywords routine)
+- New pillar page `/business-it-support` (Service + FAQPage + Breadcrumb JSON-LD) targeting business IT support Lower Mainland, small business IT support BC. Owner-confirmed pricing/assessment facts only; no response-time, certification or client claims. Linked from every page footer, added to `sitemap.xml`, marked done in `seo/keyword-map.md`.
+- Next: `/managed-it-services` pillar ("best MSP Lower Mainland"), then strengthen `/locations/chilliwack` and `/locations/surrey` (Search Console impressions, 0 clicks); link pillar from home/services body copy.

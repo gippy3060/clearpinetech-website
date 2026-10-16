@@ -115,3 +115,15 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
 3. Blog: "How to tell if a tech support call is a scam", "How to move everything to a new iPhone"
 - Owner confirmed 2026-10-15: phone support is offered by voice and with TeamViewer on phones/tablets. Updated phone-tablet-help (FAQ + JSON-LD, limits, "How we connect"); TODO resolved.
+
+## 2026-10-16
+- Added `/home-support/smart-tv-streaming-help/` ("Smart TV and Streaming Help, Over the Phone"): large call buttons, problem cards (TV Wi-Fi, Roku/Fire TV/Apple TV/Chromecast setup, apps and sign-ins, buffering, sound/remotes, casting), a "TV won't connect to Wi-Fi" checklist, honest limits (TVs guided by voice, no repairs, no pirated streams or subscriptions), FAQ, price/CAD note, hours, BC phone note, brand disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from the hub intro and added "Smart TV & streaming help" to the footer of all home-support pages; added to `sitemap.xml`.
+- `scripts/seo_audit.py`: 0 errors.
+- Target keywords: smart TV won't connect to Wi-Fi, Roku setup help, Fire TV help, Chromecast setup, streaming keeps buffering (CA and US).
+- Note: the page says TVs are helped by voice only (TeamViewer/Quick Assist/LogMeIn are not confirmed for TVs).
+
+### Next steps
+1. `wifi-extender-setup`, `smart-home-camera-help` (then update TV page to link the extender page)
+2. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?"

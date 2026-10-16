@@ -61,3 +61,10 @@
 - Linked from `industries.html`, medical-clinics, dental, allied-health; added to `sitemap.xml`; bumped lastmod for those pages.
 - Target keywords: IT support veterinary clinic BC, animal hospital IT Lower Mainland, vet clinic managed IT Abbotsford.
 - Next steps: genuinely local content for location pages (check other logs first); stale lastmods on blog/location pages; owner to resolve TODOs (vet software, Law Society wording).
+
+## 2026-10-16
+- Audit: 0 errors at start (50 mostly lastmod warnings); 0 errors at end.
+- `/locations/abbotsford`: shortened title/description; added owner-confirmed pricing section, free IT assessment section (within 300 km of Abbotsford, or remote), links to all five healthcare/legal industry pages plus the EMR backup and Clio blog posts, FAQ section with FAQPage JSON-LD, and CTAs "Book a free IT assessment" + phone. No invented local facts.
+- Sitemap lastmod bumped for abbotsford.
+- Target keywords: managed IT Abbotsford, IT support Abbotsford BC, IT support clinics Abbotsford, law firm IT Abbotsford.
+- Next steps: same treatment (pricing, assessment, vertical links, FAQ) for chilliwack/mission/langley/surrey, keeping each genuinely distinct (needs owner-supplied local facts, see TODO); stale blog/location lastmods; owner to resolve TODOs.

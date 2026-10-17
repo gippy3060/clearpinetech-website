@@ -68,3 +68,10 @@
 - Sitemap lastmod bumped for abbotsford.
 - Target keywords: managed IT Abbotsford, IT support Abbotsford BC, IT support clinics Abbotsford, law firm IT Abbotsford.
 - Next steps: same treatment (pricing, assessment, vertical links, FAQ) for chilliwack/mission/langley/surrey, keeping each genuinely distinct (needs owner-supplied local facts, see TODO); stale blog/location lastmods; owner to resolve TODOs.
+
+## 2026-10-17
+- Audit: 0 errors at start (51 mostly lastmod warnings).
+- `/locations/chilliwack` (top Search Console query: "it managed services chilliwack", "managed service provider chilliwack"): new title "Managed Service Provider in Chilliwack, BC | Clearpine" and description with price/offer; added owner-confirmed pricing section, free IT assessment section, links to all five industry pages and the managed-IT-vs-in-house post, FAQ with FAQPage JSON-LD, CTAs "Book a free IT assessment" + phone. Only existing facts used (20-25 min drive from Abbotsford); no invented local details.
+- Sitemap lastmod bumped for chilliwack.
+- Target keywords: managed service provider Chilliwack, managed IT services Chilliwack, IT support Chilliwack.
+- Next steps: same treatment for surrey (then langley, mission); add the in-house vs managed title/description fix for `/blog/managed-it-vs-inhouse-smb`; build `/managed-it-services` and `/business-it-support` pillars; owner to supply local facts for city pages.

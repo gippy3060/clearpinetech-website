@@ -127,3 +127,13 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. `wifi-extender-setup`, `smart-home-camera-help` (then update TV page to link the extender page)
 2. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?"
+
+## 2026-10-17
+- Added `/home-support/wifi-extender-setup/` ("Wi-Fi Extender and Mesh Setup Help"): large call buttons, problem cards (extender vs mesh, placement, reconnecting devices, slow Wi-Fi in one room), a weak-Wi-Fi checklist (test in two places, router position, extender halfway), honest limits (no equipment sold, can't speed up the plan or fix provider issues), FAQ, price/CAD note, hours, BC phone note, brand disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from the hub, Wi-Fi router page ("Mesh and extenders" card), smart TV page; "Wi-Fi extender setup" added to the footer of all home-support pages; added to `sitemap.xml`.
+- Target keywords: wifi extender setup help, mesh wifi setup, wifi weak upstairs, wifi dead spots (CA and US).
+
+### Next steps
+1. `smart-home-camera-help` (Ring, Arlo, Google Nest)
+2. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

@@ -68,3 +68,10 @@
 - Sitemap lastmod bumped for abbotsford.
 - Target keywords: managed IT Abbotsford, IT support Abbotsford BC, IT support clinics Abbotsford, law firm IT Abbotsford.
 - Next steps: same treatment (pricing, assessment, vertical links, FAQ) for chilliwack/mission/langley/surrey, keeping each genuinely distinct (needs owner-supplied local facts, see TODO); stale blog/location lastmods; owner to resolve TODOs.
+
+## 2026-10-17
+- Audit: 0 errors at start (51 mostly lastmod warnings).
+- `/locations/chilliwack`: shortened title/description; added owner-confirmed pricing section, free IT assessment section (within 300 km of Abbotsford, or remote), links to all five healthcare/legal industry pages plus the EMR backup and Clio posts, FAQ with FAQPage JSON-LD (stated honestly that there is no Chilliwack office), CTAs "Book a free IT assessment" + phone. No invented local facts.
+- Sitemap lastmod bumped for chilliwack.
+- Target keywords: managed IT Chilliwack, IT support Chilliwack BC, clinic IT Chilliwack, law firm IT Chilliwack.
+- Next steps: same treatment for mission/langley/surrey (then others); stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.

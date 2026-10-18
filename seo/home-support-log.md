@@ -137,3 +137,12 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. `smart-home-camera-help` (Ring, Arlo, Google Nest)
 2. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+
+## 2026-10-18
+- Added `/home-support/smart-home-camera-help/` ("Smart Home and Camera Help"): large call buttons, problem cards (Ring, Arlo, Google Nest, smart speakers, alerts/sharing, reconnecting after a new router), a "camera offline" checklist, honest limits (no mounting/wiring, can't reset manufacturer accounts, we don't see camera pictures, no equipment or plans sold), FAQ, price/CAD note, hours, BC phone note, brand disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from the hub and "Smart home & camera help" added to the footer of all pages carrying the home-support footer; added to `sitemap.xml`.
+- Target keywords: Ring doorbell setup help, Arlo camera offline, Google Nest camera setup help, security camera Wi-Fi help (CA and US).
+
+### Next steps
+1. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
+2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

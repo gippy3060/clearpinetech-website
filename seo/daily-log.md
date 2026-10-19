@@ -82,3 +82,11 @@
 - Sitemap lastmod bumped for mission.
 - Target keywords: managed IT Mission BC, IT support Mission BC, clinic IT Mission, law firm IT Mission.
 - Next steps: same treatment for langley/surrey (then maple-ridge and others); stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.
+
+## 2026-10-19
+- Audit: 0 errors at start (51 mostly lastmod/length warnings).
+- (Mission was already done and merged on 2026-10-18; this run took the next item.)
+- `/locations/langley`: shortened title/description; added owner-confirmed pricing section, free IT assessment section (within 300 km of Abbotsford, or remote), links to all five healthcare/legal industry pages plus the EMR backup and Clio posts, FAQ with FAQPage JSON-LD (honest that there is no Langley office), CTAs "Book a free IT assessment" + phone. Existing drive-time and sector copy kept; no new local facts invented.
+- Sitemap lastmod bumped for langley.
+- Target keywords: managed IT Langley BC, IT support Langley BC, clinic IT Langley, law firm IT Langley.
+- Next steps: same treatment for surrey, then maple-ridge and others; stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.

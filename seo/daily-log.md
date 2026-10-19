@@ -76,9 +76,9 @@
 - Target keywords: managed IT Chilliwack, IT support Chilliwack BC, clinic IT Chilliwack, law firm IT Chilliwack.
 - Next steps: same treatment for mission/langley/surrey (then others); stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.
 
-## 2026-10-19
-- Audit: 0 errors at start (51 mostly lastmod/length warnings).
-- `/locations/mission`: shortened title/description; added owner-confirmed pricing section, free IT assessment section (within 300 km of Abbotsford, or remote), links to all five healthcare/legal industry pages plus the EMR backup and Clio posts, FAQ with FAQPage JSON-LD (no Mission office stated honestly), CTAs "Book a free IT assessment" + phone. Existing drive-time and sector copy kept; no new local facts invented.
+## 2026-10-18
+- Audit: 0 errors at start (51 mostly lastmod warnings); 0 errors at end.
+- `/locations/mission`: shortened title/description; added owner-confirmed pricing section, free IT assessment section (within 300 km of Abbotsford, or remote), links to all five healthcare/legal industry pages plus the EMR backup and Clio posts, FAQ with FAQPage JSON-LD (honest that there is no Mission office), CTAs "Book a free IT assessment" + phone. No invented local facts.
 - Sitemap lastmod bumped for mission.
 - Target keywords: managed IT Mission BC, IT support Mission BC, clinic IT Mission, law firm IT Mission.
-- Next steps: same treatment for langley and surrey (then others); stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.
+- Next steps: same treatment for langley/surrey (then maple-ridge and others); stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.

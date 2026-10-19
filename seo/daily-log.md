@@ -90,3 +90,10 @@
 - Sitemap lastmod bumped for langley.
 - Target keywords: managed IT Langley BC, IT support Langley BC, clinic IT Langley, law firm IT Langley.
 - Next steps: same treatment for surrey, then maple-ridge and others; stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.
+
+## 2026-10-19 (second run)
+- Audit: 0 errors at start (51 mostly lastmod/length warnings).
+- `/locations/surrey` (Search Console: "managed it services surrey", 15 impressions): shortened title/description; added owner-confirmed pricing section, free IT assessment section (within 300 km of Abbotsford, or remote), links to all five healthcare/legal industry pages plus the EMR backup and Clio posts, FAQ with FAQPage JSON-LD (honest that there is no Surrey office), CTAs "Book a free IT assessment" + phone. Existing drive-time copy kept; no local facts invented.
+- Sitemap lastmod bumped for surrey.
+- Target keywords: managed IT services Surrey, IT support Surrey BC, clinic IT Surrey, law firm IT Surrey.
+- Next steps: the head-term pillars `/business-it-support` and `/managed-it-services` (small business IT support, best MSP Lower Mainland) are still todo in keyword-map.md and are the next highest-value pages; then maple-ridge and remaining locations; owner-supplied local facts and "best" claims need real reviews/awards, so avoid unsupported superlatives.

@@ -97,3 +97,9 @@
 - Sitemap lastmod bumped for surrey.
 - Target keywords: managed IT Surrey BC, IT support Surrey BC, clinic IT Surrey, law firm IT Surrey.
 - Next steps: same treatment for maple-ridge, then vancouver/burnaby/new-westminster/north-vancouver; stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.
+
+## 2026-10-20 (competitive keywords run)
+- Audit: 0 errors at start; 0 errors at end (49 pages).
+- New pillar page `/business-it-support` (Service + FAQPage + Breadcrumb JSON-LD) targeting "small business IT support Lower Mainland", "business IT support BC", "MSP Fraser Valley". Owner-confirmed pricing, free assessment and custom billing under 5 users only; no invented stats, clients or response times. Links to services, vertical pages, location pages and comparison blog posts.
+- Added to `sitemap.xml`; "Business IT support" link added to the footer Services list site-wide; linked from `services.html`.
+- Next steps: `/managed-it-services` pillar ("best MSP Lower Mainland", "managed service provider BC"); then Microsoft 365, cybersecurity and co-managed IT service pages; blog "Managed IT pricing in BC"; maple-ridge/vancouver location strengthening. Owner: reviews on Google Business Profile drive "near me" and "best MSP" searches.

@@ -147,3 +147,13 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Brand pages: computer-help/mac, printer-help/hp, wifi-router-help/xfinity, spectrum, tp-link, netgear
 2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
 3. Later: ring/arlo/nest brand pages under smart-home-camera-help.
+
+## 2026-10-21
+- Added first brand page `/home-support/printer-help/hp/` ("Independent Help with Your HP Printer, $100 CAD Flat"): large call buttons, HP-specific problem cards and offline checklist (wireless light states, wireless test report, HP Smart app, HP's free Print and Scan Doctor on Windows), HP account / HP+ and cartridge-rule notes, honest limits, FAQ, price/CAD note, hours, BC phone note, HP-only disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from a new "HP printers" card on `/home-support/printer-help/`; added to `sitemap.xml`.
+- Target keywords: HP printer offline, HP Smart app help, HP printer Wi-Fi setup, HP printer scanning help (CA and US).
+
+### Next steps
+1. Brand pages: computer-help/mac, wifi-router-help/xfinity, spectrum, tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
+2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+3. Later: ring/arlo/nest brand pages under smart-home-camera-help.

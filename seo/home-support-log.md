@@ -157,3 +157,13 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Brand pages: computer-help/mac, wifi-router-help/xfinity, spectrum, tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
 2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
 3. Later: ring/arlo/nest brand pages under smart-home-camera-help.
+
+## 2026-10-22
+- Added brand page `/home-support/computer-help/mac/` ("Independent Help with Your Mac, $100 CAD Flat"): large call buttons, Mac problem cards (slow Mac, storage full, macOS updates, new Mac setup with Migration Assistant, Time Machine backups), a slow-Mac checklist (restart, Storage, Login Items, Activity Monitor, updates, warning about "cleaner" pop-ups), Apple ID / older-Mac notes, honest limits (no hardware repair, cannot reset Apple ID or Mac passwords), FAQ, price/CAD note, hours, BC phone note, Apple-only disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from `/home-support/computer-help/`; added to `sitemap.xml`.
+- Target keywords: Mac running slow, Mac storage full, new Mac setup help, Migration Assistant help, macOS update stuck (CA and US).
+
+### Next steps
+1. Brand pages: wifi-router-help/xfinity, spectrum, tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
+2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+3. Later: ring/arlo/nest brand pages under smart-home-camera-help.

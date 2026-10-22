@@ -104,3 +104,10 @@
 - Sitemap lastmod bumped for maple-ridge.
 - Target keywords: managed IT Maple Ridge BC, IT support Maple Ridge BC, clinic IT Maple Ridge, law firm IT Maple Ridge.
 - Next steps: same treatment for vancouver/burnaby/new-westminster/north-vancouver; stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.
+
+## 2026-10-22
+- Audit: 0 errors at start (47 mostly lastmod warnings).
+- `/locations/vancouver`: shortened title/description; added owner-confirmed pricing section, free IT assessment section (within 300 km of Abbotsford, or remote), links to all five healthcare/legal industry pages plus the EMR backup and Clio posts, FAQ with FAQPage JSON-LD (honest that there is no Vancouver office), CTAs "Book a free IT assessment" + phone. Kept existing travel-time copy; no new local facts invented.
+- Sitemap lastmod bumped for vancouver.
+- Target keywords: managed IT Vancouver BC, IT support Vancouver BC, clinic IT Vancouver, law firm IT Vancouver.
+- Next steps: same treatment for burnaby/new-westminster/north-vancouver; stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.

@@ -111,3 +111,10 @@
 - Sitemap lastmod bumped for vancouver.
 - Target keywords: managed IT Vancouver BC, IT support Vancouver BC, clinic IT Vancouver, law firm IT Vancouver.
 - Next steps: same treatment for burnaby/new-westminster/north-vancouver; stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.
+
+## 2026-10-23 (competitive keywords routine)
+- Audit: 0 errors at start (46 warnings); 0 errors at end.
+- New pillar page `/business-it-support` (Service + FAQPage + Breadcrumb JSON-LD): what is included, owner-confirmed pricing ($95/user/month, min 5, 1-year, extras billed separately, free on-site if not fixable remotely, custom billing under 5 users), managed vs co-managed vs in-house, free assessment (within 300 km of Abbotsford or remote), vertical links, all 10 location links, FAQ. No invented facts, response times, stats or clients; honest that the only office is Abbotsford.
+- Linked from `services.html` intro and the shared footer "Services" list on every page; added to `sitemap.xml`; keyword map row marked done.
+- Target keywords: business IT support Lower Mainland, small business IT support BC, IT support for small business.
+- Next steps: `/managed-it-services` pillar ("best MSP in Lower Mainland", managed service provider BC); then Microsoft 365 / cybersecurity / co-managed service pages; blog "Managed IT pricing in BC" using cited benchmarks; Google Business Profile for "near me" queries (owner); burnaby/new-westminster/north-vancouver location strengthening.

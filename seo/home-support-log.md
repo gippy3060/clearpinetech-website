@@ -167,3 +167,13 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Brand pages: wifi-router-help/xfinity, spectrum, tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
 2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
 3. Later: ring/arlo/nest brand pages under smart-home-camera-help.
+
+## 2026-10-24
+- Added brand page `/home-support/wifi-router-help/xfinity/` ("Independent Help with Your Xfinity Wi-Fi, $100 CAD Flat"): large call buttons, Xfinity-gateway problem cards, a slow/dropping Wi-Fi checklist (restart, no pinhole reset, test close to gateway, placement), notes on gateway modem+router combos and the provider's app, honest limits (outages, billing, plans and equipment activation are for the provider), FAQ, price/CAD note, hours, BC phone note, Xfinity/Comcast-only disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from the ISP card on `/home-support/wifi-router-help/`; added to `sitemap.xml`.
+- Target keywords: Xfinity Wi-Fi slow, Xfinity router help, Xfinity gateway Wi-Fi password, mesh with Xfinity (US).
+
+### Next steps
+1. Brand pages: wifi-router-help/spectrum, tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
+2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+3. Later: ring/arlo/nest brand pages under smart-home-camera-help.

@@ -167,3 +167,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Brand pages: wifi-router-help/xfinity, spectrum, tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
 2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
 3. Later: ring/arlo/nest brand pages under smart-home-camera-help.
+
+## 2026-10-25
+- Added brand page `/home-support/wifi-router-help/xfinity/` ("Independent Help with Your Xfinity Wi-Fi, $100 CAD Flat"): large call buttons, Xfinity problem cards (slow/dropping Wi-Fi, weak rooms, new password, Xfinity app, own router, screen-time pauses), a "slow or not working" checklist that separates home-signal problems from provider outages, Xfinity-specific notes (rented gateway vs own equipment, password change affects all devices, we never ask for the Xfinity account password), honest limits (no line/outage fixes, no account or billing changes), a "caller claiming to be your provider" warning, FAQ, price/CAD note, hours, BC phone note, Xfinity/Comcast-only disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Gateway light colours deliberately not described (vary by model; page points to Xfinity's own guide).
+- Linked from the Xfinity/Spectrum card on `/home-support/wifi-router-help/`; added to `sitemap.xml`.
+- Target keywords: Xfinity Wi-Fi slow, Xfinity Wi-Fi keeps dropping, change Xfinity Wi-Fi password, Xfinity own router help (US).
+
+### Next steps
+1. Brand pages: wifi-router-help/spectrum, tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
+2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+3. Later: ring/arlo/nest brand pages under smart-home-camera-help.

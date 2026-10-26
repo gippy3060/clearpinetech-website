@@ -178,3 +178,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Brand pages: wifi-router-help/spectrum, tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
 2. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
 3. Later: ring/arlo/nest brand pages under smart-home-camera-help.
+
+## 2026-10-26
+- Added brand page `/home-support/wifi-router-help/spectrum/` ("Independent Help with Your Spectrum Wi-Fi, $100 CAD Flat"): large call buttons, Spectrum problem cards (slow/dropping Wi-Fi, weak rooms, new password, My Spectrum app, own router, screen time), a "slow or not working" checklist (restart modem then router, cable test, outage check), Spectrum-specific notes (Spectrum-supplied equipment vs own, password change affects every device, we never ask for the Spectrum account password), honest limits, provider-impersonation warning, FAQ, price/CAD note, hours, BC phone note, Spectrum/Charter-only disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Unconfirmed claims (remote tool, payment methods, follow-up session) deliberately left out and marked with TODO comments. Note: the Xfinity page and possibly earlier pages still contain a "Remote tools" paragraph (Quick Assist/LogMeIn) and a payment/"up to two sessions" sentence that the owner has not confirmed; recommend a clean-up pass.
+- Linked from the Xfinity/Spectrum card on `/home-support/wifi-router-help/`; added to `sitemap.xml`.
+- Target keywords: Spectrum Wi-Fi slow, Spectrum Wi-Fi keeps dropping, change Spectrum Wi-Fi password, Spectrum own router help (US).
+
+### Next steps
+1. Clean-up pass: remove unconfirmed remote-tool/payment/two-session claims from earlier pages (or get owner confirmation).
+2. Brand pages: wifi-router-help/tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

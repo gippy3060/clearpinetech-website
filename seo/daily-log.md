@@ -125,3 +125,9 @@
 - Sitemap lastmod bumped for new-westminster.
 - Target keywords: managed IT New Westminster BC, IT support New Westminster, clinic IT New Westminster, law firm IT New Westminster.
 - Next steps: same treatment for north-vancouver; stale blog/location lastmods; owner-supplied local facts would make these pages more distinct; owner to resolve TODOs.
+
+## 2026-10-26 (second run)
+- `/locations/north-vancouver`: shortened title/description; added owner-confirmed pricing section, free IT assessment section (within 300 km of Abbotsford, or remote), links to all five healthcare/legal industry pages plus the EMR backup and Clio posts, FAQ with FAQPage JSON-LD (honest that there is no North Vancouver office), CTAs "Book a free IT assessment" + phone. Kept existing travel-time copy; no new local facts invented.
+- Sitemap lastmod bumped for north-vancouver. This completes the pricing/assessment/FAQ treatment for all Lower Mainland city pages.
+- Target keywords: managed IT North Vancouver BC, IT support North Vancouver, clinic IT North Vancouver, law firm IT North Vancouver.
+- Next steps: build `/managed-it-services` and `/business-it-support` pillar pages (A priority, still todo in keyword-map); stale blog lastmods; owner-supplied local facts; owner to resolve TODOs.

@@ -132,3 +132,8 @@
 - Sitemap lastmod bumped for north-vancouver.
 - Target keywords: managed IT North Vancouver BC, IT support North Vancouver, clinic IT North Vancouver, law firm IT North Vancouver.
 - Next steps: all main city pages now have the treatment (consider removing the "custom billing" sentence from earlier pages unless owner confirms); remaining ideas: a new blog post (e.g. IT support cost for a dental office in Surrey), stale blog/location lastmods, add Coquitlam/Richmond/Delta only with genuinely unique content; owner to resolve TODOs.
+
+## 2026-10-27 (second run)
+- Built the `/business-it-support` pillar page (keyword map cluster 1, priority A): small business IT support, business IT support Lower Mainland, "how to choose an MSP" checklist (targets "best MSP Lower Mainland" intent without unprovable superlatives), owner-confirmed pricing, free assessment, links to all city/industry/blog pages, FAQ with FAQPage + Service JSON-LD. No new facts invented.
+- Added to sitemap; added "Business IT support" to the footer Services list on all pages.
+- Next steps: `/managed-it-services` pillar (managed service provider BC / Fraser Valley); services-page sections for Microsoft 365 and co-managed IT; link the pillar from the home page body; stale blog lastmods.

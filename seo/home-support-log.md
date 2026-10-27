@@ -189,3 +189,15 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Clean-up pass: remove unconfirmed remote-tool/payment/two-session claims from earlier pages (or get owner confirmation).
 2. Brand pages: wifi-router-help/tp-link, netgear, printer-help/brother, canon, epson, computer-help/dell
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+
+## 2026-10-27
+- Added brand page `/home-support/wifi-router-help/tp-link/` ("Independent Help with Your TP-Link Router or Deco, $100 CAD Flat"): large call buttons, problem cards (new Archer router, Deco mesh setup, weak rooms, replacing an old router, firmware, parental controls), a "slow or not working" checklist (cable to modem, restart order, Deco/Tether app, unit placement, cable test, factory-reset caution), TP-Link-specific notes (Archer vs Deco, TP-Link ID, double Wi-Fi behind provider equipment), honest limits, FAQ, price/CAD note, hours, BC phone note, TP-Link-only disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD. LED colours deliberately not described.
+- Linked from the TP-Link card on `/home-support/wifi-router-help/`; added to `sitemap.xml`.
+- `scripts/seo_audit.py`: 0 errors.
+- Target keywords: TP-Link router setup help, TP-Link Deco setup, TP-Link Wi-Fi not working, Deco mesh weak signal (CA and US).
+- Remote-tool and payment/follow-up-session TODO comments kept on this page, matching Spectrum (earlier log entries record owner confirmation; the clean-up pass below should reconcile).
+
+### Next steps
+1. Clean-up pass: reconcile remote-tool/payment/two-session wording across pages with owner-confirmed facts.
+2. Brand pages: wifi-router-help/netgear, printer-help/brother, canon, epson, computer-help/dell
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

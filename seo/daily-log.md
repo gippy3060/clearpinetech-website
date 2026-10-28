@@ -132,3 +132,10 @@
 - Sitemap lastmod bumped for north-vancouver.
 - Target keywords: managed IT North Vancouver BC, IT support North Vancouver, clinic IT North Vancouver, law firm IT North Vancouver.
 - Next steps: all main city pages now have the treatment (consider removing the "custom billing" sentence from earlier pages unless owner confirms); remaining ideas: a new blog post (e.g. IT support cost for a dental office in Surrey), stale blog/location lastmods, add Coquitlam/Richmond/Delta only with genuinely unique content; owner to resolve TODOs.
+
+## 2026-10-28
+- Audit: 0 errors at start (40 warnings, mostly lastmod); 0 errors at end.
+- New blog post `/blog/dental-office-it-support-cost-bc` (~1,250 words): "How much does IT support cost for a dental office in BC?" Uses only owner-confirmed pricing ($95/user/month, 5-user minimum, 1-year agreement, Microsoft 365 / after-hours / on-site billed separately, free on-site if not remotely fixable) with example budgets for 5/8/12/15 users (plain multiplication), a "what to ask any provider" checklist, free-assessment CTA. Added TODO owner comments (how sub-minimum users are counted, project quoting, response-time targets).
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/dental` (bumped its lastmod).
+- Target keywords: dental office IT support cost BC, managed IT dental office, IT support dentist Surrey/Vancouver.
+- Next steps: similar cost posts for physio/allied health and law firms; link the new post from Surrey/Vancouver/Burnaby pages; stale blog/location lastmods; consider removing the "custom billing under 5 users" line on earlier location pages unless owner confirms; owner to resolve TODOs.

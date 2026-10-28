@@ -139,3 +139,9 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/dental` (bumped its lastmod).
 - Target keywords: dental office IT support cost BC, managed IT dental office, IT support dentist Surrey/Vancouver.
 - Next steps: similar cost posts for physio/allied health and law firms; link the new post from Surrey/Vancouver/Burnaby pages; stale blog/location lastmods; consider removing the "custom billing under 5 users" line on earlier location pages unless owner confirms; owner to resolve TODOs.
+
+## 2026-10-28 (competitor keywords run)
+- Audit: 0 errors at start and end.
+- New pillar page `/business-it-support` targeting "business IT support Lower Mainland", "small business IT support BC", "best MSP Lower Mainland" (answered honestly via a "how to choose a provider" checklist, no "best" claim). Uses only owner-confirmed pricing/terms and the 300 km free assessment; Service + FAQPage + Breadcrumb JSON-LD; links to services, industries, blog, assessment and all city pages.
+- Added "Business IT support" to the footer Services list on all pages; added to `sitemap.xml`; keyword map row marked done.
+- Next steps: `/managed-it-services` pillar (managed service provider BC / Fraser Valley), then Microsoft 365, cybersecurity and co-managed IT service pages; "managed IT pricing in BC" blog; owner to resolve TODOs.

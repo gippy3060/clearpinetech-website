@@ -201,3 +201,15 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Clean-up pass: reconcile remote-tool/payment/two-session wording across pages with owner-confirmed facts.
 2. Brand pages: wifi-router-help/netgear, printer-help/brother, canon, epson, computer-help/dell
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+
+## 2026-10-29
+- Added brand page `/home-support/wifi-router-help/netgear/` ("Independent Help with Your Netgear Router or Orbi, $100 CAD Flat"): large call buttons, problem cards (new Nighthawk, Orbi mesh, weak rooms, replacing a router, firmware, parental controls), a "slow or not working" checklist, Netgear-specific notes (Nighthawk vs Orbi, Wi-Fi vs admin password and routerlogin.net, optional paid app subscriptions, double Wi-Fi behind provider equipment), honest limits, FAQ, price/CAD note, hours, BC phone note, Netgear-only disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD. LED colours deliberately not described.
+- Linked from the Netgear card on `/home-support/wifi-router-help/`; added to `sitemap.xml`.
+- `scripts/seo_audit.py`: 0 errors.
+- Target keywords: Netgear router setup help, Orbi setup help, Netgear Wi-Fi not working, Orbi satellite weak signal, routerlogin.net help (CA and US).
+- Remote-tool and payment/follow-up-session TODO comments kept (as on Spectrum and TP-Link). OPEN ISSUE for owner: the log records owner confirmation of Quick Assist/LogMeIn/TeamViewer, card payments and "two sessions per issue", and many older pages state these, but the routine's fixed facts list them as unconfirmed. Owner to re-confirm; then either add to the newer pages or strip from the older ones.
+
+### Next steps
+1. Owner decision on the remote-tool/payment/two-session wording, then a reconcile pass across all pages.
+2. Brand pages: printer-help/brother, canon, epson, computer-help/dell
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

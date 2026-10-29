@@ -146,3 +146,9 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/law-firms`; bumped lastmod for blog index and law-firms.
 - Target keywords: law firm IT support cost BC, managed IT for law firms, IT support lawyers Vancouver/Surrey.
 - Next steps: cost post for physio/allied health; link the dental and law-firm cost posts from Surrey/Vancouver/Burnaby pages; stale blog/location lastmods; remove "custom billing under 5 users" line on earlier location pages unless owner confirms; owner to resolve TODOs.
+
+## 2026-10-29 (competitor keywords run)
+- Audit: 0 errors at start; 0 errors at end.
+- New pillar `/business-it-support`: targets business IT support Lower Mainland, small business IT support BC, best MSP / how to choose an MSP. Owner-confirmed pricing only ($95/user/month, 5-user minimum, 1-year term, extras billed separately), 10-user example by plain multiplication, MSP-choice checklist (no unverifiable "best" claims), free assessment CTA, FAQPage + Service JSON-LD, links to industries, cost posts and all city pages. TODO owner comment: sub-minimum user counting and project quoting.
+- Added to sitemap; linked from footer Services list on `services.html` and `index.html`.
+- Next steps: `/managed-it-services` pillar (MSP Lower Mainland/Fraser Valley), then `/services/microsoft-365` and `/services/cybersecurity`; link the new pillar from location page footers; owner to resolve TODOs.

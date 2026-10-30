@@ -146,3 +146,10 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/law-firms`; bumped lastmod for blog index and law-firms.
 - Target keywords: law firm IT support cost BC, managed IT for law firms, IT support lawyers Vancouver/Surrey.
 - Next steps: cost post for physio/allied health; link the dental and law-firm cost posts from Surrey/Vancouver/Burnaby pages; stale blog/location lastmods; remove "custom billing under 5 users" line on earlier location pages unless owner confirms; owner to resolve TODOs.
+
+## 2026-10-30
+- Audit: 0 errors at start (40 warnings, mostly lastmod); 0 errors at end.
+- New blog post `/blog/allied-health-clinic-it-support-cost-bc` (~1,250 words): "How much does IT support cost for a physio, chiro or counselling clinic in BC?" Uses only owner-confirmed pricing ($95/user/month, 5-user minimum, 1-year agreement, Microsoft 365 / after-hours / on-site billed separately, free on-site if not remotely fixable) with 5/8/10/15-user budgets (plain multiplication), allied-health specifics (shared rooms, confidential notes, virtual care), provider checklist and free-assessment CTA. TODO owner comments: sub-minimum/part-time/rented-room user counting, project quoting, response times.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/allied-health`; bumped lastmod for blog index and allied-health.
+- Target keywords: physiotherapy clinic IT support cost BC, chiropractor IT support, counselling clinic managed IT.
+- Next steps: link the three cost posts from Surrey/Vancouver/Burnaby pages; veterinary cost post; stale blog/location lastmods; remove "custom billing under 5 users" line on allied-health and earlier location pages unless owner confirms; owner to resolve TODOs.

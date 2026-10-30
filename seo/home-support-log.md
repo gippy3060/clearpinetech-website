@@ -201,3 +201,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Clean-up pass: reconcile remote-tool/payment/two-session wording across pages with owner-confirmed facts.
 2. Brand pages: wifi-router-help/netgear, printer-help/brother, canon, epson, computer-help/dell
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+
+## 2026-10-30
+- Added brand page `/home-support/wifi-router-help/netgear/` ("Independent Help with Your Netgear Router or Orbi, $100 CAD Flat"): large call buttons, Netgear problem cards (new Nighthawk router, Orbi mesh and satellites, weak rooms, replacing an old router, firmware, parental controls with a note that some filtering features are paid subscriptions), a "slow or not working" checklist (cable to modem, restart order, routerlogin.net / Orbi app status, satellite placement halfway, cable test, factory-reset caution), Netgear-specific notes (Nighthawk vs Orbi, Netgear account vs router admin password, double Wi-Fi behind provider equipment), honest limits, FAQ, price/CAD note, hours, BC phone note, Netgear-only disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD. LED colours deliberately not described.
+- Linked from the Netgear card on `/home-support/wifi-router-help/`; added to `sitemap.xml`.
+- Target keywords: Netgear router setup help, Netgear Orbi setup, Orbi satellite not connecting, Netgear Wi-Fi not working (CA and US).
+- Remote-tool / payment / follow-up-session TODO comments kept on this page, as on TP-Link; clean-up pass still pending.
+
+### Next steps
+1. Clean-up pass: reconcile remote-tool/payment/two-session wording across pages with owner-confirmed facts.
+2. Brand pages: printer-help/brother, canon, epson, computer-help/dell
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

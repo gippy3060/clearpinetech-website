@@ -153,3 +153,10 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/allied-health`; bumped lastmod for blog index and allied-health.
 - Target keywords: physiotherapy clinic IT support cost BC, chiropractor IT support, counselling clinic managed IT.
 - Next steps: link the three cost posts from Surrey/Vancouver/Burnaby pages; veterinary cost post; stale blog/location lastmods; remove "custom billing under 5 users" line on allied-health and earlier location pages unless owner confirms; owner to resolve TODOs.
+
+## 2026-10-31
+- Audit: 0 errors at start (41 warnings, mostly lastmod); 0 errors at end.
+- Internal linking: added the three new cost guides (dental, allied health, law firm) to the "Related reading" line on all 10 city pages that carry it (Abbotsford, Burnaby, Chilliwack, Langley, Maple Ridge, Mission, New Westminster, North Vancouver, Surrey, Vancouver). No other location content touched.
+- Shortened `<title>` on three healthcare blog posts (five-clinic-security-gaps, optometry-clinic-it-setup-cost, pipeda-compliance-clinic-it) to 65 chars or less; bumped sitemap lastmod for all changed pages.
+- Target keywords: dental/physio/law firm IT support cost + city names (internal-link equity).
+- Next steps: veterinary cost post; shorten remaining long blog titles (independent-contractor-vs-msp 130 chars, managed-it-vs-inhouse-smb 118, etc.); remove "custom billing under 5 users" line on older pages unless owner confirms; owner to resolve TODOs.

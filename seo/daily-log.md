@@ -153,3 +153,10 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/allied-health`; bumped lastmod for blog index and allied-health.
 - Target keywords: physiotherapy clinic IT support cost BC, chiropractor IT support, counselling clinic managed IT.
 - Next steps: link the three cost posts from Surrey/Vancouver/Burnaby pages; veterinary cost post; stale blog/location lastmods; remove "custom billing under 5 users" line on allied-health and earlier location pages unless owner confirms; owner to resolve TODOs.
+
+## 2026-10-31
+- Audit: 0 errors at start (41 warnings, mostly lastmod); 0 errors at end (38 warnings).
+- New pillar page `/business-it-support` (~600 words), the first open A-priority row in the keyword map: targets "business IT support", "small business IT support BC/Lower Mainland". Sections: what's included, owner-confirmed pricing ($95/user/month, 5-user min, 1-year term, M365/after-hours/on-site extra, free on-site if not remotely fixable, 10-user example by plain multiplication), who it's for, industries, free assessment (300 km of Abbotsford), local page links, FAQ with FAQPage + Service + Breadcrumb JSON-LD. TODO owner comment: sub-minimum/part-time/project quoting and response times. No competitor claims, response times or certifications invented.
+- Linked from the footer Services list on home, services and all 11 location pages; added to `sitemap.xml` (priority 0.9) and bumped lastmod for those pages.
+- Target keywords: business IT support, small business IT support, IT support for small business BC.
+- Next steps: `/managed-it-services` pillar (managed IT Lower Mainland / MSP Fraser Valley / "best MSP" intent); service pages (cybersecurity, Microsoft 365, co-managed IT); "how to choose an MSP" and "MSP pricing in BC" blog posts; link pillar from home hero/body copy; refresh Search Console table (due, last 2026-10-13); owner to resolve TODOs.

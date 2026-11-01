@@ -17,3 +17,14 @@ Separate from `daily-log.md` (which the vertical-practice routine also writes to
 - Added to blog index (list + JSON-LD) and sitemap; linked from `/business-it-support` pricing section and `/blog/onsite-it-support-cost-fraser-valley`. Bumped lastmods.
 - Target keywords: managed IT services cost BC, how much does an MSP cost, IT support pricing small business Vancouver, managed IT price per user.
 - Next steps: once merged, `/services/microsoft-365`, `/services/cybersecurity`, `/services/co-managed-it` standalone pages; strengthen `/locations/chilliwack` and `/locations/surrey` (Search Console queries); Clutch/GoodFirms/chamber listings (owner).
+
+## 2026-11-22
+- **Unmerged-work warning (still open):** 45+ `claude/kind-cray-*` branches from this routine sit unmerged; the 11-20 and 11-21 runs rebuilt `/business-it-support` again. This run did **not** rebuild it. It consolidated the best existing work onto current `main` in one branch:
+  - `/business-it-support` pillar + `/blog/managed-it-services-cost-bc` (cherry-picked from `kind-cray-addhzh`, 2026-11-19).
+  - `/managed-it-services` pillar (cherry-picked from `kind-cray-2iert5`, 2026-11-01), conflicts resolved against current `main`.
+- `/managed-it-services` additions: link to the BC pricing guide; new "Choosing an MSP" paragraph linking the `/business-it-support#choosing-an-msp` checklist (new anchor id on that h2). Distinct intent from `/business-it-support`: MSP/managed-service terms vs small-business support terms; the two cross-link.
+- Internal links: home managed-IT card now links both pillars; `/services` intro links `/managed-it-services`; Abbotsford, Chilliwack, Langley and Surrey pages (Search Console queries) got a "Comparing IT companies?" line linking both pillars and the MSP checklist.
+- Facts used are only those already on `/services` (pricing, custom billing under 5 users, written agreement with defined response times, co-managed IT). Every internal link resolves.
+- Audit: 0 errors at end (30 warnings, 88 pages, all lastmod on pages owned by other routines or older pages).
+- Target keywords: best MSP Lower Mainland, managed IT services Lower Mainland, managed service provider BC/Fraser Valley, business IT support, small business IT support.
+- Next steps: **owner merges this branch first.** Then `/services/microsoft-365`, `/services/cybersecurity`, `/services/co-managed-it`; Clutch/GoodFirms/chamber listings (owner). Future runs: check `git log origin/main` for `/business-it-support` and `/managed-it-services` before building anything.

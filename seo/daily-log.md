@@ -161,3 +161,9 @@
 - Cleanup: removed the unconfirmed "custom billing for fewer than 5 users" sentences from all industries and location pages (incl. FAQ JSON-LD where present); fixed a self-link in the allied-health cost post (now links to the dental cost post). Bumped sitemap lastmod for affected industry pages and blog index.
 - Target keywords: veterinary clinic IT support cost BC, managed IT for veterinary clinics, vet clinic IT Fraser Valley/Lower Mainland.
 - Next steps: link the cost posts from Surrey/Vancouver/Burnaby pages; stale blog/location lastmods; sitemap lastmods for location pages touched today; possible posts: Law Society of BC cloud/e-mail security, secure e-fax for clinics; owner to resolve TODOs.
+
+## 2026-11-02 (competitor keywords run)
+- Audit: 0 errors at start (53 warnings, mostly lastmod).
+- New pillar page `/business-it-support` targeting "business IT support Lower Mainland", "small business IT support BC", "best MSP Lower Mainland" intent. Owner-confirmed facts only ($95/user/month, 5-user min, 1-year term, M365/after-hours/on-site extra, free on-site if not remotely fixable, free assessment within 300 km). Service + FAQPage + Breadcrumb JSON-LD, links to services, industries, all city pages, cost/comparison posts. Did not claim "best", response times, or offices in each city (TODO owner comment for response-time targets).
+- Linked from home (managed IT card) and services; sitemap updated (new URL, bumped home/services lastmod).
+- Next steps: `/managed-it-services` pillar (MSP/outsourced IT), service pages for Microsoft 365, cybersecurity, co-managed IT; "managed IT pricing in BC" blog; refresh competitor snapshot (last 2026-10-09) next weekly pass; owner to resolve TODOs.

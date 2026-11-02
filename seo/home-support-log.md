@@ -223,3 +223,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Clean-up pass: remove unconfirmed "Remote tools" (Quick Assist/LogMeIn) and payment/"two sessions" wording from earlier pages (list below).
 2. Brand pages: printer-help/canon, epson, computer-help/dell
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+
+## 2026-11-02
+- Added brand page `/home-support/printer-help/canon/` ("Independent Help with Your Canon Printer, $100 CAD Flat"): large call buttons, problem cards (Wi-Fi, offline, scanning, ink and print quality, phone printing, new router), an "offline: what to check" checklist (screen/light, restart order, network details, same network, redo Wi-Fi setup or Canon PRINT app, duplicate printer entries, software only from Canon's site), Canon-specific notes (PIXMA/MAXIFY inkjet vs G-series ink tanks vs imageCLASS laser, support codes and which need a repair shop, third-party ink), honest limits, FAQ, price/CAD note, hours, BC phone note, Canon-only disclaimer top and bottom, never-call-first statement, Service + Offer + FAQPage + Breadcrumb JSON-LD. Specific support codes and light colours deliberately not listed (vary by model).
+- Linked from the printer hub and the Brother page; added to `sitemap.xml`.
+- Unconfirmed remote-tool / payment / follow-up TODO comments kept on the page.
+- Target keywords: Canon printer offline, Canon PIXMA won't connect to Wi-Fi, Canon printer won't scan, Canon printer support code (CA and US).
+
+### Next steps
+1. Clean-up pass: remove unconfirmed "Remote tools" (Quick Assist/LogMeIn) and payment/"two sessions" wording from earlier pages.
+2. Brand pages: printer-help/epson, computer-help/dell
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

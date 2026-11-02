@@ -153,3 +153,11 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/allied-health`; bumped lastmod for blog index and allied-health.
 - Target keywords: physiotherapy clinic IT support cost BC, chiropractor IT support, counselling clinic managed IT.
 - Next steps: link the three cost posts from Surrey/Vancouver/Burnaby pages; veterinary cost post; stale blog/location lastmods; remove "custom billing under 5 users" line on allied-health and earlier location pages unless owner confirms; owner to resolve TODOs.
+
+## 2026-11-02
+- Audit: 0 errors at start (41 warnings, mostly lastmod); 0 errors at end.
+- New blog post `/blog/veterinary-clinic-it-support-cost-bc` (~1,300 words): "How much does IT support cost for a veterinary clinic in BC?" Owner-confirmed pricing only ($95/user/month, 5-user minimum, 1-year agreement, Microsoft 365 / after-hours / on-site billed separately, free on-site if not remotely fixable), 5/8/12/15-user budgets (plain multiplication), vet-specific points (imaging archive backups, PIPA, shared workstations), provider checklist, free-assessment CTA. TODO owner comments: sub-minimum/locum counting, project quoting, response times.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/veterinary`.
+- Cleanup: removed the unconfirmed "custom billing for fewer than 5 users" sentences from all industries and location pages (incl. FAQ JSON-LD where present); fixed a self-link in the allied-health cost post (now links to the dental cost post). Bumped sitemap lastmod for affected industry pages and blog index.
+- Target keywords: veterinary clinic IT support cost BC, managed IT for veterinary clinics, vet clinic IT Fraser Valley/Lower Mainland.
+- Next steps: link the cost posts from Surrey/Vancouver/Burnaby pages; stale blog/location lastmods; sitemap lastmods for location pages touched today; possible posts: Law Society of BC cloud/e-mail security, secure e-fax for clinics; owner to resolve TODOs.

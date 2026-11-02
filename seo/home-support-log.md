@@ -212,3 +212,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Clean-up pass: reconcile remote-tool/payment/two-session wording across pages with owner-confirmed facts.
 2. Brand pages: printer-help/brother, canon, epson, computer-help/dell
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+
+## 2026-11-01
+- Added brand page `/home-support/printer-help/brother/` ("Independent Help with Your Brother Printer, $100 CAD Flat"): large call buttons, problem cards (Wi-Fi, offline, scanning, toner/drum messages, phone printing, new router), an "offline: what to check" checklist (screen signal, restart order, WLAN report, same network, Setup Wizard after a Wi-Fi password change, duplicate printer entries, software only from Brother's site), Brother-specific notes (toner vs drum, printer's own label password, all-in-one machines), honest limits, FAQ, price/CAD note, hours, BC phone note, Brother-only disclaimer top and bottom, never-call-first statement, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately omitted the unconfirmed remote-tool name, payment methods and "two sessions" wording; TODO comments added on the page.
+- Linked from the printer hub and the HP page; added to `sitemap.xml`.
+- Target keywords: Brother printer offline, Brother printer won't scan, Brother replace toner message, Brother printer Wi-Fi setup (CA and US).
+
+### Next steps
+1. Clean-up pass: remove unconfirmed "Remote tools" (Quick Assist/LogMeIn) and payment/"two sessions" wording from earlier pages (list below).
+2. Brand pages: printer-help/canon, epson, computer-help/dell
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

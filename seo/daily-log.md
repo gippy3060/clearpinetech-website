@@ -161,3 +161,9 @@
 - Cleanup: removed the unconfirmed "custom billing for fewer than 5 users" sentences from all industries and location pages (incl. FAQ JSON-LD where present); fixed a self-link in the allied-health cost post (now links to the dental cost post). Bumped sitemap lastmod for affected industry pages and blog index.
 - Target keywords: veterinary clinic IT support cost BC, managed IT for veterinary clinics, vet clinic IT Fraser Valley/Lower Mainland.
 - Next steps: link the cost posts from Surrey/Vancouver/Burnaby pages; stale blog/location lastmods; sitemap lastmods for location pages touched today; possible posts: Law Society of BC cloud/e-mail security, secure e-fax for clinics; owner to resolve TODOs.
+
+## 2026-11-03
+- Audit: 0 errors at start; 0 errors at end.
+- New pillar page `/business-it-support` (Service + FAQPage + Breadcrumb JSON-LD) targeting business IT support Lower Mainland, small business IT support BC. Owner-confirmed pricing and free-assessment facts only; no invented clients, stats or response times; states there is no office outside Abbotsford. Links to services, blog guides, all city pages and vertical pages.
+- Added to `sitemap.xml`; added "Business IT support" link to the Services column of every page footer; keyword-map row marked done; fixed stale allied-health cost post lastmod.
+- Next steps: `/managed-it-services` pillar (MSP Lower Mainland / BC); `/services/microsoft-365` and co-managed IT pages; "managed IT pricing in BC" blog; owner to confirm response-time targets.

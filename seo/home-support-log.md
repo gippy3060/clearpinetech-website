@@ -234,3 +234,15 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Clean-up pass: remove unconfirmed "Remote tools" (Quick Assist/LogMeIn) and payment/"two sessions" wording from earlier pages.
 2. Brand pages: printer-help/epson, computer-help/dell
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+
+## 2026-11-03
+- Added brand page `/home-support/printer-help/epson/` ("Independent Help with Your Epson Printer, $100 CAD Flat"): large call buttons, problem cards (Wi-Fi, offline, scanning, ink and maintenance box messages, phone printing, new router), an "offline: what to check" checklist, Epson-specific notes (EcoTank refillable tanks vs Expression/WorkForce cartridges, maintenance box, refilling and third-party ink, Epson Smart Panel app), honest limits, FAQ, price/CAD note, hours, BC phone note, Epson-only disclaimer top and bottom, never-call-first statement, Service + Offer + FAQPage + Breadcrumb JSON-LD. Specific error codes and light colours deliberately not listed (vary by model).
+- Linked from the printer hub and the Canon page; added to `sitemap.xml`.
+- Remote-tool / payment / follow-up TODO comments kept on the page.
+- Target keywords: Epson printer offline, Epson EcoTank setup, Epson printer won't scan, Epson maintenance box full (CA and US).
+- Not done: clean-up pass. Earlier log entries (2026-10-08 to 10-15) record owner confirmation of Quick Assist/LogMeIn/TeamViewer, card payments and two sessions per fee; the standing brief lists these as unconfirmed. Left as is; owner should confirm (see PR).
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages.
+2. Brand page: computer-help/dell
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

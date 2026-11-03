@@ -161,3 +161,10 @@
 - Cleanup: removed the unconfirmed "custom billing for fewer than 5 users" sentences from all industries and location pages (incl. FAQ JSON-LD where present); fixed a self-link in the allied-health cost post (now links to the dental cost post). Bumped sitemap lastmod for affected industry pages and blog index.
 - Target keywords: veterinary clinic IT support cost BC, managed IT for veterinary clinics, vet clinic IT Fraser Valley/Lower Mainland.
 - Next steps: link the cost posts from Surrey/Vancouver/Burnaby pages; stale blog/location lastmods; sitemap lastmods for location pages touched today; possible posts: Law Society of BC cloud/e-mail security, secure e-fax for clinics; owner to resolve TODOs.
+
+## 2026-11-03
+- Audit: 0 errors at start (53 warnings, mostly lastmod/long titles on other pages); 0 errors at end.
+- New blog post `/blog/secure-efax-bc-clinics` (~1,300 words): "Secure e-fax for BC clinics: what to check before you switch". Seven-point vendor checklist (encryption, storage location, individual logins/MFA, role access, audit log, retention, portability), common mistakes, switchover plan, misdirected-fax procedure. No vendors named as recommended; owner-confirmed pricing/assessment facts only. TODO owner comments: preferred e-fax vendors, EMR integration experience.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics`; bumped lastmod for blog index and medical-clinics.
+- Target keywords: secure e-fax BC clinic, e-fax for medical clinics, clinic fax privacy, PIPA fax.
+- Next steps: link the cost posts from Surrey/Vancouver/Burnaby pages; Law Society of BC email security post; long blog titles (audit warnings) on older posts; owner to resolve TODOs.

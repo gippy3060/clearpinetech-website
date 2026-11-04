@@ -168,3 +168,10 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics`; bumped lastmod for blog index and medical-clinics.
 - Target keywords: secure e-fax BC clinic, e-fax for medical clinics, clinic fax privacy, PIPA fax.
 - Next steps: link the cost posts from Surrey/Vancouver/Burnaby pages; Law Society of BC email security post; long blog titles (audit warnings) on older posts; owner to resolve TODOs.
+
+## 2026-11-04
+- Audit: 0 errors at start (55 warnings, mostly lastmod/long titles on other pages); 0 errors at end.
+- New blog post `/blog/law-firm-email-security-bc` (~1,300 words): "Law firm email security in BC: stopping phishing and payment-redirection fraud". Seven steps (MFA, SPF/DKIM/DMARC, filtering, call-back rule for payment instructions, secure document sending, mailbox-takeover monitoring, staff reminders), compromise-response list, checklist, FAQ. Owner-confirmed pricing only; no statistics invented. TODO owner comments: supported email platforms, current Law Society trust-accounting and breach-notification guidance.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/law-firms`; bumped lastmod for blog index and law-firms.
+- Target keywords: law firm email security BC, lawyer phishing protection, payment redirection fraud law firm.
+- Next steps: link the cost posts from Surrey/Vancouver/Burnaby pages; long blog titles on older posts; stale blog lastmods; EMR/clinic email-security post; owner to resolve TODOs.

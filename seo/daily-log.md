@@ -168,3 +168,10 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics`; bumped lastmod for blog index and medical-clinics.
 - Target keywords: secure e-fax BC clinic, e-fax for medical clinics, clinic fax privacy, PIPA fax.
 - Next steps: link the cost posts from Surrey/Vancouver/Burnaby pages; Law Society of BC email security post; long blog titles (audit warnings) on older posts; owner to resolve TODOs.
+
+## 2026-11-04
+- Audit: 0 errors at start (55 warnings, mostly lastmod); 0 errors at end.
+- New pillar page `/business-it-support` (Service + FAQPage + Breadcrumb JSON-LD), the keyword map's top-priority A item that was still todo. Covers what business IT support includes, owner-confirmed pricing ($95/user/month, 5-user minimum, 1-year agreement, extras billed separately, free on-site if not remotely fixable) with a plain-multiplication 10-user example, managed vs break-fix vs in-house, where we work (remote + on-site within 300 km of Abbotsford), provider-selection questions, free assessment CTA, FAQ. Links to all 10 location pages, 5 industry pages, 4 cost posts, backups and managed-vs-in-house posts. No "best MSP" claim, no invented response times or stats (TODO owner comment for response-time targets).
+- Added to `sitemap.xml`; linked sitewide from the footer "Services" list (all non-home-support pages).
+- Target keywords: business IT support Lower Mainland, small business IT support BC, IT support for small business, managed service provider Fraser Valley.
+- Next steps: `/managed-it-services` pillar (MSP Lower Mainland / managed service provider BC); "managed IT pricing in BC" blog; sitemap lastmod bumps for footer-touched pages; Chilliwack/Abbotsford/Surrey strengthening per Search Console signals; owner to confirm response times.

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Law Firm Email Security in BC: Stop Phishing and Fraud | Clearpine</title>
+<meta name="description" content="Practical email security for BC law firms: MFA, spoofing protection, payment-redirection fraud controls and what to do after a suspicious message.">
+<link rel="canonical" href="https://clearpinetech.ca/blog/law-firm-email-security-bc">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#123b2f">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Clearpine Technologies">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://clearpinetech.ca/blog/law-firm-email-security-bc">
+<meta property="og:title" content="Law Firm Email Security in BC: Stop Phishing and Fraud">
+<meta property="og:description" content="Practical email security for BC law firms: MFA, spoofing protection, payment-redirection fraud controls and what to do after a suspicious message.">
+<meta property="og:image" content="https://clearpinetech.ca/img/og-clearpine.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/css/styles.css" as="style">
+<link rel="stylesheet" href="/css/styles.css">
+<script defer src="/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://clearpinetech.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://clearpinetech.ca/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "Law firm email security in BC: stopping phishing and payment-redirection fraud", "item": "https://clearpinetech.ca/blog/law-firm-email-security-bc" }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://clearpinetech.ca/blog/law-firm-email-security-bc#article",
+      "headline": "Law firm email security in BC: stopping phishing and payment-redirection fraud",
+      "description": "Practical email security for BC law firms: MFA, spoofing protection, payment-redirection fraud controls and what to do after a suspicious message.",
+      "url": "https://clearpinetech.ca/blog/law-firm-email-security-bc",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://clearpinetech.ca/blog/law-firm-email-security-bc" },
+      "datePublished": "2026-11-04",
+      "dateModified": "2026-11-04",
+      "inLanguage": "en-CA",
+      "image": "https://clearpinetech.ca/img/og-clearpine.png",
+      "author": { "@id": "https://clearpinetech.ca/#organization" },
+      "publisher": { "@id": "https://clearpinetech.ca/#organization" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="Clearpine Technologies logo" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="9" fill="#123b2f"/>
+        <path d="M20 8l6.5 11h-3.6L27 26.5h-4.4L20 32l-2.6-5.5H13L17.1 19h-3.6L20 8z" fill="#2d8a6b"/>
+        <rect x="18.7" y="27" width="2.6" height="6" rx="1.1" fill="#c9a227"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Clearpine</span>
+        <span class="brand-tag">Technologies</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/industries">Industries</a></li>
+        <li><a href="/projects">Case studies</a></li>
+        <li><a href="/capabilities">Capabilities</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="nav-phone"><a href="tel:+12362583060">(236) 258-3060</a></li>
+        <li><a class="btn btn-primary" href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li>Law firm email security in BC: stopping phishing and payment-redirection fraud</li>
+        </ol>
+      </nav>
+      <h1>Law firm email security in BC: stopping phishing and payment-redirection fraud</h1>
+      <p class="post-meta">Law firms &middot; <time datetime="2026-11-04">4 November 2026</time></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <article class="post-content">
+
+<p>Email is where most small law firms get hurt. A partner clicks a convincing "shared document" link, a bookkeeper receives a message that looks like it came from a client with new wire instructions, or a mailbox is quietly taken over and used to watch live files. Law firms are attractive targets because they hold confidential information and move large sums through trust accounts. This guide sets out the practical email controls a small or mid-sized BC firm can put in place. It is general information, not legal advice. Check current Law Society of BC requirements, your professional liability insurer's conditions and your own counsel for obligations specific to your practice.</p>
+
+<h2>The three email risks that matter most to a law firm</h2>
+<ol>
+  <li><strong>Account takeover.</strong> An attacker obtains a password (through phishing or reuse from another breach), signs in, and reads or forwards client email. Often they set a hidden forwarding rule and wait.</li>
+  <li><strong>Payment-redirection fraud.</strong> A message, from a hijacked account or a lookalike address, asks you to change where funds are sent. Real estate closings and settlement payouts are classic targets because the amounts are large and the timelines are tight.</li>
+  <li><strong>Spoofing and impersonation.</strong> Someone sends mail that appears to come from your firm's domain, or from a lawyer in your firm, to a client or to your accounting staff.</li>
+</ol>
+<p>None of these needs sophisticated hacking. They rely on a rushed person and a missing control, which is why process and settings matter as much as software.</p>
+
+<h2>Step 1: multi-factor authentication on every mailbox</h2>
+<p>If you do one thing, do this. Require multi-factor authentication (MFA) for every user, including partners, assistants and part-time staff, on every way into email: the web, desktop and mobile apps. Prefer an authenticator app or hardware security key over text-message codes where you can. Also turn off legacy sign-in methods that bypass MFA, which is a setting many older Microsoft 365 and Google Workspace tenancies still allow. <!-- TODO owner: confirm which email platforms Clearpine supports for law firms before naming them. --></p>
+
+<h2>Step 2: protect your domain from being spoofed</h2>
+<p>Three DNS records tell receiving mail servers which senders are legitimate for your domain: SPF, DKIM and DMARC. Many small firms have SPF only, or none. A well-configured DMARC policy lets you see who is sending mail as your firm and, once tuned, instruct recipients to reject forgeries. Roll this out in stages, starting with monitoring, so you do not accidentally block your own newsletter, billing system or practice-management emails. Your IT provider should be able to show you the current records and explain what each does.</p>
+
+<h2>Step 3: filtering, warnings and link protection</h2>
+<ul>
+  <li><strong>Advanced anti-phishing filtering</strong> that checks links and attachments when they arrive and again when they are clicked.</li>
+  <li><strong>External sender tags</strong> so a message from outside the firm is visibly marked, which makes "the managing partner" emails from a free webmail address easier to spot.</li>
+  <li><strong>Impersonation protection</strong> for the names of your lawyers and key staff, so lookalike display names get flagged.</li>
+  <li><strong>Blocked risky attachment types</strong> and a default of opening Office files in protected view.</li>
+</ul>
+<p>Filtering is a safety net, not a guarantee. Some messages will get through, so the next layers matter.</p>
+
+<h2>Step 4: a payment-instruction rule nobody can skip</h2>
+<p>Technology cannot fully solve payment-redirection fraud, because the request often arrives from what looks like a real, trusted account. A written rule can. Consider a policy like this for any trust or general account payment:</p>
+<ul>
+  <li>Any change to payment instructions, or any new payee, is verified by calling a phone number you already had on file, never one supplied in the email.</li>
+  <li>Two people are involved in releasing funds above a threshold the firm sets, in line with the Law Society's trust-accounting rules. <!-- TODO owner: confirm current Law Society trust-accounting requirements before citing specifics. --></li>
+  <li>Urgency is a warning sign. A message that insists the closing will fall apart unless funds move in the next hour is exactly when the call-back matters most.</li>
+  <li>The rule applies to everyone, including partners, and it is written down and rehearsed.</li>
+</ul>
+
+<h2>Step 5: sending sensitive documents safely</h2>
+<p>Plain email attachments are copied to multiple servers and sit in inboxes indefinitely. For sensitive client documents, use a secure client portal, an expiring secure link, or encrypted email, and tell clients how you will send things so they are less likely to trust a fake request. If your practice-management software has a client portal, using it is often the simplest option. Our article on <a href="/blog/law-firm-email-security-bc">vetting cloud practice software against Law Society expectations</a> covers the due diligence questions.</p>
+
+<h2>Step 6: watch for signs of a taken-over mailbox</h2>
+<p>Ask your IT provider to review, and ideally alert on, the following in your email tenancy:</p>
+<ul>
+  <li>New inbox rules that forward mail outside the firm or delete messages automatically.</li>
+  <li>Sign-ins from unusual locations or at unusual times, and sign-in attempts that fail repeatedly.</li>
+  <li>New "connected apps" or delegated mailbox access that nobody approved.</li>
+  <li>Unexpected changes to MFA methods on an account.</li>
+</ul>
+<p>Alerts only help if someone reads them and acts. Agree in advance who gets them and what happens next.</p>
+
+<h2>Step 7: train people with real examples, briefly</h2>
+<p>Annual hour-long training is quickly forgotten. A short, regular reminder with real examples works better: a fake document-share request, a fake invoice, a fake "your mailbox is full" message. Make reporting easy and blame-free. The person who reports a mistake in two minutes is far more valuable than the person who hides it for a week.</p>
+
+<h2>If you think a mailbox has been compromised</h2>
+<ol>
+  <li><strong>Act immediately.</strong> Reset the password, revoke active sessions and confirm MFA methods belong to the user.</li>
+  <li><strong>Remove any rules and connected apps</strong> the user did not create.</li>
+  <li><strong>Work out what was accessed</strong> using audit logs, so you know whose information may be affected.</li>
+  <li><strong>Contact your insurer early.</strong> Cyber coverage often requires prompt notice and may provide support.</li>
+  <li><strong>Consider your reporting duties.</strong> Depending on what was exposed, there may be obligations to the Law Society, to clients and, under privacy legislation, to others. Get legal advice on this rather than guessing. <!-- TODO owner: confirm current Law Society and privacy-law notification guidance before stating specifics. --></li>
+  <li><strong>Warn clients and the bank</strong> if fraudulent payment requests may have been sent in your name.</li>
+</ol>
+
+<h2>A quick checklist</h2>
+<ul>
+  <li>MFA on every mailbox and legacy sign-in disabled.</li>
+  <li>SPF, DKIM and DMARC configured and reviewed.</li>
+  <li>Anti-phishing filtering, external sender tags and impersonation protection on.</li>
+  <li>Written call-back rule for payment instructions, with dual approval above your threshold.</li>
+  <li>A secure method for sending sensitive documents.</li>
+  <li>Alerts on forwarding rules, unusual sign-ins and new app access.</li>
+  <li>Short, regular staff reminders and an easy way to report.</li>
+  <li>A written incident plan, including who to call at your insurer.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<h3>Is Microsoft 365 or Google Workspace secure enough for a law firm?</h3>
+<p>Both can be, when configured properly. The default settings are rarely enough: most firm incidents come from missing MFA, weak policies and unreviewed settings rather than a flaw in the platform itself.</p>
+<h3>Do we need encrypted email?</h3>
+<p>Transport encryption between mail servers is common but not guaranteed end to end. For especially sensitive material, use a secure portal or encrypted message option, and ask your insurer and the Law Society's guidance what they expect.</p>
+<h3>Our firm is only three people. Is this overkill?</h3>
+<p>Small firms are targeted precisely because they have fewer controls. Most of the steps above are settings and habits rather than expensive tools.</p>
+<h3>What does it cost to have an IT provider manage this?</h3>
+<p>Our managed IT support is $95 per user per month, with a minimum of five users and a one-year agreement. Microsoft 365 licences, after-hours support and on-site visits are billed separately; on-site visits are free if a problem cannot be fixed remotely. See <a href="/blog/law-firm-it-support-cost-bc">how much IT support costs for a law firm in BC</a>.</p>
+
+<p>Clearpine Technologies is an Abbotsford-based managed IT provider serving law firms and clinics across the Lower Mainland. See our <a href="/industries/law-firms">IT support for law firms</a> page, or the <a href="/blog/it-requirements-new-law-firm-bc">IT setup checklist for a new BC law firm</a>.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <h2>Want your firm's email checked?</h2>
+        <p>Book a free IT assessment and we'll review how email, client data and devices are protected.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="/free-it-assessment">Book a free IT assessment</a>
+          <a class="btn btn-light" href="tel:+12362583060">Call (236) 258-3060</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Clearpine Technologies</h4>
+        <p>Managed IT, cybersecurity and infrastructure deployment for Canadian clinics and public sector. Abbotsford, British Columbia.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#managed-it">Managed IT support</a></li>
+          <li><a href="/free-it-assessment">Free IT assessment</a></li>
+          <li><a href="/services#cybersecurity">Cybersecurity</a></li>
+          <li><a href="/services#deployment">Hardware deployment</a></li>
+          <li><a href="/services#project-management">Project management</a></li>
+          <li><a href="/services#additional">Additional services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/industries">Industries</a></li>
+          <li><a href="/projects">Case studies</a></li>
+          <li><a href="/capabilities">Capabilities statement</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+12362583060">(236) 258-3060</a></li>
+          <li><a href="mailto:info@clearpinetech.ca">info@clearpinetech.ca</a></li>
+          <li>Abbotsford, BC, Canada &middot; <a href="https://maps.app.goo.gl/QUKnd2QTRrVnYjWF9" rel="noopener">Google Maps</a></li>
+          <li><a href="https://g.page/r/CSSKcdn393goEBM/review" rel="noopener">Leave us a Google review</a></li>
+          <li>Serving the Fraser Valley,<br>Lower Mainland &amp; Canada-wide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Clearpine Technologies Inc. All rights reserved.</span>
+      <span>Corporation number 1818348-1 &middot; BC registration A0143401</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

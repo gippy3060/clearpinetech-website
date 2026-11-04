@@ -246,3 +246,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages.
 2. Brand page: computer-help/dell
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+
+## 2026-11-04
+- Added brand page `/home-support/computer-help/dell/` ("Independent Help with Your Dell Computer, $100 CAD Flat"): large call buttons, problem cards (slow Dell, charging and battery, updates and drivers, new setup, backups, pop-ups), a "won't charge: what to check" checklist, Dell-specific notes (Service Tag, drivers from Dell's own site only, preinstalled Dell apps, BIOS caution, older Dells and Windows 11), honest limits, FAQ, price/CAD note, hours, BC phone note, Dell-only disclaimer top and bottom, never-call-first statement, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Unconfirmed remote tool / payment / follow-up wording omitted; one TODO comment on the page.
+- Linked from the computer-help hub and the Mac page; added to `sitemap.xml`.
+- Target keywords: Dell laptop slow, Dell laptop not charging, Dell Service Tag, Dell new computer setup (CA and US).
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
+2. Brand pages: Lenovo, HP computers, wifi-router-help/brother-free options (D-Link, Linksys, Eero), ISP pages (Rogers, Bell)
+3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"

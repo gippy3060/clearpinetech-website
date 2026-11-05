@@ -175,3 +175,9 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/law-firms`; bumped lastmod for blog index and law-firms.
 - Target keywords: law firm email security BC, lawyer phishing protection, payment redirection fraud law firm.
 - Next steps: link the cost posts from Surrey/Vancouver/Burnaby pages; long blog titles on older posts; stale blog lastmods; EMR/clinic email-security post; owner to resolve TODOs.
+
+## 2026-11-05
+- Audit: 0 errors at start (56 warnings, mostly lastmod); 0 errors at end.
+- Internal linking: added a "More guides" line to `/locations/surrey` (dental cost, allied-health cost, secure e-fax), `/locations/vancouver` (law-firm cost, law-firm email security, secure e-fax) and `/locations/burnaby` (dental cost, veterinary cost, law-firm cost). Bumped sitemap lastmod for those three.
+- Target keywords: supports managed IT/clinic IT/law firm IT Surrey, Vancouver, Burnaby via topical internal links.
+- Next steps: same links on remaining location pages; EMR/clinic email-security post; long blog titles and stale blog lastmods on older posts; owner to resolve TODOs.

@@ -257,3 +257,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
 2. Brand pages: Lenovo, HP computers, wifi-router-help/brother-free options (D-Link, Linksys, Eero), ISP pages (Rogers, Bell)
 3. Blog: "How to tell if a tech support call is a scam", "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?"
+
+## 2026-11-05
+- Added the first home-user blog post `/blog/is-this-tech-support-call-a-scam` ("How to Tell if a Tech Support Call Is a Scam"): plain-language "if it is happening now" steps, seven warning signs, what to do if they already let someone in or paid, how to judge whether a helper is honest (with a note that the reader needn't choose Clearpine), short Q&A, CAFC and ReportFraud.ftc.gov reporting, price/CAD note, hours, BC phone note, never-call-first statement, Microsoft/Apple non-affiliation disclaimer top and bottom, Breadcrumb + BlogPosting JSON-LD, call buttons top and bottom.
+- Linked from the seniors scam section, the virus-removal page and the blog index; added to `sitemap.xml`.
+- Target keywords: is this tech support call a scam, how to tell if a tech support call is real, fake virus pop-up what to do, tech support scam what to do if I paid (CA and US).
+- Owner TODO comment (remote tool, payment methods, follow-up sessions) kept on the post.
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
+2. Blog: "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?", "How to move everything to a new iPhone"
+3. Brand pages: Lenovo, HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)

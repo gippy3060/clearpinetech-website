@@ -181,3 +181,9 @@
 - Internal linking: added a "More guides" line to `/locations/surrey` (dental cost, allied-health cost, secure e-fax), `/locations/vancouver` (law-firm cost, law-firm email security, secure e-fax) and `/locations/burnaby` (dental cost, veterinary cost, law-firm cost). Bumped sitemap lastmod for those three.
 - Target keywords: supports managed IT/clinic IT/law firm IT Surrey, Vancouver, Burnaby via topical internal links.
 - Next steps: same links on remaining location pages; EMR/clinic email-security post; long blog titles and stale blog lastmods on older posts; owner to resolve TODOs.
+
+## 2026-11-06
+- Audit: 0 errors at start (54 warnings, mostly lastmod); 0 errors, 50 warnings at end.
+- Internal linking: added a "More guides" line to `/locations/abbotsford`, `/locations/chilliwack` and `/locations/langley` (all priority A in the keyword map) linking existing cost, managed-vs-in-house and e-fax posts. Bumped sitemap lastmod for those three; fixed stale lastmod on the allied-health cost post.
+- Target keywords: managed IT/IT support Abbotsford, Chilliwack, Langley via topical internal links.
+- Next steps: same links on Mission, Maple Ridge, New Westminster, North Vancouver; EMR/clinic email-security post; long blog titles and stale lastmods on older posts; owner to resolve TODOs.

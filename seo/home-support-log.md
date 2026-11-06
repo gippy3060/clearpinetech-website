@@ -268,3 +268,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
 2. Blog: "Why does my printer say offline?", "Why is my Wi-Fi slow upstairs?", "How to move everything to a new iPhone"
 3. Brand pages: Lenovo, HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)
+
+## 2026-11-06
+- Added blog post `/blog/why-does-my-printer-say-offline` ("Why Does My Printer Say Offline? Simple Fixes"): plain-language steps (restart everything, same Wi-Fi / guest network, Windows "Use Printer Offline" setting, Mac remove and re-add, Windows re-add), reasons it keeps going offline, when to ask for help, price/CAD note, hours, BC phone note, never-call-first statement, Microsoft/Apple non-affiliation disclaimer top and bottom, Breadcrumb + BlogPosting JSON-LD, call buttons top and bottom.
+- Linked from the printer hub and the blog index; added to `sitemap.xml`.
+- Target keywords: why does my printer say offline, printer offline Windows 11, printer offline Mac, printer keeps going offline (CA and US).
+- Owner TODO comment (remote tool, payment methods) kept on the post.
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
+2. Blog: "Why is my Wi-Fi slow upstairs?", "How to move everything to a new iPhone"
+3. Brand pages: Lenovo, HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)

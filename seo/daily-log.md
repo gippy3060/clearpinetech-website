@@ -181,3 +181,9 @@
 - Internal linking: added a "More guides" line to `/locations/surrey` (dental cost, allied-health cost, secure e-fax), `/locations/vancouver` (law-firm cost, law-firm email security, secure e-fax) and `/locations/burnaby` (dental cost, veterinary cost, law-firm cost). Bumped sitemap lastmod for those three.
 - Target keywords: supports managed IT/clinic IT/law firm IT Surrey, Vancouver, Burnaby via topical internal links.
 - Next steps: same links on remaining location pages; EMR/clinic email-security post; long blog titles and stale blog lastmods on older posts; owner to resolve TODOs.
+
+## 2026-11-07
+- Audit: 0 errors at start (53 warnings, mostly lastmod); end: 0 errors (50 warnings).
+- New pillar page `/business-it-support` targeting "business IT support Lower Mainland", "small business IT support BC", "IT support for small business". Uses only service facts already on `/services` and owner-confirmed pricing ($95/user/month, 5-user minimum, 1-year agreement, extras billed separately, free on-site if not remotely fixable, free assessment within 300 km). FAQPage + Service + Breadcrumb JSON-LD. TODO owner comment: response-time targets not stated.
+- Linked from `/services#managed-it` and the Abbotsford, Chilliwack, Langley and Surrey pages; added to `sitemap.xml`; marked done in `seo/keyword-map.md`. Bumped sitemap lastmod for touched pages.
+- Next steps: `/managed-it-services` pillar (MSP / managed service provider wording; Search Console shows Chilliwack/Surrey MSP queries); "managed IT pricing in BC" blog using the benchmark table; per-service pages (Microsoft 365, cybersecurity, co-managed); owner to resolve TODOs.

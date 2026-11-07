@@ -181,3 +181,10 @@
 - Internal linking: added a "More guides" line to `/locations/surrey` (dental cost, allied-health cost, secure e-fax), `/locations/vancouver` (law-firm cost, law-firm email security, secure e-fax) and `/locations/burnaby` (dental cost, veterinary cost, law-firm cost). Bumped sitemap lastmod for those three.
 - Target keywords: supports managed IT/clinic IT/law firm IT Surrey, Vancouver, Burnaby via topical internal links.
 - Next steps: same links on remaining location pages; EMR/clinic email-security post; long blog titles and stale blog lastmods on older posts; owner to resolve TODOs.
+
+## 2026-11-07
+- Audit: 0 errors at start (53 warnings, mostly lastmod); 0 errors at end.
+- New blog post `/blog/clinic-email-security-bc` (~1,150 words): "Clinic email security in BC: protecting patient information in Microsoft 365". Seven steps (MFA, individual accounts, block external forwarding, phishing filtering, SPF/DKIM/DMARC, safer document sharing, staff habits), what not to email, clinic-targeted phishing, compromise-response list, email backup question, checklist. Owner-confirmed pricing/assessment facts only; no statistics. TODO owner: recommended Microsoft 365 licence tiers/add-ons.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics`; bumped lastmod for blog index and medical-clinics.
+- Target keywords: clinic email security BC, Microsoft 365 security for medical clinics, phishing protection for clinics.
+- Next steps: link the new post from remaining location pages; stale blog lastmods and long blog titles on older posts; post on ransomware readiness for clinics; owner to resolve TODOs.

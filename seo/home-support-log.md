@@ -279,3 +279,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
 2. Blog: "Why is my Wi-Fi slow upstairs?", "How to move everything to a new iPhone"
 3. Brand pages: Lenovo, HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)
+
+## 2026-11-09
+- Added blog post `/blog/why-is-my-wifi-slow-upstairs` ("Why Is My Wi-Fi Slow Upstairs? Simple Fixes"): why signal fades between floors, five ordered fixes (restart, test next to router, move router, try 2.4 vs 5 band, extender vs mesh), other causes, honest limits (can't move a router or run a cable), price/CAD note, hours, BC phone note, never-call-first statement, Breadcrumb + BlogPosting JSON-LD, call buttons top and bottom. No brands named, so no brand disclaimer needed.
+- Linked from the Wi-Fi & router hub and the blog index; added to `sitemap.xml`.
+- Target keywords: why is my Wi-Fi slow upstairs, weak Wi-Fi in bedroom, Wi-Fi extender or mesh (CA and US).
+- Owner TODO comment (remote tool, payment methods) kept on the post.
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
+2. Blog: "How to move everything to a new iPhone"
+3. Brand pages: Lenovo, HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)

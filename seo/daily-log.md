@@ -187,3 +187,9 @@
 - Internal linking: added a "More guides" line (three relevant cost/security posts each) to `/locations/` abbotsford, chilliwack, langley, maple-ridge, mission, new-westminster and north-vancouver. Surrey, Vancouver and Burnaby already had it, so all main city pages now link to the vertical posts. Bumped sitemap lastmod for the seven pages.
 - Target keywords: managed IT / clinic IT / law firm IT for each city via topical internal links.
 - Next steps: EMR/clinic email-security post; long titles and stale lastmods on older blog posts; owner to resolve TODOs.
+
+## 2026-11-10 (competitive keywords)
+- Audit: 0 errors at start (47 warnings, mostly lastmod); 0 errors at end.
+- New pillar page `/business-it-support` (Service + FAQPage + Breadcrumb JSON-LD, ~700 words) targeting business IT support Lower Mainland, small business IT support BC, best MSP Lower Mainland (answered honestly as a "how to compare MSPs" checklist, no "best" claim). Owner-confirmed pricing and free-assessment facts only; no response times or stats invented. Links to services, all 10 location pages, 5 industry pages, and the managed-vs-in-house and contractor-vs-MSP posts.
+- Added to `sitemap.xml`; added "Business IT support" to the footer Services list on all pages.
+- Next steps: `/managed-it-services` pillar (managed service provider Lower Mainland/Fraser Valley, outsourced IT); blog "How much does managed IT cost in BC"; link the pillar from location pages in body copy; `services.html` still says "Custom billing for fewer than 5 users" (unconfirmed, same as the earlier cleanup); owner to resolve TODOs.

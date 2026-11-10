@@ -290,3 +290,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
 2. Blog: "How to move everything to a new iPhone"
 3. Brand pages: Lenovo, HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)
+
+## 2026-11-10
+- Added blog post `/blog/how-to-move-everything-to-a-new-iphone` ("How to Move Everything to a New iPhone"): before-you-start checklist, three ways to move (Quick Start phone-to-phone, iCloud backup, Android via Move to iOS), after-the-move checks, common snags, honest limits (no passcode/Apple ID bypass), price/CAD note, hours, BC phone note, never-call-first statement, Apple/Google disclaimer top and bottom, Breadcrumb + BlogPosting JSON-LD.
+- Linked from the phone & tablet page checklist and the blog index; added to `sitemap.xml`.
+- Target keywords: how to move everything to a new iPhone, transfer old iPhone to new iPhone, Android to iPhone transfer (CA and US).
+- Owner TODO comment (remote tool, payment methods) kept on the post.
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
+2. Brand pages: Lenovo, HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)
+3. Later: ring/arlo/nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.

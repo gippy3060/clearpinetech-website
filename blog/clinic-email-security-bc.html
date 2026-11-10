@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Clinic Email Security in BC | Clearpine</title>
+<meta name="description" content="Practical email security for BC clinics: MFA, spoofing protection, misdirected-message controls and what to send outside ordinary email.">
+<link rel="canonical" href="https://clearpinetech.ca/blog/clinic-email-security-bc">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#123b2f">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Clearpine Technologies">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://clearpinetech.ca/blog/clinic-email-security-bc">
+<meta property="og:title" content="Clinic Email Security in BC">
+<meta property="og:description" content="Practical email security for BC clinics: MFA, spoofing protection, misdirected-message controls and what to send outside ordinary email.">
+<meta property="og:image" content="https://clearpinetech.ca/img/og-clearpine.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/css/styles.css" as="style">
+<link rel="stylesheet" href="/css/styles.css">
+<script defer src="/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://clearpinetech.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://clearpinetech.ca/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "Clinic email security in BC: protecting patient information in the inbox", "item": "https://clearpinetech.ca/blog/clinic-email-security-bc" }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://clearpinetech.ca/blog/clinic-email-security-bc#article",
+      "headline": "Clinic email security in BC: protecting patient information in the inbox",
+      "description": "Practical email security for BC clinics: MFA, spoofing protection, misdirected-message controls and what to send outside ordinary email.",
+      "url": "https://clearpinetech.ca/blog/clinic-email-security-bc",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://clearpinetech.ca/blog/clinic-email-security-bc" },
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-10",
+      "inLanguage": "en-CA",
+      "image": "https://clearpinetech.ca/img/og-clearpine.png",
+      "author": { "@id": "https://clearpinetech.ca/#organization" },
+      "publisher": { "@id": "https://clearpinetech.ca/#organization" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="Clearpine Technologies logo" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="9" fill="#123b2f"/>
+        <path d="M20 8l6.5 11h-3.6L27 26.5h-4.4L20 32l-2.6-5.5H13L17.1 19h-3.6L20 8z" fill="#2d8a6b"/>
+        <rect x="18.7" y="27" width="2.6" height="6" rx="1.1" fill="#c9a227"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Clearpine</span>
+        <span class="brand-tag">Technologies</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/industries">Industries</a></li>
+        <li><a href="/projects">Case studies</a></li>
+        <li><a href="/capabilities">Capabilities</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="nav-phone"><a href="tel:+12362583060">(236) 258-3060</a></li>
+        <li><a class="btn btn-primary" href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li>Clinic email security in BC: protecting patient information in the inbox</li>
+        </ol>
+      </nav>
+      <h1>Clinic email security in BC: protecting patient information in the inbox</h1>
+      <p class="post-meta">Medical clinics &middot; <time datetime="2026-11-10">10 November 2026</time></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <article class="post-content">
+
+<p>Most clinic owners think of patient privacy in terms of the EMR. In practice, a lot of patient information ends up in email: referral letters, lab results forwarded to a specialist, a patient's photo of a rash, a message from the billing clerk to a colleague. Email is also the easiest way into a clinic network, because one convincing message can hand an attacker a staff password. This guide sets out practical email controls for a BC clinic, whether you are a family practice, a dental office, a physiotherapy clinic or a counselling practice. It is general information, not legal advice. Check current guidance from your regulatory college, Doctors of BC (or your own association) and the BC Office of the Information and Privacy Commissioner for obligations that apply to you.</p>
+
+<h2>Why clinic email deserves its own plan</h2>
+<p>Under BC's Personal Information Protection Act (PIPA) and, for some organizations, PIPEDA, a private clinic must make reasonable security arrangements to protect personal information in its custody. "Reasonable" depends on how sensitive the information is, and health information is at the sensitive end. Email that carries it should not be treated like a casual note. <!-- TODO owner: confirm current PIPA/PIPEDA applicability wording and any college-specific email guidance before citing specifics. --></p>
+<p>Three risks come up again and again in small practices:</p>
+<ol>
+  <li><strong>Mailbox takeover.</strong> A staff member enters their password on a fake sign-in page. The attacker reads the inbox, sets a forwarding rule and uses the account to send more phishing to patients and colleagues.</li>
+  <li><strong>Misdirected email.</strong> The wrong recipient is auto-completed and a patient's referral or invoice goes to a stranger. This is a privacy incident even though nobody attacked you.</li>
+  <li><strong>Shared logins and personal accounts.</strong> A single front-desk mailbox with a shared password, or staff forwarding work mail to personal webmail, leaves you unable to say who saw what.</li>
+</ol>
+
+<h2>Step 1: individual accounts with multi-factor authentication</h2>
+<p>Every person who touches clinic email should have their own account, protected by multi-factor authentication (MFA). Prefer an authenticator app or a hardware key over text-message codes where you can. Include locums, part-time staff and rented-room practitioners if they use clinic mailboxes. Shared mailboxes (for example, a reception or referrals address) should be true shared mailboxes that individuals open with their own sign-in, not a single password passed around.</p>
+<p>Also switch off legacy sign-in methods that bypass MFA. Many older Microsoft 365 and Google Workspace set-ups still allow them.</p>
+
+<h2>Step 2: decide what must never travel by ordinary email</h2>
+<p>The simplest rule a clinic can write is a short list. For example:</p>
+<ul>
+  <li>Full health records, imaging and lab reports go through the EMR's messaging feature, a secure portal or a secure e-fax service, not as ordinary attachments. See our guide to <a href="/blog/secure-efax-bc-clinics">secure e-fax for BC clinics</a>.</li>
+  <li>Email to patients is limited to appointment logistics unless the patient has been told the risks and has agreed to receive more by email. Keep a note of that consent.</li>
+  <li>Subject lines never contain a diagnosis or a full name together with a health detail.</li>
+</ul>
+<p>Where you do send something sensitive by email, use encryption your provider supports and confirm the recipient address first. <!-- TODO owner: confirm which encrypted-email options Clearpine sets up for clinics before naming any. --></p>
+
+<h2>Step 3: stop your domain from being spoofed</h2>
+<p>Patients and referring offices should be able to trust that a message "from" your clinic really is from you. Three DNS records, SPF, DKIM and DMARC, tell receiving servers which senders are legitimate and what to do with the rest. They are a one-time setup that needs periodic review, particularly when you add a new tool that sends mail, such as an appointment-reminder service or a newsletter platform. Without them, anyone can send a convincing message in your clinic's name asking patients to "confirm their details" on a fake page.</p>
+
+<h2>Step 4: filtering and warnings that help busy staff</h2>
+<ul>
+  <li><strong>Link and attachment checking</strong> on delivery and again when clicked.</li>
+  <li><strong>External-sender banners</strong> so mail from outside the clinic is visibly marked.</li>
+  <li><strong>Impersonation protection</strong> for the names of your physicians, dentists, practice manager and office staff.</li>
+  <li><strong>Protected view</strong> for Office files from outside the clinic, and blocking of risky attachment types.</li>
+</ul>
+<p>Front-desk staff handle dozens of messages a day between patients. A few well-chosen filters take decisions away from them rather than adding to their load.</p>
+
+<h2>Step 5: guard against misdirected messages</h2>
+<p>Most privacy mistakes in clinic email are small and human. Practical controls include turning off or limiting address auto-complete for external recipients, using a short delay before sending so errors can be recalled, and a standing rule to confirm the recipient before attaching anything that contains health information. If a message does go to the wrong person, have a written procedure: ask the recipient to delete it, record what was sent, to whom and when, and follow your breach-assessment process. <!-- TODO owner: confirm current breach-notification guidance (BC PIPA / PIPEDA / college) before stating specifics. --></p>
+
+<h2>Step 6: keep an eye on the signs of a taken-over mailbox</h2>
+<ul>
+  <li>New inbox rules that forward mail outside the clinic or delete messages.</li>
+  <li>Sign-ins from unusual places or at odd hours, and repeated failed attempts.</li>
+  <li>New connected apps or delegated access nobody approved.</li>
+  <li>Changes to MFA methods on an account.</li>
+</ul>
+<p>Alerts for these events turn a quiet, long-running compromise into something you hear about quickly.</p>
+
+<h2>Step 7: short, regular staff reminders</h2>
+<p>A once-a-year lecture does little. Five minutes at a staff meeting showing a real phishing message, such as a fake "fax received" notice, a fake invoice or a fake "shared document" link, works better. Make it easy to report a suspicious message and never criticise the person who reports one. Remind staff that clinics are targeted with messages that mimic fax services, courier notices and College or insurer communications.</p>
+
+<h2>Retention and departing staff</h2>
+<p>Email is a record. Decide how long clinic email is kept and where, and make sure that staff who leave have their accounts disabled the same day. Do not let former employees keep access through a personal phone. Keep mailbox backups under the same retention thinking as the rest of your patient data; our <a href="/blog/emr-backup-best-practices-bc-clinics">EMR backup best practices</a> article covers backups for the clinical side.</p>
+
+<h2>A quick checklist</h2>
+<ul>
+  <li>Individual accounts and MFA for every person, with legacy sign-in off.</li>
+  <li>Written rule on what can and cannot be sent by ordinary email.</li>
+  <li>SPF, DKIM and DMARC set up and reviewed.</li>
+  <li>Link checking, external-sender banners and impersonation protection on.</li>
+  <li>Controls and a procedure for misdirected messages.</li>
+  <li>Alerts on forwarding rules, unusual sign-ins and new app access.</li>
+  <li>Short, regular staff reminders and an easy way to report.</li>
+  <li>Same-day account removal when someone leaves.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<h3>Is Microsoft 365 or Google Workspace acceptable for a BC clinic?</h3>
+<p>Mainstream business platforms can be configured to a good standard, but defaults are not enough. Where the data is stored, who can sign in, how it is backed up and what your agreement says all matter. Ask your provider to document these choices. <!-- TODO owner: confirm whether Clearpine reviews data-residency questions for clinics and how. --></p>
+<h3>Can we email patients at all?</h3>
+<p>Many clinics do for scheduling, with the patient's agreement and with limits on content. Your regulatory college and association may have specific expectations, so check them and write down your policy.</p>
+<h3>Our clinic only has a handful of staff. Is this overkill?</h3>
+<p>Small clinics are targeted because they have fewer controls. Most of the steps here are settings and habits rather than expensive products.</p>
+<h3>What does it cost to have an IT provider manage this?</h3>
+<p>Our managed IT support is $95 per user per month, with a minimum of five users and a one-year agreement, delivered remotely during business hours. Microsoft 365 licences, after-hours support and on-site visits are billed separately; on-site visits are free if a problem cannot be fixed remotely. See <a href="/blog/five-clinic-security-gaps">five common clinic security gaps</a> for more on where small practices are exposed.</p>
+
+<p>Clearpine Technologies is an Abbotsford-based managed IT provider serving clinics and law firms across the Lower Mainland. See our <a href="/industries/medical-clinics">IT support for medical clinics</a>, <a href="/industries/dental">dental</a> and <a href="/industries/allied-health">allied health</a> pages, or read about <a href="/blog/pipeda-compliance-clinic-it">PIPEDA and clinic IT</a>.</p>
+
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <h2>Want your clinic's email checked?</h2>
+        <p>Book a free IT assessment and we'll review how email, patient data and devices are protected.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="/free-it-assessment">Book a free IT assessment</a>
+          <a class="btn btn-light" href="tel:+12362583060">Call (236) 258-3060</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Clearpine Technologies</h4>
+        <p>Managed IT, cybersecurity and infrastructure deployment for Canadian clinics and public sector. Abbotsford, British Columbia.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#managed-it">Managed IT support</a></li>
+          <li><a href="/free-it-assessment">Free IT assessment</a></li>
+          <li><a href="/services#cybersecurity">Cybersecurity</a></li>
+          <li><a href="/services#deployment">Hardware deployment</a></li>
+          <li><a href="/services#project-management">Project management</a></li>
+          <li><a href="/services#additional">Additional services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/industries">Industries</a></li>
+          <li><a href="/projects">Case studies</a></li>
+          <li><a href="/capabilities">Capabilities statement</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+12362583060">(236) 258-3060</a></li>
+          <li><a href="mailto:info@clearpinetech.ca">info@clearpinetech.ca</a></li>
+          <li>Abbotsford, BC, Canada &middot; <a href="https://maps.app.goo.gl/QUKnd2QTRrVnYjWF9" rel="noopener">Google Maps</a></li>
+          <li><a href="https://g.page/r/CSSKcdn393goEBM/review" rel="noopener">Leave us a Google review</a></li>
+          <li>Serving the Fraser Valley,<br>Lower Mainland &amp; Canada-wide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Clearpine Technologies Inc. All rights reserved.</span>
+      <span>Corporation number 1818348-1 &middot; BC registration A0143401</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

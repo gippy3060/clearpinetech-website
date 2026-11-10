@@ -187,3 +187,10 @@
 - Internal linking: added a "More guides" line (three relevant cost/security posts each) to `/locations/` abbotsford, chilliwack, langley, maple-ridge, mission, new-westminster and north-vancouver. Surrey, Vancouver and Burnaby already had it, so all main city pages now link to the vertical posts. Bumped sitemap lastmod for the seven pages.
 - Target keywords: managed IT / clinic IT / law firm IT for each city via topical internal links.
 - Next steps: EMR/clinic email-security post; long titles and stale lastmods on older blog posts; owner to resolve TODOs.
+
+## 2026-11-10
+- Audit: 0 errors at start (47 warnings, mostly lastmod); 0 errors at end.
+- New blog post `/blog/clinic-email-security-bc` (~1,250 words): "Clinic email security in BC: protecting patient information in the inbox". Seven steps (individual accounts + MFA, what must not go by ordinary email, SPF/DKIM/DMARC, filtering, misdirected-message controls, takeover monitoring, staff reminders), retention/departing staff, checklist, FAQ. Owner-confirmed pricing only; no statistics. TODO owner comments: PIPA/PIPEDA and college email guidance, encrypted-email options, data-residency review, breach-notification wording.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics` (new bullet); bumped lastmod for blog index and medical-clinics.
+- Target keywords: clinic email security BC, medical clinic phishing protection, PIPA email patient information.
+- Next steps: long titles and stale lastmods on older blog posts; physiotherapy/counselling-specific email notes; owner to resolve TODOs.

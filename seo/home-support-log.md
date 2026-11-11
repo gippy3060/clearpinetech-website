@@ -301,3 +301,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
 2. Brand pages: Lenovo, HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)
 3. Later: ring/arlo/nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.
+
+## 2026-11-11
+- Added brand page `/home-support/computer-help/lenovo/` ("Independent Help with Your Lenovo Computer, $100 CAD Flat"): large call buttons with hours, problem cards (battery stops partway, camera shows black, function keys, slow Lenovo, new setup, pop-ups), a "battery stops at 60 percent or won't charge" checklist (Conservation Mode / charge threshold in Lenovo Vantage, socket, USB-C charging port, charger wattage), Lenovo-specific notes (Vantage, camera privacy cover, Fn + Esc function lock, S/N and MT sticker, drivers from Lenovo only, IdeaPad pinhole recovery button caution), honest limits, FAQ, price/CAD note, hours, BC phone note, family-member note, Lenovo/Dell/Microsoft disclaimer top and bottom, never-call-first statement, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Linked from the computer-help hub and the Dell page (Dell disclaimers updated to name Lenovo too); added to `sitemap.xml` (hub and Dell lastmod bumped).
+- Owner TODO comment (remote tool, payment methods, multi-session) kept on the page.
+- Target keywords: Lenovo laptop battery stuck at 60 percent, Lenovo camera not working black screen, Lenovo Fn keys, Lenovo laptop slow, ThinkPad / IdeaPad help (CA and US).
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
+2. Brand pages: HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)
+3. Later: Ring/Arlo/Nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.

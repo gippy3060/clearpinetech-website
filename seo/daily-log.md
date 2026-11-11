@@ -194,3 +194,10 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics` (new bullet); bumped lastmod for blog index and medical-clinics.
 - Target keywords: clinic email security BC, medical clinic phishing protection, PIPA email patient information.
 - Next steps: long titles and stale lastmods on older blog posts; physiotherapy/counselling-specific email notes; owner to resolve TODOs.
+
+## 2026-11-11
+- Audit: 0 errors at start (46 warnings, mostly lastmod); 0 errors at end (44 warnings).
+- New pillar page `/business-it-support` (Service + Offer + FAQPage + Breadcrumb JSON-LD): "Small Business IT Support in the Lower Mainland, BC". What's included, owner-confirmed pricing ($95/user/month, min 5, 1-year, M365/after-hours/on-site extra, on-site free if not remotely fixable, custom billing under 5 users as on services.html), a worked 10-user example (plain multiplication), an honest "How to choose the best MSP in the Lower Mainland" checklist (no "we are the best" claims), industries, all city pages, getting-started steps, FAQ. TODO owner comment: whether to publish written response-time targets.
+- Internal links to the new page from home (managed IT card), `services.html` (#managed-it) and the `/locations/` pages for abbotsford, surrey, langley, chilliwack, vancouver. Added to `sitemap.xml`; bumped lastmod for those pages.
+- Target keywords: small business IT support BC/Lower Mainland, business IT support, best MSP Lower Mainland, IT support for small business.
+- Next steps: `/managed-it-services` pillar (managed IT services Lower Mainland, MSP Fraser Valley, outsourced IT department); "Managed IT pricing in BC" blog post using the competitor benchmarks; link the new pillar from remaining location pages; owner to resolve TODOs.

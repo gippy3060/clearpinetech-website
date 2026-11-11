@@ -194,3 +194,12 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/medical-clinics` (new bullet); bumped lastmod for blog index and medical-clinics.
 - Target keywords: clinic email security BC, medical clinic phishing protection, PIPA email patient information.
 - Next steps: long titles and stale lastmods on older blog posts; physiotherapy/counselling-specific email notes; owner to resolve TODOs.
+
+## 2026-11-11
+- Audit: 0 errors at start (46 warnings, mostly lastmod); 0 errors at end (43 warnings).
+- New vertical landing page `/industries/optometry` (~1,840 words): "IT support for optometry clinics in BC". Covers diagnostic equipment (OCT, fundus/retinal cameras, visual fields, auto-refractors) and EMR integration, image-archive storage and backups, dispensary/POS network segmentation, privacy safeguards, secure referrals/e-fax, ransomware readiness, new builds. Uses the existing on-site fact (founder's optometry builds up to $40,000, linked case study) and owner-confirmed pricing/assessment facts only. Service + FAQPage + BreadcrumbList JSON-LD. TODO owner comments: which optometry EMR products the team has supported; how shared pretest/dispensary logins and part-time optometrists count as users.
+- Linked from `industries.html` (new button), medical-clinics, dental, allied-health and veterinary "Also see" lists, the healthcare list on all 10 main location pages, and the optometry setup-cost post.
+- Title fixes: `industries.html` (73 → 58 chars, now general since optometry has its own page) and `/blog/optometry-clinic-it-setup-cost` (93 → 55 chars).
+- Sitemap: added `/industries/optometry`; bumped lastmod for the hub, the five industry pages touched, the optometry post and the 10 location pages.
+- Target keywords: optometry clinic IT support BC, optometrist IT support Vancouver/Surrey/Abbotsford, OCT EMR integration, eye clinic managed IT.
+- Next steps: long titles and stale lastmods on remaining healthcare blog posts (pipeda-compliance-clinic-it, five-clinic-security-gaps); optometry-specific blog post (e.g. backing up OCT/retinal image archives); `/industries/counselling` or physiotherapy-specific page; owner to resolve TODOs.

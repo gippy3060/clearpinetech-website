@@ -323,3 +323,18 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
 2. Brand pages: D-Link, Linksys, Eero, ISP pages (Rogers, Bell); computers: ASUS, Acer, Microsoft Surface
 3. Later: Ring/Arlo/Nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.
+
+## 2026-11-12 (second run, on owner request: Microsoft 365 / O365)
+- Added service page `/home-support/microsoft-365-help/` ("Independent Help with Microsoft 365 at Home, $100 CAD Flat"): mentions the old "Office 365" name, problem cards (Unlicensed Product, new computer install, Outlook, OneDrive full, Family sharing, renewal scams), a "before you call" checklist (Microsoft account email, phone for codes, subscription vs one-time purchase; work/school accounts belong to their IT staff; small businesses pointed to /services), plain-words notes (only use microsoft.com / office.com, free web versions exist), what remote support can't do (no licence sales, no piracy, no account recovery without details, no refunds), FAQ, price/CAD, hours, BC phone note, never-call-first statement, Microsoft/Apple disclaimer top and bottom, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Added three home-user blog posts (Breadcrumb + BlogPosting JSON-LD, call buttons top and bottom, Microsoft disclaimer top and bottom):
+  - `/blog/microsoft-365-unlicensed-product`: "Word or Excel Says 'Unlicensed Product'? How to Fix It"
+  - `/blog/onedrive-storage-full`: "OneDrive or Outlook Storage Full? What to Do" (sync-delete warning, safe clean-up order)
+  - `/blog/microsoft-365-renewal-email-scam`: "Is That Microsoft 365 Renewal Email a Scam? How to Tell" (callback scam, safe check, CAFC / ReportFraud.ftc.gov)
+- Linked from the home-support hub, computer-help, email-help, virus-removal and the blog index; all four URLs added to `sitemap.xml`. Kept to home users only; business Microsoft 365 stays with the MSP routines.
+- Target keywords (CA and US): Microsoft 365 help for home, Office 365 support home user, Word unlicensed product, Excel unlicensed product fix, OneDrive storage full, Outlook.com storage full, Microsoft 365 renewal email scam, fake Microsoft invoice email.
+- Owner TODO comments (remote tool, payment methods, multi-session) kept on all four pages.
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording (email-help and virus-removal still say "up to two remote sessions").
+2. Possible Microsoft 365 follow-ups: "Outlook keeps asking for my password", "How to install Microsoft 365 on a new computer", "Microsoft 365 Family sharing explained".
+3. Brand pages: D-Link, Linksys, Eero, ISP pages (Rogers, Bell); computers: ASUS, Acer, Microsoft Surface.

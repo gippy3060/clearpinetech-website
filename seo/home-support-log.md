@@ -312,3 +312,14 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
 2. Brand pages: HP computers, D-Link, Linksys, Eero, ISP pages (Rogers, Bell)
 3. Later: Ring/Arlo/Nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.
+
+## 2026-11-12
+- Added brand page `/home-support/computer-help/hp/` ("Independent Help with Your HP Computer, $100 CAD Flat"): large call buttons with hours, problem cards (touchpad stopped working, slow HP, updates and drivers, new setup, hardware test, pop-ups), an "HP laptop touchpad not working" checklist (top-left corner double-tap light, touchpad key, Windows Touchpad setting, driver from HP only, swollen-battery warning), HP-specific notes (HP Support Assistant, S/N and P/N sticker, HP PC Hardware Diagnostics via Esc menu, caution on recovery options, trial software), honest limits, FAQ, price/CAD note, hours, BC phone note, family-member note, HP/Dell/Lenovo/Microsoft disclaimer top and bottom, never-call-first statement, Service + Offer + FAQPage + Breadcrumb JSON-LD. Points HP printer visitors to the HP printer page.
+- Linked from the computer-help hub, Dell, Lenovo and HP printer pages (Dell and Lenovo disclaimers updated to name HP); added to `sitemap.xml` (lastmod bumped on the linking pages).
+- Owner TODO comment (remote tool, payment methods, multi-session) kept on the page.
+- Target keywords: HP laptop touchpad not working, HP laptop slow, HP Support Assistant, HP serial number, HP hardware diagnostics, HP Pavilion / EliteBook help (CA and US).
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
+2. Brand pages: D-Link, Linksys, Eero, ISP pages (Rogers, Bell); computers: ASUS, Acer, Microsoft Surface
+3. Later: Ring/Arlo/Nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.

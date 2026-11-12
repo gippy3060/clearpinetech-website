@@ -203,3 +203,12 @@
 - Sitemap: added `/industries/optometry`; bumped lastmod for the hub, the five industry pages touched, the optometry post and the 10 location pages.
 - Target keywords: optometry clinic IT support BC, optometrist IT support Vancouver/Surrey/Abbotsford, OCT EMR integration, eye clinic managed IT.
 - Next steps: long titles and stale lastmods on remaining healthcare blog posts (pipeda-compliance-clinic-it, five-clinic-security-gaps); optometry-specific blog post (e.g. backing up OCT/retinal image archives); `/industries/counselling` or physiotherapy-specific page; owner to resolve TODOs.
+
+## 2026-11-12
+- Audit: 0 errors at start (42 warnings, mostly lastmod); 0 errors at end (39 warnings).
+- New vertical landing page `/industries/counselling` (~1,700 words of content): "IT support for counselling and psychology practices in BC". Written for group practices of counsellors, psychologists, social workers and therapists: cloud practice-software account security and roles, private video sessions, encrypted managed devices, home offices, shared-suite networks, email, contractor on/offboarding, backups for files outside the platform, ransomware readiness. Owner-confirmed pricing/assessment facts only; Service + FAQPage + BreadcrumbList JSON-LD. TODO owner comments: which counselling practice-management platforms the team has supported (Jane, Owl Practice, SimplePractice named only as examples in the comment); how part-time/contract clinicians count as users and whether there is any option for solo practitioners below the 5-user minimum.
+- Linked from `industries.html` (new button), allied-health (in-body pointer + Also see), medical-clinics, dental, optometry and veterinary "Also see" lists, the healthcare list on all 10 main location pages (one new list item each, no other location content changed), and the allied-health cost post's sidebar.
+- Title fix: `/blog/pipeda-compliance-clinic-it` (76 → 63 chars).
+- Sitemap: added `/industries/counselling`; bumped lastmod for every page touched.
+- Target keywords: IT support counselling practice BC, psychologist IT support Vancouver, therapy practice cybersecurity, secure telehealth setup counsellors, managed IT for group counselling practice.
+- Next steps: `five-clinic-security-gaps` stale lastmod/review; optometry blog post (backing up OCT/retinal image archives); physiotherapy-specific page or post; counselling blog post (e.g. "Securing a home office for BC counsellors"); owner to resolve TODOs.

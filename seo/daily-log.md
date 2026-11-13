@@ -212,3 +212,11 @@
 - Sitemap: added `/industries/counselling`; bumped lastmod for every page touched.
 - Target keywords: IT support counselling practice BC, psychologist IT support Vancouver, therapy practice cybersecurity, secure telehealth setup counsellors, managed IT for group counselling practice.
 - Next steps: `five-clinic-security-gaps` stale lastmod/review; optometry blog post (backing up OCT/retinal image archives); physiotherapy-specific page or post; counselling blog post (e.g. "Securing a home office for BC counsellors"); owner to resolve TODOs.
+
+## 2026-11-13
+- Audit: 0 errors at start (39 warnings, mostly lastmod); 0 errors at end (38 warnings).
+- New blog post `/blog/counsellor-home-office-security-bc` (~1,800 words): "How to secure a home office for BC counsellors and therapists". Seven steps (practice-only encrypted managed device, keeping records in the practice platform/no personal cloud sync/MFA, home network and router basics with guest network, physical room privacy, video platform settings, email/phone habits, lost-laptop/break-in plan), clinician checklist that doubles as a contractor device standard, FAQ. Owner-confirmed pricing/assessment facts only; no statistics or vendor recommendations. TODO owner comments: college/association home-practice guidance to cite, whether a home-office firewall/access-point package is offered and its price, BC breach-notification specifics.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/counselling` ("Safe home offices" bullet); bumped lastmod for blog index and counselling page.
+- Sitemap fix: `/blog/five-clinic-security-gaps` lastmod 2026-09-22 → 2026-10-11 (matches its last commit; clears an audit warning).
+- Target keywords: counsellor home office security BC, therapist working from home privacy, secure telehealth home office, PIPA home office counselling.
+- Next steps: optometry blog post (backing up OCT/retinal image archives); physiotherapy-specific page or post; stale lastmods on `emr-backup-best-practices-bc-clinics` and `it-requirements-new-law-firm-bc`; owner to resolve TODOs.

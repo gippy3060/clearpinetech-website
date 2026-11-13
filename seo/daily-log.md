@@ -220,3 +220,12 @@
 - Sitemap fix: `/blog/five-clinic-security-gaps` lastmod 2026-09-22 → 2026-10-11 (matches its last commit; clears an audit warning).
 - Target keywords: counsellor home office security BC, therapist working from home privacy, secure telehealth home office, PIPA home office counselling.
 - Next steps: optometry blog post (backing up OCT/retinal image archives); physiotherapy-specific page or post; stale lastmods on `emr-backup-best-practices-bc-clinics` and `it-requirements-new-law-firm-bc`; owner to resolve TODOs.
+
+## 2026-11-13 (competitive keywords)
+- Audit: 0 errors at start (40 warnings, mostly lastmod); 0 errors at end (36 warnings, 76 pages).
+- New pillar page `/business-it-support` (~1,550 words): "Small business IT support in the Lower Mainland". Covers what's included, who it's for (break-fix switchers, unhappy-with-current-MSP, co-managed, regulated practices), owner-confirmed pricing ($95/user/mo, 5-user min, 1-yr, custom billing under 5 users, on-site free if not remotely fixable), market price range from the keyword map (~$70–$200/user/mo, no competitor named), an honest "How to choose the best MSP in the Lower Mainland" checklist (no "best" claim), getting-started steps, and service area (same-day on-site wording reused from the home page). Service (with Offer) + FAQPage + BreadcrumbList JSON-LD. Checked at 390px: no horizontal scroll, JSON-LD valid.
+- Internal links: services.html (managed IT section), index.html (service-area section), one new line on all 10 main location pages ("Not a clinic or law firm?..."), and `/blog/managed-it-vs-inhouse-smb`.
+- Search Console fix: `/blog/managed-it-vs-inhouse-smb` (13 impressions, 0 clicks) title 102 → 59 chars ("In-House IT vs. Managed IT Services: Costs Compared"), new description, added pricing paragraph + link to the pillar, CTA now points to the free assessment; dateModified bumped.
+- Sitemap: added `/business-it-support`; bumped lastmod for home, services, the blog post and the 10 location pages.
+- Target keywords: small business IT support Lower Mainland, business IT support BC, best MSP Lower Mainland, managed IT services Fraser Valley, how to choose an MSP.
+- Next steps: `/managed-it-services` pillar (A, todo) or merge intent into this page; strengthen `/locations/chilliwack` (Search Console A); `/services/microsoft-365` and `/services/cybersecurity` pages; "Managed IT pricing in BC" blog post; owner to confirm response-time numbers before publishing them.

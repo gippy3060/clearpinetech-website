@@ -323,3 +323,15 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Owner to confirm remote tools / payment / two-session wording; then reconcile all pages (Mac page still names LogMeIn and two sessions).
 2. Brand pages: D-Link, Linksys, Eero, ISP pages (Rogers, Bell); computers: ASUS, Acer, Microsoft Surface
 3. Later: Ring/Arlo/Nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.
+
+## 2026-11-13
+- Added ISP page `/home-support/wifi-router-help/rogers/` ("Independent Help with Your Rogers Wi-Fi, $100 CAD Flat"), the first Canadian ISP page. It has large call buttons with hours and cards for six problems: slow or dropping Wi-Fi, weak rooms, finding or changing the password, reconnecting devices, moving from Shaw, and using your own router in bridge mode. A "slow or not working" checklist covers restarting the gateway, checking for an outage, testing next to the gateway, placement and the password sticker. Rogers notes cover the gateway being modem plus router, Rogers pods, former Shaw customers in the four western provinces getting Rogers equipment, and the fact that we never ask for the Rogers account password. Also on the page: honest limits, a 7-question FAQ, a warning about callers posing as Rogers (with a link to the CAFC and the scam blog post), price with the CAD note, hours, the BC phone note for US family, the family-member note, the Rogers/Shaw disclaimer at top and bottom, the never-call-first statement at top and bottom, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: exact app names, gateway model names and light colours (these vary and change). The page says "the Rogers app" in general terms.
+- Linked from the Canadian ISP card on the Wi-Fi & router hub. Added to `sitemap.xml` and bumped the hub's lastmod.
+- Owner TODO comment (remote tool, payment methods, follow-up sessions) is on the page.
+- Target keywords (CA): Rogers Wi-Fi slow, Rogers Wi-Fi password, Rogers gateway restart, Rogers pods weak signal, Rogers bridge mode own router, Shaw to Rogers Wi-Fi. Cities: Toronto, Ottawa, Calgary, Edmonton, Vancouver.
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording, then reconcile all pages. The Xfinity and Mac pages still name Quick Assist/LogMeIn, and Xfinity still says "all major credit and debit cards" and "up to two sessions".
+2. Canadian ISP pages: Bell, Telus, Videotron. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
+3. Later: Ring/Arlo/Nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.

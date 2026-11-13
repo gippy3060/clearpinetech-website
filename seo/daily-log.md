@@ -212,3 +212,12 @@
 - Sitemap: added `/industries/counselling`; bumped lastmod for every page touched.
 - Target keywords: IT support counselling practice BC, psychologist IT support Vancouver, therapy practice cybersecurity, secure telehealth setup counsellors, managed IT for group counselling practice.
 - Next steps: `five-clinic-security-gaps` stale lastmod/review; optometry blog post (backing up OCT/retinal image archives); physiotherapy-specific page or post; counselling blog post (e.g. "Securing a home office for BC counsellors"); owner to resolve TODOs.
+
+## 2026-11-13
+- Audit: 0 errors at start (39 warnings, mostly lastmod/long titles on pages owned by other routines); 0 errors at end (39 warnings).
+- New blog post `/blog/law-firm-remote-work-security-bc` (~1,900 words): "Remote work security for BC law firms: a practical checklist". Covers firm-issued vs personal devices, full-disk encryption and device management, MFA, VPN/remote desktop vs cloud access (never exposing RDP), home network baseline, printing/paper/confidential calls, keeping files out of personal accounts, backups outside the practice platform, lost-device and departing-staff steps, a one-page policy, checklist and FAQ. Owner-confirmed pricing/assessment facts only; no statistics. TODO owner comments: specific Law Society of BC remote-work/cloud resources to link, notification guidance, and whether encryption/device management/endpoint protection are included in the $95 plan.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/law-firms` and the law-firm email-security post.
+- Fix: `/blog/law-firm-email-security-bc` linked to itself with "vetting cloud practice software" anchor text; now points to `/blog/clio-law-society-bc-security`.
+- Sitemap lastmod bumped for blog index, law-firms and the email-security post.
+- Target keywords: law firm remote work security BC, lawyers working from home confidentiality, law firm VPN/laptop encryption, Law Society BC remote work.
+- Next steps: link the remote-work post from Vancouver/Surrey location pages; optometry blog post (backing up OCT/retinal image archives); counselling home-office post; `five-clinic-security-gaps` stale lastmod/review; owner to resolve TODOs.

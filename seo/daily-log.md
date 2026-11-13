@@ -228,3 +228,11 @@
 - Sitemap: added `/business-it-support` (priority 0.9); bumped lastmod for every page touched. Keyword map row marked done.
 - Target keywords: business IT support Lower Mainland, small business IT support BC/Abbotsford/Surrey, best MSP Lower Mainland, managed service provider Fraser Valley, how to choose an MSP.
 - Next steps (competitive): `/managed-it-services` pillar (MSP Lower Mainland / Fraser Valley head terms, outsourced IT department); strengthen `/locations/chilliwack` and `/locations/surrey` for the Search Console queries; `/services/microsoft-365` and `/services/cybersecurity` pages; "Managed IT pricing in BC" blog post; owner to confirm whether custom billing under 5 users is still offered (removed from industry/location pages on 2026-11-02 but still on services.html).
+
+## 2026-11-13 (owner request: more home and business keywords)
+- Rebased the 2026-11-12 `/business-it-support` work onto main (conflicts in this log and sitemap resolved, both entries kept).
+- `/business-it-support`: new "Business IT services we cover" section (help desk/remote IT support, on-site support, computer and laptop support, network/Wi-Fi/firewall, email and Microsoft 365 incl. migrations, cybersecurity, backup and recovery, onboarding/offboarding, printers, VoIP, office moves, IT consulting). Every item is backed by services.html or existing pages. Two new FAQs (visible + JSON-LD): "Do you offer IT support near me?" and "Do you fix home computers too?".
+- `/home-support/` hub: new "Popular requests" section that links all 11 home problem areas, brand computer pages and 4 home blog posts with problem-led anchor text (computer running slow, virus/pop-up, email hacked, Wi-Fi dropping, printer offline, new phone setup, seniors, and more), plus a link to business IT support.
+- Home title → "Managed IT Services & IT Support, Abbotsford BC | Clearpine" (was 69 chars); new home meta description with business IT support / Lower Mainland terms. services.html description shortened from 204 to about 155 chars.
+- Keyword maps: added cluster 4 (broader business IT terms) to `seo/keyword-map.md`; new `seo/home-keyword-map.md` for home-user keywords with gaps (software/Windows 11 help, home backup, password/2FA setup, parental controls).
+- Sitemap lastmods bumped for all touched pages. Audit: 0 errors.

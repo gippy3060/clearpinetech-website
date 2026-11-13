@@ -1,7 +1,7 @@
 # Competitive keyword map: Lower Mainland business IT
 
 Owned by the **Daily SEO, competitive keywords** routine. That routine re-checks
-competitors each week and updates this file. Last updated: 2026-11-12.
+competitors each week and updates this file. Last updated: 2026-11-13.
 
 ## Who we're competing with (Oct 2026 snapshot)
 
@@ -101,6 +101,24 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | switching IT providers, MSP onboarding | blog | C | todo |
 | managed IT vs in-house | `/blog/managed-it-vs-inhouse-smb` | — | done |
 | independent contractor vs MSP | `/blog/independent-contractor-vs-msp` | — | done |
+
+### 4. Broader business IT support terms (added 2026-11-13)
+| Keywords | Target page | Pri | Status |
+|---|---|---|---|
+| IT support for businesses, business IT services, IT services for small business, small business IT solutions | `/business-it-support` ("Business IT services we cover") | A | done (2026-11-13) |
+| IT support near me, IT company near me, computer support for business near me | `/business-it-support` FAQ + Google Business Profile + city pages | A | done (FAQ); GBP is owner's |
+| remote IT support for business, IT help desk for small business | `/business-it-support` + future `/services/help-desk` | A | done (section) |
+| onsite IT support Lower Mainland, IT technician Abbotsford | `/business-it-support` + `/blog/onsite-it-support-cost-fraser-valley` | B | done (section) |
+| business computer repair, laptop support for business, warranty repair coordination | `/business-it-support` section | B | done (section) |
+| office network setup, business Wi-Fi installation, firewall support | `/business-it-support` section → future `/services/network-support` | B | section done; page todo |
+| Microsoft 365 migration, Microsoft 365 support for small business, email migration | `/business-it-support` section → `/services/microsoft-365` | A | section done; page todo |
+| business VoIP phone system, number porting | `/business-it-support` section + `services#additional` | C | done (section) |
+| new office IT setup, office move IT, IT for new business | `/business-it-support` section + `services#project-management` | C | done (section) |
+| employee onboarding/offboarding IT | `/business-it-support` section | C | done (section) |
+| IT consulting small business BC, technology planning | `/business-it-support` section → `/services/it-projects` | C | section done; page todo |
+| IT support for trades/construction, retail IT support, non-profit IT support BC | industry pages only when content is distinct | C | todo |
+
+Home-user keywords live in `seo/home-keyword-map.md`.
 
 ## Rules for this map
 - Never mass-produce city-swapped pages. A city page needs local specifics (business districts, travel/onsite times from Abbotsford, local industries).

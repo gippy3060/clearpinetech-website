@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Backing Up OCT and Retinal Images in BC Clinics | Clearpine</title>
+<meta name="description" content="How BC optometry clinics can back up OCT scans, retinal photos and visual fields: find every image store, use 3-2-1, stop ransomware, test restores.">
+<link rel="canonical" href="https://clearpinetech.ca/blog/optometry-image-archive-backup-bc">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#123b2f">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Clearpine Technologies">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://clearpinetech.ca/blog/optometry-image-archive-backup-bc">
+<meta property="og:title" content="Backing Up OCT and Retinal Images in BC Optometry Clinics">
+<meta property="og:description" content="How BC optometry clinics can back up OCT scans, retinal photos and visual fields: find every image store, use 3-2-1, stop ransomware, test restores.">
+<meta property="og:image" content="https://clearpinetech.ca/img/og-clearpine.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/css/styles.css" as="style">
+<link rel="stylesheet" href="/css/styles.css">
+<script defer src="/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://clearpinetech.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://clearpinetech.ca/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "Backing up OCT and retinal images: a guide for BC optometry clinics", "item": "https://clearpinetech.ca/blog/optometry-image-archive-backup-bc" }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://clearpinetech.ca/blog/optometry-image-archive-backup-bc#article",
+      "headline": "Backing up OCT and retinal images: a guide for BC optometry clinics",
+      "description": "How BC optometry clinics can back up OCT scans, retinal photos and visual fields: find every image store, use 3-2-1, stop ransomware, test restores.",
+      "url": "https://clearpinetech.ca/blog/optometry-image-archive-backup-bc",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://clearpinetech.ca/blog/optometry-image-archive-backup-bc" },
+      "datePublished": "2026-11-14",
+      "dateModified": "2026-11-14",
+      "inLanguage": "en-CA",
+      "image": "https://clearpinetech.ca/img/og-clearpine.png",
+      "author": { "@id": "https://clearpinetech.ca/#organization" },
+      "publisher": { "@id": "https://clearpinetech.ca/#organization" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="Clearpine Technologies logo" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="9" fill="#123b2f"/>
+        <path d="M20 8l6.5 11h-3.6L27 26.5h-4.4L20 32l-2.6-5.5H13L17.1 19h-3.6L20 8z" fill="#2d8a6b"/>
+        <rect x="18.7" y="27" width="2.6" height="6" rx="1.1" fill="#c9a227"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Clearpine</span>
+        <span class="brand-tag">Technologies</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/industries">Industries</a></li>
+        <li><a href="/projects">Case studies</a></li>
+        <li><a href="/capabilities">Capabilities</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="nav-phone"><a href="tel:+12362583060">(236) 258-3060</a></li>
+        <li><a class="btn btn-primary" href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li>Backing up OCT and retinal images: a guide for BC optometry clinics</li>
+        </ol>
+      </nav>
+      <h1>Backing up OCT and retinal images: a guide for BC optometry clinics</h1>
+      <p class="post-meta">Optometry clinics &middot; <time datetime="2026-11-14">14 November 2026</time></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <article class="post-content">
+
+<p>Most optometry clinics have thought about backing up their practice-management or EMR software. Far fewer have a clear answer to a harder question: if the computer attached to the OCT died tonight, or ransomware encrypted the server, how many years of retinal photographs, OCT scans and visual fields would you get back, and how long would it take? Diagnostic images are some of the most valuable records an eye clinic holds, because comparing this year's scan with the one from three years ago is the whole point. They are also the records most likely to be scattered across machines nobody thinks of as servers. This guide walks through how to find every place your images live, back them up properly and prove the backup works. It is general technical information, not legal or regulatory advice; your college, your equipment vendors and your own advisers should confirm what applies to your clinic.</p>
+
+<h2>Why image archives are harder to protect than the EMR</h2>
+<p>The patient chart is usually in one place: a cloud EMR, or a database on a clinic server that the software vendor helps you back up. Images are different, for a few reasons we see over and over in eye clinics:</p>
+<ul>
+  <li><strong>They live in more than one place.</strong> An OCT or fundus camera often comes with its own capture computer and its own review software, which keeps a local database of scans. Some of those images are exported to the EMR as a PDF report or a DICOM file; the raw data that lets you run a progression analysis may stay on the device's own computer or in a vendor archive.</li>
+  <li><strong>They are big and they keep growing.</strong> Every year adds another set of scans per patient. Storage that was generous when the clinic opened can quietly fill up, and a full disk is one of the most common reasons a backup job stops working.</li>
+  <li><strong>The capture computers are awkward.</strong> Equipment vendors are often strict about which operating system, drivers and security software can run on the computer attached to their device. That can mean older software, fewer updates and no one quite sure whether it is the clinic's or the vendor's job to back it up.</li>
+  <li><strong>The format matters.</strong> A backup of the files is not always enough. Some review software stores images in a proprietary database that has to be backed up while the software is closed, or exported in a particular way, before it can be restored onto a new computer.</li>
+</ul>
+<p>None of this is exotic, but it means a clinic can have a perfectly healthy EMR backup and still lose the imaging history that matters most for glaucoma and macular follow-up.</p>
+
+<h2>Step 1: map every place images are stored</h2>
+<p>You cannot back up what you have not found. Walk through the clinic, device by device, and write down for each piece of diagnostic equipment:</p>
+<ul>
+  <li>The device (OCT, fundus or retinal camera, widefield imager, visual field analyser, topographer, auto-refractor) and the computer it is attached to.</li>
+  <li>Where its images and results are stored: on that computer's own drive, on a clinic server or network share, in the EMR, in a vendor cloud archive, or some combination.</li>
+  <li>Which copy is the complete one. Often the EMR holds a summary report while the device software holds the full scan data needed for comparisons.</li>
+  <li>How much space the archive uses today and how much is left.</li>
+  <li>Who supports it: the equipment vendor, the EMR vendor, your IT provider, or nobody yet.</li>
+</ul>
+<p>Do the same for anything else that holds images: a shared folder where staff drop referral photos, a workstation in the pretest room where someone saves exports "just for now", or a USB drive in a drawer. The map is often the most useful thing to come out of the exercise, because it turns a vague worry into a short list.</p>
+
+<h2>Step 2: decide what "backed up" needs to mean</h2>
+<p>Before choosing tools, agree on two numbers for the clinic:</p>
+<ul>
+  <li><strong>How much you can afford to lose.</strong> If the archive failed at 4 p.m., is it acceptable to lose today's scans, or must every image be protected within an hour of capture? For most clinics a nightly backup is a reasonable minimum; busy multi-doctor clinics may want more frequent copies.</li>
+  <li><strong>How long you can be without it.</strong> Restoring several years of images from a cloud backup over a normal business internet connection can take far longer than people expect. If the answer needs to be "by tomorrow morning", you will usually want a local copy as well as an off-site one.</li>
+</ul>
+<p>Also check how long you need to keep records. Retention expectations for optometric records come from your regulatory college and other rules that apply to your practice, so confirm the current requirements with them rather than relying on a general rule of thumb. <!-- TODO owner: confirm whether to cite specific College of Optometrists of BC record-retention guidance here. --> Whatever the answer, your backups need to keep images for at least that long, and your plan needs to cover what happens when an old server or capture computer is retired.</p>
+
+<h2>Step 3: follow the 3-2-1 rule</h2>
+<p>The 3-2-1 rule is a simple, widely used standard: keep <strong>three</strong> copies of your data, on <strong>two</strong> different types of storage, with <strong>one</strong> copy off site. For an eye clinic that usually looks like this:</p>
+<ol>
+  <li><strong>The working copy</strong> on the device computer, clinic server or EMR where staff use it every day.</li>
+  <li><strong>A local backup</strong> on a separate backup appliance or storage device in the clinic, so large restores are fast.</li>
+  <li><strong>An off-site copy</strong> in a backup service or a second location, so a fire, flood, break-in or ransomware attack at the clinic does not take every copy with it.</li>
+</ol>
+<p>If your EMR or imaging software is cloud-hosted, ask the vendor how they back it up, how long they keep backups, where the data is stored, and how you would get your images out if you left them. A cloud service protects you from a dead server in the back room; it does not automatically protect you from an account compromise, an accidental deletion or a contract ending. <!-- TODO owner: confirm which backup products or services Clearpine uses for clinic image archives before naming any. --></p>
+
+<h2>Step 4: protect the backups from ransomware</h2>
+<p>Modern ransomware looks for backups and tries to delete or encrypt them before encrypting everything else. A backup drive that is permanently connected and writable from the clinic network is not much protection. Practical safeguards include:</p>
+<ul>
+  <li><strong>An immutable or offline copy.</strong> At least one copy that cannot be changed or deleted for a set period, or that is disconnected from the network, so an attacker with access to the clinic cannot destroy it.</li>
+  <li><strong>Separate credentials.</strong> The backup system should not be reachable with the same password staff use to log in to workstations, and administrator accounts should have multi-factor authentication.</li>
+  <li><strong>Encryption.</strong> Backups contain personal health information, so they should be encrypted in transit and at rest, especially the off-site copy and any portable media.</li>
+  <li><strong>Segmenting the device computers.</strong> Capture computers that cannot be updated as often as the rest of the clinic are safer on their own network segment, with only the connections they need to the EMR and the backup system.</li>
+</ul>
+<p>We cover the wider picture in <a href="/blog/five-clinic-security-gaps">five security gaps we see in clinics</a>.</p>
+
+<h2>Step 5: work with your equipment vendors, not around them</h2>
+<p>Installing backup agents or security software on a capture computer without checking with the vendor can break the device software or void support. Before changing anything on those machines, ask each vendor:</p>
+<ul>
+  <li>What is the supported way to back up the image database? Does the software need to be closed, or does it have its own export or backup function?</li>
+  <li>Can images be stored on a clinic server or network share instead of the local drive?</li>
+  <li>Which backup and endpoint protection software is allowed on the capture computer?</li>
+  <li>If the computer fails, how is the software reinstalled and the database restored, and how long does that take?</li>
+  <li>Is there a vendor cloud archive, and if so, what does it cost, where is it hosted and how do you export from it?</li>
+</ul>
+<p>Write the answers down next to your image map. When something goes wrong, that page will save hours.</p>
+
+<h2>Step 6: monitor backups every day</h2>
+<p>The most common backup failure is not dramatic. A job stops running after an update, a password changes, or a disk fills, and nobody notices for months because the backup software only sends a warning to an inbox no one reads. Someone needs to check, every business day, that each backup job finished and that each copy actually grew. We explain how these silent failures happen in <a href="/blog/backups-probably-not-working">your backups are probably not working</a>.</p>
+<p>It also helps to keep an eye on free space on the archive and backup storage. Images arrive steadily, so storage tends to run out on a predictable schedule if someone is watching the trend.</p>
+
+<h2>Step 7: test a restore, on a schedule</h2>
+<p>A backup is only proven when you have restored from it. A sensible routine for an eye clinic:</p>
+<ul>
+  <li><strong>Monthly:</strong> restore a handful of individual scans from different devices and dates, and check they open correctly in the review software.</li>
+  <li><strong>Once or twice a year:</strong> do a fuller test, such as restoring a device's image database onto a spare or virtual machine, and time it. That timing is your real recovery time, not the number in the brochure.</li>
+  <li><strong>After any big change:</strong> a new device, a software upgrade, a new server or a move to a cloud EMR. These are exactly the moments when backup jobs quietly stop covering what they used to.</li>
+</ul>
+<p>Keep a short log of each test: date, what was restored, how long it took and any problems. It is useful evidence that the clinic takes its safeguards seriously, and it shows you where the plan needs work.</p>
+
+<h2>When equipment or servers are replaced</h2>
+<p>Image archives are most at risk during change. When a capture computer, server or whole device is replaced, plan the move: confirm with the vendor how the database is migrated, take and test a fresh backup first, check that historical scans can be compared with new ones on the new system, and only then retire the old machine. Old drives that held patient images need to be securely wiped or destroyed, with a record of what was done. The same applies when you change EMRs or move images into a cloud archive. Our <a href="/blog/optometry-clinic-it-setup-cost">optometry clinic IT setup cost guide</a> covers how storage and backup fit into a new build or renovation.</p>
+
+<h2>A backup checklist for optometry clinics</h2>
+<ul>
+  <li>Every device and computer that stores images is listed, with where its complete data lives.</li>
+  <li>The clinic has agreed how much data it can lose and how quickly it needs images back.</li>
+  <li>There are three copies of image data, on two types of storage, with one off site.</li>
+  <li>At least one backup copy is immutable or offline and encrypted.</li>
+  <li>Backup and administrator accounts use separate passwords and MFA.</li>
+  <li>Capture computers are on a separate network segment where practical.</li>
+  <li>Each equipment vendor's supported backup and restore method is documented.</li>
+  <li>Someone checks backup results every business day and watches free space.</li>
+  <li>Restores are tested monthly, with a fuller timed test at least once a year.</li>
+  <li>Old drives are securely wiped or destroyed when equipment is replaced.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<h3>Isn't our OCT data already in the EMR?</h3>
+<p>Sometimes only partly. Many clinics send a report or selected images to the EMR while the device's own software keeps the full scan data used for progression analysis. Check with your equipment and EMR vendors which copy is complete, and back up both if needed.</p>
+<h3>Is a USB drive that someone takes home each week good enough?</h3>
+<p>It is better than nothing, but it depends on someone remembering every week, it is often unencrypted, and restoring from it is rarely tested. A managed, encrypted off-site backup that is checked daily is more reliable, and an encrypted portable drive can still play a role as an offline copy if it is handled carefully.</p>
+<h3>Our EMR is in the cloud. Do we still need backups in the clinic?</h3>
+<p>Possibly. Your device computers may still hold image data locally, and you should understand the cloud vendor's own backup and export arrangements. A local copy also matters if restoring large image sets over the internet would take too long.</p>
+<h3>What does managed IT support cost for an optometry clinic?</h3>
+<p>Our managed IT support is $95 per user per month, with a minimum of 5 users and a 1-year agreement, delivered remotely during business hours. Microsoft 365 licences, after-hours support and on-site visits are billed separately; on-site visits are free if the problem cannot be fixed remotely. See <a href="/industries/optometry">IT support for optometry clinics</a> for what is included.</p>
+<h3>Can you review our current image backups?</h3>
+<p>Yes. Our <a href="/free-it-assessment">free IT assessment</a> is free with no obligation and can be done on site at any location within 300 km of Abbotsford, or remotely. It covers your equipment, software, network and backups, and you get a written list of risks ranked by importance. For the wider principles, see our guide to <a href="/blog/emr-backup-best-practices-bc-clinics">EMR backup best practices for BC clinics</a>.</p>
+
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <h2>Not sure your image archive would survive a bad day?</h2>
+        <p>Book a free IT assessment and we'll review how home offices, devices, accounts and client records are protected.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="/free-it-assessment">Book a free IT assessment</a>
+          <a class="btn btn-light" href="tel:+12362583060">Call (236) 258-3060</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Clearpine Technologies</h4>
+        <p>Managed IT, cybersecurity and infrastructure deployment for Canadian clinics and public sector. Abbotsford, British Columbia.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#managed-it">Managed IT support</a></li>
+          <li><a href="/free-it-assessment">Free IT assessment</a></li>
+          <li><a href="/services#cybersecurity">Cybersecurity</a></li>
+          <li><a href="/services#deployment">Hardware deployment</a></li>
+          <li><a href="/services#project-management">Project management</a></li>
+          <li><a href="/services#additional">Additional services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/industries">Industries</a></li>
+          <li><a href="/projects">Case studies</a></li>
+          <li><a href="/capabilities">Capabilities statement</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+12362583060">(236) 258-3060</a></li>
+          <li><a href="mailto:info@clearpinetech.ca">info@clearpinetech.ca</a></li>
+          <li>Abbotsford, BC, Canada &middot; <a href="https://maps.app.goo.gl/QUKnd2QTRrVnYjWF9" rel="noopener">Google Maps</a></li>
+          <li><a href="https://g.page/r/CSSKcdn393goEBM/review" rel="noopener">Leave us a Google review</a></li>
+          <li>Serving the Fraser Valley,<br>Lower Mainland &amp; Canada-wide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Clearpine Technologies Inc. All rights reserved.</span>
+      <span>Corporation number 1818348-1 &middot; BC registration A0143401</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

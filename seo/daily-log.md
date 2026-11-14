@@ -220,3 +220,11 @@
 - Sitemap fix: `/blog/five-clinic-security-gaps` lastmod 2026-09-22 → 2026-10-11 (matches its last commit; clears an audit warning).
 - Target keywords: counsellor home office security BC, therapist working from home privacy, secure telehealth home office, PIPA home office counselling.
 - Next steps: optometry blog post (backing up OCT/retinal image archives); physiotherapy-specific page or post; stale lastmods on `emr-backup-best-practices-bc-clinics` and `it-requirements-new-law-firm-bc`; owner to resolve TODOs.
+
+## 2026-11-14
+- Audit: 0 errors at start (40 warnings, mostly lastmod); 0 errors at end (38 warnings).
+- New blog post `/blog/optometry-image-archive-backup-bc` (~2,200 words): "Backing up OCT and retinal images: a guide for BC optometry clinics". Why image archives are harder than the EMR (multiple stores, growth, vendor-locked capture computers, proprietary databases); seven steps (map every image store, agree loss/downtime targets and retention, 3-2-1, ransomware-proof immutable/offline encrypted copy and segmentation, vendor questions, daily monitoring, scheduled restore tests); equipment replacement and drive disposal; checklist; FAQ. Owner-confirmed pricing/assessment facts only; no statistics or vendor/product recommendations. TODO owner comments: College of Optometrists of BC record-retention guidance to cite; which backup products/services Clearpine uses for image archives.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/optometry` (image-archive bullet), `/blog/optometry-clinic-it-setup-cost` and `/blog/emr-backup-best-practices-bc-clinics` (checklist item). Bumped lastmod for all of these (clears the stale emr-backup warning).
+- Title fix: `/blog/five-clinic-security-gaps` (84 → 58 chars; H1 unchanged) and sitemap lastmod bumped (clears stale warning).
+- Target keywords: OCT image backup, retinal image archive backup, optometry clinic backup BC, eye clinic ransomware protection, optometry data retention.
+- Next steps: stale lastmods on `clio-law-society-bc-security` and `it-requirements-new-law-firm-bc`; physiotherapy-specific page or post; law-firm post (e.g. document management / remote work for small BC firms); owner to resolve TODOs.

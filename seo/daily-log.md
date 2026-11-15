@@ -220,3 +220,14 @@
 - Sitemap fix: `/blog/five-clinic-security-gaps` lastmod 2026-09-22 → 2026-10-11 (matches its last commit; clears an audit warning).
 - Target keywords: counsellor home office security BC, therapist working from home privacy, secure telehealth home office, PIPA home office counselling.
 - Next steps: optometry blog post (backing up OCT/retinal image archives); physiotherapy-specific page or post; stale lastmods on `emr-backup-best-practices-bc-clinics` and `it-requirements-new-law-firm-bc`; owner to resolve TODOs.
+
+## 2026-11-15
+- Audit: 0 errors at start (40 warnings, mostly lastmod); 0 errors at end (34 warnings).
+- Refocused on the competitive head terms the routine is meant to target. The two A-priority pillars in `keyword-map.md` had been `todo` since 2026-10-09.
+- New pillar page `/business-it-support` (~1,330 words): "Small business IT support in the Lower Mainland". Covers what's included, owner-confirmed pricing ($95/user/month, 5-user minimum, 1-year term, M365/after-hours/on-site extra, on-site free if not remotely fixable) with 5/10/20/35-user budgets (plain multiplication), a managed vs break-fix vs co-managed table, a "How to choose the best MSP in the Lower Mainland" checklist (no claim to be "the best"), city and industry links, and a 6-question FAQ. Service (areaServed: 11 cities + Lower Mainland, Offer $95 CAD) + FAQPage + BreadcrumbList JSON-LD. TODO owner comments: part-time/shared-login user counting; onboarding steps and timeline when taking over from another provider.
+- Internal links to it: the Managed IT bullet on all 11 location pages (now a link), the home page Managed IT card, the services page Managed IT section, the free-assessment page and `/blog/managed-it-vs-inhouse-smb` (one added sentence giving Clearpine's own $95 rate as a comparison).
+- `services.html` meta description: 204 → 158 chars, now leads with "Managed IT for Lower Mainland businesses".
+- Sitemap: added `/business-it-support` (priority 0.9); bumped lastmod for every page touched.
+- Target keywords: small business IT support Lower Mainland/BC, business IT support, IT support for small business, best MSP Lower Mainland, managed IT Fraser Valley.
+- Not changed: `services.html` and `free-it-assessment.html` still say "custom billing for fewer than 5 users". That line was removed from industry and location pages on 2026-11-02 as unconfirmed, so the owner should confirm or remove it.
+- Next steps: `/managed-it-services` pillar (managed IT services Lower Mainland, MSP Fraser Valley, outsourced IT department), kept distinct from this page by being written for buyers comparing MSPs and switching providers; blog "Managed IT pricing in BC" (A); `/services/microsoft-365` and `/services/cybersecurity` pages; strengthen Chilliwack/Surrey/Abbotsford pages (Search Console queries); owner to resolve TODOs.

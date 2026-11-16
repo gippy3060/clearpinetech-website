@@ -220,3 +220,10 @@
 - Sitemap fix: `/blog/five-clinic-security-gaps` lastmod 2026-09-22 → 2026-10-11 (matches its last commit; clears an audit warning).
 - Target keywords: counsellor home office security BC, therapist working from home privacy, secure telehealth home office, PIPA home office counselling.
 - Next steps: optometry blog post (backing up OCT/retinal image archives); physiotherapy-specific page or post; stale lastmods on `emr-backup-best-practices-bc-clinics` and `it-requirements-new-law-firm-bc`; owner to resolve TODOs.
+
+## 2026-11-15
+- Audit: 0 errors at start (40 warnings, mostly lastmod); 0 errors at end (39 warnings).
+- New blog post `/blog/optometry-image-backup-bc` (~2,200 words): "How to back up OCT and retinal images in an optometry clinic". Seven steps (map where each device stores originals vs what reaches the EMR, set loss/restore targets, 3-2-1 with an immutable/offline off-site copy, back up the vendor imaging database and image store together per vendor guidance, keep originals off capture computers and segment them, plan for archive growth vs retention, restore-test with a real scan), vendor question list, checklist, FAQ. Owner-confirmed pricing/assessment facts only; no statistics, storage sizes or vendors named. TODO owner comments: College of Optometrists of BC retention guidance, preferred backup platform/Canadian off-site target, whether backup storage is included in the per-user price.
+- Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`; linked from `/industries/optometry` (image archive bullet), `/blog/optometry-clinic-it-setup-cost` and `/blog/emr-backup-best-practices-bc-clinics` (which also clears its stale-lastmod warning). Bumped lastmod for all four.
+- Target keywords: OCT image backup, retinal image archive backup optometry, optometry clinic backup BC, eye clinic ransomware protection.
+- Next steps: physiotherapy-specific page or post (e.g. physio clinic IT on Jane/booking-software security); stale lastmod on `it-requirements-new-law-firm-bc` and `clio-law-society-bc-security`; Law Society of BC cloud-computing checklist post; owner to resolve TODOs.

@@ -361,3 +361,15 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Merge the pending Bell (11-14) and Microsoft 365 (11-12) branches, then link Rogers, Bell and Telus pages to each other.
 2. Owner to confirm remote tools / payment / two-session wording, then reconcile all pages (Xfinity and Mac pages still name Quick Assist/LogMeIn; Xfinity still says "all major credit and debit cards" and "up to two sessions").
 3. Next ISP/router pages: Videotron, then AT&T, Verizon Fios, Cox; routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
+
+## 2026-11-16
+- Added ISP page `/home-support/wifi-router-help/videotron/` ("Independent Help with Your Videotron Wi-Fi, $100 CAD Flat"). Same layout as Rogers/Telus: large call buttons with hours (Eastern equivalent listed first for Quebec readers), six problem cards (slow or dropping Wi-Fi, weak rooms, password, reconnecting devices, moving to Helix, your own router), a "slow or not working" checklist (restart the gateway, leave the coax screwed in, outage check, test next to the gateway, placement, password sticker), Videotron notes (Helix gateway is modem plus router, Helix TV goes through the gateway, Wi-Fi pods, thick brick/plaster/stone walls in older Montreal and Quebec City homes, we never ask for the Videotron account password), honest limits, an 8-question FAQ (including a language question), a warning about callers posing as Videotron (CAFC link and scam blog post), price with the CAD note, hours, BC phone note, family-member note, Videotron/Rogers/Telus disclaimer top and bottom, never-call-first statement, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: gateway model names, exact app screens and light colours, and Freedom Home Internet (separate brand, different equipment).
+- Linked from the Canadian ISP card on the Wi-Fi & router hub; the page links to the Rogers and Telus pages. Added to `sitemap.xml` and bumped the hub's lastmod.
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions; and whether sessions can be offered in French (FAQ currently says "please ask" and suggests a bilingual family member can join).
+- Target keywords (CA): Videotron Wi-Fi slow, Videotron Helix Wi-Fi password, restart Videotron Helix gateway, Videotron Wi-Fi pods weak signal, Videotron own router, Helix TV not working after router change. Cities: Montreal, Quebec City, Gatineau.
+
+### Next steps
+1. Merge pending Bell (#86) and Microsoft 365 (#81) PRs; then cross-link the Rogers, Bell, Telus and Videotron pages (updating each page's disclaimer to name the linked brands). Many stale duplicate home-support PRs (#3, #30, #34, #40, #42, #50, #52, #56, #70, #72) could be closed.
+2. Owner to confirm remote tools / payment / two-session wording and French support, then reconcile all pages (Xfinity and Mac pages still name Quick Assist/LogMeIn; Xfinity still says "all major credit and debit cards" and "up to two sessions").
+3. US ISP pages: AT&T, Verizon Fios, Cox. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.

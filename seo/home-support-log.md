@@ -348,3 +348,16 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. Canadian ISP pages: Telus, Videotron. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
 3. Housekeeping: several home-support sitemap lastmod values are older than the last page change (audit warnings); bump them in a small pass.
 4. Later: Ring/Arlo/Nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.
+
+## 2026-11-15
+- Added ISP page `/home-support/wifi-router-help/telus/` ("Independent Help with Your Telus Wi-Fi, $100 CAD Flat"). Same layout as the Rogers page: large call buttons with hours, six problem cards (slow or dropping Wi-Fi, weak rooms, password, reconnecting devices, moving to PureFibre, your own router), a "slow or not working" checklist (restart the Wi-Fi Hub, leave the fibre cable alone, outage check, test next to the hub, placement, password sticker), Telus notes (Wi-Fi Hub, separate fibre box in some PureFibre homes, Boost Wi-Fi, Telus TV may depend on the hub, we never ask for the Telus account password), honest limits, a 7-question FAQ, a warning about callers posing as Telus (CAFC link and scam blog post), price with the CAD note, hours, BC phone note, family-member note, Telus disclaimer top and bottom, never-call-first statement, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: hub model names, app names and light colours (they vary and change).
+- Linked from the Canadian ISP card on the Wi-Fi & router hub; added to `sitemap.xml` and bumped the hub's lastmod.
+- Note: the Bell page (branch `seo/home-2026-11-14`) was still unmerged, so it was not repeated. Both branches edit the same hub line and sitemap area; when merging, keep both the Bell and Telus links/URLs.
+- Owner TODO comment (remote tool, payment methods, follow-up sessions) is on the page.
+- Target keywords (CA): Telus Wi-Fi slow, Telus Wi-Fi Hub password, restart Telus Wi-Fi Hub, Telus Boost Wi-Fi weak signal, Telus PureFibre Wi-Fi help, Telus own router. Cities: Vancouver, Victoria, Calgary, Edmonton.
+
+### Next steps
+1. Merge the pending Bell (11-14) and Microsoft 365 (11-12) branches, then link Rogers, Bell and Telus pages to each other.
+2. Owner to confirm remote tools / payment / two-session wording, then reconcile all pages (Xfinity and Mac pages still name Quick Assist/LogMeIn; Xfinity still says "all major credit and debit cards" and "up to two sessions").
+3. Next ISP/router pages: Videotron, then AT&T, Verizon Fios, Cox; routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.

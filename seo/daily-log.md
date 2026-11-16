@@ -235,3 +235,11 @@
 - Fix: `/blog/law-firm-email-security-bc` step 5 linked to itself for "vetting cloud practice software"; now points to `/blog/clio-law-society-bc-security`.
 - Target keywords: law firm cyber incident response BC, law firm data breach what to do, lawyer stolen laptop Law Society BC, law firm ransomware response.
 - Next steps: physiotherapy-specific post (e.g. securing Jane/booking software in a physio clinic); clinic version of the incident-response guide (EMR/ransomware first 24 hours); owner to resolve TODOs.
+
+## 2026-11-16 (competitive keywords routine)
+- Audit: 0 errors at start (37 warnings); 0 errors at end (32 warnings).
+- Competitor SERP check for "small business IT support Lower Mainland" and "best MSP Lower Mainland/Fraser Valley"; findings added to `seo/keyword-map.md`.
+- New pillar page `/business-it-support` (~1,370 words): "Small business IT support in the Lower Mainland". What's included, owner-confirmed pricing ($95/user/month, 5-user min, 1-year term, exclusions) with 5/10/20-user examples, break-fix vs in-house vs managed, a 7-question "how to choose the best MSP in the Lower Mainland" checklist, service areas linking all 11 location pages, industry links, onboarding steps, FAQ. Service (with Offer + areaServed) + FAQPage + BreadcrumbList JSON-LD. TODO owner comments: response-time targets, how projects are quoted.
+- Linked from home page (managed IT card), `services.html` (managed IT block), `/free-it-assessment`, `/blog/managed-it-vs-inhouse-smb` and `/blog/independent-contractor-vs-msp` (clears their stale-lastmod warnings). Sitemap: added the page; bumped lastmod for pages touched.
+- Target keywords: business IT support Lower Mainland, small business IT support BC/Fraser Valley, IT support for small business, best MSP Lower Mainland, managed service provider Fraser Valley.
+- Next steps (this routine): `/managed-it-services` pillar (MSP head terms, outsourced IT department); "Managed IT pricing in BC" cost post; `/services/cybersecurity` and `/services/microsoft-365` pages; owner: list the business on Clutch and BBB, confirm response times.

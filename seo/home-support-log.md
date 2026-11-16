@@ -336,6 +336,19 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. Canadian ISP pages: Bell, Telus, Videotron. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
 3. Later: Ring/Arlo/Nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.
 
+## 2026-11-14
+- Added ISP page `/home-support/wifi-router-help/bell/` ("Independent Help with Your Bell Wi-Fi, $100 CAD Flat"), the second Canadian ISP page. It has large call buttons with hours and cards for six problems: slow or dropping Wi-Fi, weak rooms, finding or changing the password, reconnecting devices, wireless Fibe TV boxes losing their link, and your own router behind the Bell hub. A "slow or not working" checklist covers restarting the Home Hub, checking for an outage, cables (with a warning not to bend the fibre cable), testing next to the hub, and placement. Bell notes cover the Home Hub / Giga Hub being modem plus router, the separate fibre box in some homes, Wi-Fi pods and TV boxes depending on the hub (why your own router usually goes behind it, since a plain bridge mode isn't always offered), and the fact that we never ask for the Bell account password. Also on the page: honest limits (including no Fibe TV service fixes), a 7-question FAQ, a warning about callers posing as Bell (CAFC link and scam blog post), price with the CAD note, hours, the BC phone note, the family-member note, the Bell disclaimer and never-call-first statement at top and bottom, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: exact app names, hub model numbers, light colours and Advanced DMZ steps (these vary by hub and change).
+- Linked from the Canadian ISP card on the Wi-Fi & router hub and from the Rogers page. Added to `sitemap.xml`; bumped hub and Rogers lastmod.
+- Owner TODO comment (remote tool, payment methods, follow-up sessions) is on the page.
+- Target keywords (CA): Bell Wi-Fi slow, Bell Home Hub password, Bell Giga Hub restart, Bell Wi-Fi pods weak signal, Bell Fibe TV box lost connection, own router with Bell. Cities: Toronto, Ottawa, Montreal, Halifax, Winnipeg.
+
+### Next steps
+1. Owner to confirm remote tools / payment / two-session wording, then reconcile all pages. The Xfinity and Mac pages still name Quick Assist/LogMeIn, and Xfinity still says "all major credit and debit cards" and "up to two sessions".
+2. Canadian ISP pages: Telus, Videotron. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
+3. Housekeeping: several home-support sitemap lastmod values are older than the last page change (audit warnings); bump them in a small pass.
+4. Later: Ring/Arlo/Nest brand pages; Samsung Galaxy / iPhone brand pages under phone-tablet-help.
+
 ## 2026-11-15
 - Added ISP page `/home-support/wifi-router-help/telus/` ("Independent Help with Your Telus Wi-Fi, $100 CAD Flat"). Same layout as the Rogers page: large call buttons with hours, six problem cards (slow or dropping Wi-Fi, weak rooms, password, reconnecting devices, moving to PureFibre, your own router), a "slow or not working" checklist (restart the Wi-Fi Hub, leave the fibre cable alone, outage check, test next to the hub, placement, password sticker), Telus notes (Wi-Fi Hub, separate fibre box in some PureFibre homes, Boost Wi-Fi, Telus TV may depend on the hub, we never ask for the Telus account password), honest limits, a 7-question FAQ, a warning about callers posing as Telus (CAFC link and scam blog post), price with the CAD note, hours, BC phone note, family-member note, Telus disclaimer top and bottom, never-call-first statement, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
 - Deliberately left out: hub model names, app names and light colours (they vary and change).

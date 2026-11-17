@@ -361,3 +361,17 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 1. Merge the pending Bell (11-14) and Microsoft 365 (11-12) branches, then link Rogers, Bell and Telus pages to each other.
 2. Owner to confirm remote tools / payment / two-session wording, then reconcile all pages (Xfinity and Mac pages still name Quick Assist/LogMeIn; Xfinity still says "all major credit and debit cards" and "up to two sessions").
 3. Next ISP/router pages: Videotron, then AT&T, Verizon Fios, Cox; routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
+
+## 2026-11-17
+- Added ISP page `/home-support/wifi-router-help/att/` ("Independent Help with Your AT&T Wi-Fi, $100 CAD Flat"), the third US ISP page after Xfinity and Spectrum. Large call buttons with hours (Central/Eastern equivalents listed first for Texas, Georgia and Florida readers), the never-call-first statement and the AT&T disclaimer at top and bottom. Six problem cards (slow or dropping Wi-Fi, weak rooms, lost/new password, devices that won't connect, AT&T Wi-Fi extenders, your own router behind the gateway). An 8-step "slow or not working" checklist: safe power restart, don't press the reset hole (it can erase a custom Wi-Fi name/password), leave the fiber cable alone, outage check, test next to the gateway, placement, keep the gateway sticker (Wi-Fi password and settings code) private. AT&T notes: gateway = modem + router, Fiber vs older service, own router goes behind the gateway via IP Passthrough with gateway Wi-Fi turned off, AT&T Internet Air uses different equipment, we never ask for the AT&T account password. Honest limits, 7-question FAQ (including "someone called saying they're AT&T"), FTC ReportFraud.ftc.gov link and scam blog link, price with CAD note, hours, BC phone note, family-member/seniors link, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: gateway model numbers, light colours, app screen names and the gateway settings address (vary by model and change).
+- Linked from the US ISP card on the Wi-Fi & router hub; the page links to the Xfinity and Spectrum pages. Added to `sitemap.xml`; bumped the hub's lastmod.
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions.
+- Target keywords (US): AT&T Wi-Fi slow, AT&T Wi-Fi password, restart AT&T gateway, AT&T Fiber Wi-Fi weak upstairs, AT&T Wi-Fi extender setup, own router with AT&T IP Passthrough. Cities: Dallas, Houston, Atlanta, Miami, Chicago, Los Angeles.
+- Note: Videotron (branch `seo/home-2026-11-16`) is still unmerged; this branch touches the same hub card area and sitemap neighbourhood. When merging, keep both the Videotron and AT&T links/URLs.
+
+### Next steps
+1. Merge pending Videotron (11-16) and Microsoft 365 (11-12) branches; then cross-link the Canadian ISP pages (and add AT&T to the Xfinity/Spectrum pages' related links, updating their disclaimers to name AT&T).
+2. Owner to confirm remote tools / payment / two-session wording and French support, then reconcile all pages (Xfinity and Mac pages still name Quick Assist/LogMeIn; Xfinity still says "all major credit and debit cards" and "up to two sessions").
+3. US ISP pages: Verizon Fios, Cox. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
+4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).

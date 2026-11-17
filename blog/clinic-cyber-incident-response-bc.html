@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Clinic Cyber Incident Response in BC | Clearpine</title>
+<meta name="description" content="What a BC clinic should do in the first 24 hours after ransomware, an EMR outage, a stolen laptop or a hacked mailbox, and how to keep seeing patients.">
+<link rel="canonical" href="https://clearpinetech.ca/blog/clinic-cyber-incident-response-bc">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#123b2f">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Clearpine Technologies">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://clearpinetech.ca/blog/clinic-cyber-incident-response-bc">
+<meta property="og:title" content="Clinic Cyber Incident Response in BC">
+<meta property="og:description" content="What a BC clinic should do in the first 24 hours after ransomware, an EMR outage, a stolen laptop or a hacked mailbox, and how to keep seeing patients.">
+<meta property="og:image" content="https://clearpinetech.ca/img/og-clearpine.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/css/styles.css" as="style">
+<link rel="stylesheet" href="/css/styles.css">
+<script defer src="/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://clearpinetech.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://clearpinetech.ca/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "Cyber incident response for BC clinics: the first 24 hours", "item": "https://clearpinetech.ca/blog/clinic-cyber-incident-response-bc" }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://clearpinetech.ca/blog/clinic-cyber-incident-response-bc#article",
+      "headline": "Cyber incident response for BC clinics: the first 24 hours",
+      "description": "What a BC clinic should do in the first 24 hours after ransomware, an EMR outage, a stolen laptop or a hacked mailbox, and how to keep seeing patients.",
+      "url": "https://clearpinetech.ca/blog/clinic-cyber-incident-response-bc",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://clearpinetech.ca/blog/clinic-cyber-incident-response-bc" },
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
+      "inLanguage": "en-CA",
+      "image": "https://clearpinetech.ca/img/og-clearpine.png",
+      "author": { "@id": "https://clearpinetech.ca/#organization" },
+      "publisher": { "@id": "https://clearpinetech.ca/#organization" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="Clearpine Technologies logo" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="9" fill="#123b2f"/>
+        <path d="M20 8l6.5 11h-3.6L27 26.5h-4.4L20 32l-2.6-5.5H13L17.1 19h-3.6L20 8z" fill="#2d8a6b"/>
+        <rect x="18.7" y="27" width="2.6" height="6" rx="1.1" fill="#c9a227"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Clearpine</span>
+        <span class="brand-tag">Technologies</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/industries">Industries</a></li>
+        <li><a href="/projects">Case studies</a></li>
+        <li><a href="/capabilities">Capabilities</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="nav-phone"><a href="tel:+12362583060">(236) 258-3060</a></li>
+        <li><a class="btn btn-primary" href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li>Cyber incident response for BC clinics: the first 24 hours</li>
+        </ol>
+      </nav>
+      <h1>Cyber incident response for BC clinics: the first 24 hours</h1>
+      <p class="post-meta">Healthcare clinics &middot; <time datetime="2026-11-17">17 November 2026</time></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <article class="post-content">
+
+<p>A clinic's bad IT day looks different from most businesses'. When the front desk cannot open the schedule, there is a waiting room full of patients. When the EMR will not load, a physician is about to see someone without their history, medication list or last lab results. When a laptop goes missing, it may hold referral letters, scanned requisitions or a spreadsheet someone exported "just for this week". The decisions a clinic makes in the first few hours shape how much patient information is exposed, how safely care continues and how the clinic's response looks to patients, its insurer, its regulatory college and the privacy commissioner afterwards.</p>
+<p>This guide is for medical clinics, dental and orthodontic offices, optometry, physiotherapy, chiropractic, counselling and veterinary practices across BC. It covers what to do in the first 24 hours of the incidents clinics most often face, and the short plan to write now so nobody has to improvise. It is general information, not legal advice. Your college, your insurance policy and privacy law may require specific steps, so involve your own advisors and insurer early.</p>
+
+<h2>First, what counts as an incident?</h2>
+<p>An incident is anything that may have put patient or clinic information at risk, or that stops the clinic from delivering care safely. Ransomware and hacked email are the obvious ones. These are easier to dismiss, and they count too:</p>
+<ul>
+  <li>A lost or stolen laptop, tablet, phone or USB drive, even if "it had a password".</li>
+  <li>A staff member who typed their EMR or email password into a page they now think was fake.</li>
+  <li>A referral, lab result or chart note faxed or emailed to the wrong recipient.</li>
+  <li>Unexplained sign-ins, new mailbox forwarding rules, or multi-factor prompts nobody asked for.</li>
+  <li>Someone looking at records they had no reason to open (snooping is a privacy breach even without a hacker).</li>
+  <li>Your EMR, practice-management, e-fax or booking vendor telling you they had a breach.</li>
+  <li>A departing employee or locum who still has access, or who took files with them.</li>
+</ul>
+<p>Make it clear to every physician, practitioner and front-desk staff member that reporting a possible incident quickly is expected and will not be punished. A misdirected fax reported within the hour is a manageable problem. One discovered months later, when the patient complains, is a much harder one.</p>
+
+<h2>The first hour: five steps for every incident</h2>
+<ol>
+  <li><strong>Start a log.</strong> Date, time, who noticed what, and every action taken from now on. Insurers, investigators, your college and the privacy commissioner may all ask for this timeline. A notepad at the front desk works fine.</li>
+  <li><strong>Call your IT provider</strong> and say plainly that you are treating this as a possible security incident, not a routine "the computer is slow" ticket.</li>
+  <li><strong>Call your insurer's breach line before you clean anything up.</strong> Many cyber policies expect prompt notice and may require their approved responders. Wiping or reinstalling a computer before they are involved can destroy evidence and, in some cases, affect coverage. Find out now whether the clinic has cyber coverage at all, through a standalone policy, a professional association program or a business package. <!-- TODO owner: if Clearpine has a recommended way for clinics to check cyber coverage (e.g. through an association program), add it here; do not name specific programs without confirming. --></li>
+  <li><strong>Contain, but do not destroy.</strong> Unplugging an affected computer from the network is usually right. Turning it off, reinstalling it or deleting suspicious emails usually is not, until the responders say so.</li>
+  <li><strong>Name one person in charge.</strong> Usually the medical director, owner or practice manager. They make decisions and handle communication with the insurer, patients and regulators. Everyone else routes questions through them, so the front desk is not improvising answers to patients.</li>
+</ol>
+
+<h2>Keep seeing patients safely: your downtime procedure</h2>
+<p>This is the part law firms and offices do not have to think about. If the EMR or schedule is unavailable, the clinic still has patients arriving. Decide in advance:</p>
+<ul>
+  <li><strong>Where today's and tomorrow's schedule lives offline.</strong> Many clinics print or export the next day's appointment list at close each evening, or keep a read-only copy on a separate, protected device. Agree how this is stored securely, because a printed day sheet is patient information too.</li>
+  <li><strong>How clinicians decide who can be seen safely.</strong> Without a history or medication list, some visits can go ahead, some should be rebooked and some need the patient's pharmacy or previous provider contacted. That is a clinical decision, not an IT one, so write the rule down in advance.</li>
+  <li><strong>Paper forms for notes, prescriptions, requisitions and payments</strong>, kept in one labelled box, with a clear process for entering them into the EMR once it is back, and then storing or shredding the paper.</li>
+  <li><strong>How you reach patients.</strong> If your phone system or booking software is affected, how will you cancel or rebook appointments? A printed contact list for the next few days and a plain script for staff helps.</li>
+  <li><strong>Which device is "known clean".</strong> If ransomware is suspected, staff should not log into cloud systems from computers that may be compromised. Your IT provider will tell you which devices are safe to use.</li>
+</ul>
+<p>If your EMR is cloud-hosted, the vendor may still be up while your own computers are not, or the vendor may be the one having the outage. Know which situation you are in before deciding what to do; your IT provider and the vendor's status page or support line will tell you.</p>
+
+<h2>Scenario 1: ransomware, or the EMR server will not start</h2>
+<p>Signs include files that will not open and have strange extensions, a ransom note on screen or in shared folders, scanners and imaging software that suddenly cannot find their data, and a local EMR or practice-management database that will not start.</p>
+<ul>
+  <li><strong>Isolate affected machines.</strong> Unplug network cables and turn off Wi-Fi on anything showing symptoms. Your IT provider may disconnect the server, imaging computers or the whole clinic network from the internet.</li>
+  <li><strong>Protect the backups.</strong> Make sure backup systems are cut off from anything compromised and that nobody restores over the top of the evidence. A backup copy attackers cannot alter or delete is what turns a disaster into a bad week; see <a href="/blog/emr-backup-best-practices-bc-clinics">EMR backup best practices for BC clinics</a> and, for imaging, <a href="/blog/optometry-image-backup-bc">backing up OCT and retinal images</a>.</li>
+  <li><strong>Call your EMR or practice-software vendor</strong> once your IT provider and insurer are involved. Restoring a clinical database usually needs the vendor's own procedure, and they may need to check the restored data is consistent.</li>
+  <li><strong>Do not contact the attackers or pay</strong> without your insurer, advisors and responders. Paying does not guarantee your data is returned or deleted.</li>
+  <li><strong>Assume data may have been copied, not only locked.</strong> Many ransomware groups take a copy before encrypting. The investigation should establish what was accessed, because that drives who you have to tell.</li>
+  <li><strong>Connected equipment.</strong> Diagnostic and imaging devices often run older software. Do not reconnect them to the rebuilt network until your IT provider has checked them, or they can reinfect it.</li>
+</ul>
+
+<h2>Scenario 2: a lost or stolen laptop, tablet or phone</h2>
+<ul>
+  <li><strong>Report it the same day</strong> to your IT provider and, for theft, to police. Get a file number.</li>
+  <li><strong>Lock or wipe it remotely.</strong> A managed device can be locked or wiped from the management console. A personal phone with clinic email or a messaging app on it usually cannot, which is one reason to manage them.</li>
+  <li><strong>Sign it out of everything.</strong> Reset the user's password and revoke sessions for email, the EMR, e-fax and cloud storage so the device is useless even if it is never recovered.</li>
+  <li><strong>Confirm whether it was encrypted.</strong> Full-disk encryption (BitLocker on Windows, FileVault on Mac), confirmed as switched on before the loss, is often the difference between a near miss and a breach you must report. "It had a Windows password" is not the same thing.</li>
+  <li><strong>List what was on it.</strong> Downloaded reports, scanned documents, exported spreadsheets and synced folders. Clinicians who take work home are the most likely to have patient files saved locally; our guide to <a href="/blog/counsellor-home-office-security-bc">securing a home office for BC counsellors</a> covers how to stop that.</li>
+</ul>
+
+<h2>Scenario 3: a hacked mailbox or a misdirected fax</h2>
+<p>A taken-over mailbox shows up as patients or other clinics receiving odd messages from your address, replies to emails you never sent, a supplier asking about "changed banking details", or forwarding rules nobody created.</p>
+<ul>
+  <li><strong>Lock the account down:</strong> reset the password, sign out all sessions, check the multi-factor methods belong to the user, and remove forwarding rules and connected apps they did not set up.</li>
+  <li><strong>Pull the audit logs</strong> to see what could have been read. A mailbox that receives referrals, lab results or patient enquiries can expose a lot of health information.</li>
+  <li><strong>If money may have moved, call the bank immediately.</strong> Then confirm any changed payment details with the supplier by phone, using a number you already had.</li>
+  <li><strong>Warn affected contacts by phone</strong>, not by replying to a thread that may be compromised.</li>
+</ul>
+<p>For a fax or email sent to the wrong place, the steps are smaller but the same in spirit: contact the recipient, ask them to destroy or return it and confirm in writing that they have, record what was sent and to whom, and fix the cause (an outdated number in the EMR address book is common). Our guides to <a href="/blog/secure-efax-bc-clinics">secure e-fax for BC clinics</a> and <a href="/blog/clinic-email-security-bc">clinic email security</a> cover prevention.</p>
+
+<h2>Hours 2 to 24: who needs to be told</h2>
+<p>Once things are contained and the clinic has a plan for today's patients, attention turns to obligations and communication. Get advice before you send anything, but do not let that become a reason to wait.</p>
+<ul>
+  <li><strong>Privacy law.</strong> Most private clinics in BC are covered by the Personal Information Protection Act (PIPA), and federal privacy law can apply in some situations. Depending on the law that applies and the risk of harm, you may need to notify affected patients and the Office of the Information and Privacy Commissioner for BC. <!-- TODO owner: confirm current BC PIPA breach-notification requirements (PIPA amendments may have added mandatory notification) and whether PIPEDA applies before stating specifics. --></li>
+  <li><strong>Your regulatory college.</strong> Colleges set expectations for how registrants protect and handle records, and some may expect to hear about significant breaches. Check your college's current guidance or call them. <!-- TODO owner: link specific college guidance (e.g. CPSBC, College of Oral Health Professionals, College of Health and Care Professionals of BC, CVBC) once confirmed. --></li>
+  <li><strong>Your professional association and EMR vendor.</strong> Associations such as Doctors of BC publish privacy resources for physicians, and your EMR vendor may need to know if their system or credentials were involved. <!-- TODO owner: confirm current Doctors of BC privacy/security resources before linking. --></li>
+  <li><strong>Patients.</strong> Where notification is needed, patients deserve a plain explanation of what happened, what information was involved and what you are doing. Your insurer's breach coach can help with timing and wording.</li>
+  <li><strong>Staff and locums.</strong> Tell them what happened in plain terms, what to say if a patient asks, and not to discuss it on social media.</li>
+</ul>
+<p>Keep adding to the log. When things settle, it becomes the basis of your report to the insurer and of the review of what to change.</p>
+
+<h2>Write a one-page plan now</h2>
+<p>A useful plan for a small clinic fits on one page and lives somewhere you can reach when your systems are down: printed in the back office, and saved on the clinic lead's phone. It should list:</p>
+<ul>
+  <li><strong>Who leads:</strong> the person in charge and a backup for when they are away.</li>
+  <li><strong>Phone numbers:</strong> IT provider (including after hours), EMR and e-fax vendors' support lines, insurer's breach line and policy number, bank fraud line, your college and your own advisors.</li>
+  <li><strong>Where things are:</strong> which systems hold patient information, who the vendors are, and where backups are kept.</li>
+  <li><strong>The five first-hour steps</strong> above and a blank incident log.</li>
+  <li><strong>The downtime procedure:</strong> where the offline schedule is, where the paper forms are and how clinicians decide which visits go ahead.</li>
+</ul>
+<p>Review it once a year and whenever the clinic changes EMR, IT provider or insurer. A 30-minute tabletop exercise at a staff meeting ("it's 8:15 on a Monday, the EMR will not open and patients are arriving: what do we do?") will show the gaps faster than reading the document ever will.</p>
+
+<h2>Controls that make the first 24 hours easier</h2>
+<p>How bad an incident gets is mostly decided long before it happens:</p>
+<ul>
+  <li>Individual logins for everyone, with multi-factor authentication on email, the EMR, e-fax and remote access.</li>
+  <li>Full-disk encryption and remote lock/wipe on every laptop, tablet and phone that touches patient information.</li>
+  <li>Backups of the EMR database and imaging with at least one copy attackers cannot alter, and a restore you have actually tested.</li>
+  <li>Imaging and diagnostic equipment on its own network segment, kept away from front-desk browsing.</li>
+  <li>Audit logging switched on for email and the EMR, and kept long enough to investigate.</li>
+  <li>Same-day removal of access when staff, locums or contractors leave.</li>
+</ul>
+<p>Our article on <a href="/blog/five-clinic-security-gaps">five security gaps we see in clinics</a> covers the most common weaknesses, and <a href="/blog/pipeda-compliance-clinic-it">privacy compliance and clinic IT</a> explains how these controls map to your obligations.</p>
+
+<h2>A quick checklist</h2>
+<ul>
+  <li>Every staff member knows how to report a possible incident, and that it is safe to do so.</li>
+  <li>A one-page plan with phone numbers, printed and on a phone.</li>
+  <li>A written downtime procedure, with tomorrow's schedule available offline.</li>
+  <li>Cyber coverage confirmed and the breach line number recorded.</li>
+  <li>Devices encrypted and manageable remotely.</li>
+  <li>EMR and imaging backups isolated and restore-tested.</li>
+  <li>MFA everywhere; email and EMR audit logging on.</li>
+  <li>A tabletop exercise in the last 12 months.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<h3>Should we restore from backup straight away so we can see patients?</h3>
+<p>Not before your insurer and responders have had a chance to look, and not before the way in has been found and closed. Restoring too early can overwrite the evidence of what was accessed, and the same attack can happen again a week later. Your downtime procedure is what lets the clinic keep working safely while that happens.</p>
+<h3>Our EMR is in the cloud. Do we still need a plan?</h3>
+<p>Yes. A cloud EMR protects you from losing a local server, but not from a stolen password, a compromised front-desk computer, a hacked mailbox or a vendor outage. You still need multi-factor authentication, managed devices, a downtime procedure and a copy of the vendor's own incident and backup commitments.</p>
+<h3>A fax went to the wrong clinic. Is that really an incident?</h3>
+<p>Yes, and it is one of the most common. Handle it the same way every time: contact the recipient, get confirmation the document was destroyed or returned, record it, fix the cause and get advice on whether the patient needs to be told.</p>
+<h3>Can our IT provider handle the whole incident?</h3>
+<p>Your IT provider should contain the problem, preserve logs, restore systems with your software vendors and support the investigation. Decisions about patient care, notification and legal questions sit with the clinic, its advisors and the responders the insurer appoints. A good provider expects to work alongside them.</p>
+<h3>What does it cost to have Clearpine look after our clinic's IT?</h3>
+<p>Our managed IT support is $95 per user per month, with a minimum of five users and a one-year agreement, delivered remotely during business hours. Microsoft 365 licences, after-hours support and on-site visits are billed separately; on-site visits are free if a problem cannot be fixed remotely. <!-- TODO owner: confirm how after-hours incident response is handled and billed for managed clinic clients. --> For worked examples, see <a href="/blog/dental-office-it-support-cost-bc">IT support costs for a dental office</a> and <a href="/blog/allied-health-clinic-it-support-cost-bc">IT support costs for allied health clinics</a>.</p>
+
+<p>Clearpine Technologies is an Abbotsford-based managed IT provider serving clinics and law firms across the Lower Mainland and Fraser Valley. See our pages on IT support for <a href="/industries/medical-clinics">medical clinics</a>, <a href="/industries/dental">dental offices</a>, <a href="/industries/allied-health">allied health clinics</a> and <a href="/industries/veterinary">veterinary clinics</a>. Running a law firm instead? Read the <a href="/blog/law-firm-cyber-incident-response-bc">law firm version of this guide</a>.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <h2>Would your clinic be ready?</h2>
+        <p>Book a free IT assessment, on site within 300 km of Abbotsford or remotely, and we'll review your backups, devices, email and downtime plan.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="/free-it-assessment">Book a free IT assessment</a>
+          <a class="btn btn-light" href="tel:+12362583060">Call (236) 258-3060</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Clearpine Technologies</h4>
+        <p>Managed IT, cybersecurity and infrastructure deployment for Canadian clinics and public sector. Abbotsford, British Columbia.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#managed-it">Managed IT support</a></li>
+          <li><a href="/free-it-assessment">Free IT assessment</a></li>
+          <li><a href="/services#cybersecurity">Cybersecurity</a></li>
+          <li><a href="/services#deployment">Hardware deployment</a></li>
+          <li><a href="/services#project-management">Project management</a></li>
+          <li><a href="/services#additional">Additional services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/industries">Industries</a></li>
+          <li><a href="/projects">Case studies</a></li>
+          <li><a href="/capabilities">Capabilities statement</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+12362583060">(236) 258-3060</a></li>
+          <li><a href="mailto:info@clearpinetech.ca">info@clearpinetech.ca</a></li>
+          <li>Abbotsford, BC, Canada &middot; <a href="https://maps.app.goo.gl/QUKnd2QTRrVnYjWF9" rel="noopener">Google Maps</a></li>
+          <li><a href="https://g.page/r/CSSKcdn393goEBM/review" rel="noopener">Leave us a Google review</a></li>
+          <li>Serving the Fraser Valley,<br>Lower Mainland &amp; Canada-wide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Clearpine Technologies Inc. All rights reserved.</span>
+      <span>Corporation number 1818348-1 &middot; BC registration A0143401</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -111,6 +111,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | independent contractor vs MSP | `/blog/independent-contractor-vs-msp` | — | done |
 
 ## Rules for this map
+- **Before building anything, check for unmerged work.** Run `git branch -r` and `git log origin/main..<branch>` on `claude/kind-cray-*` and `seo/competitive-*` branches. From Oct 10 to Nov 16 this routine rebuilt `/business-it-support` about 20 times on branches that were never merged. Ship and merge one version before starting the next page.
 - Never mass-produce city-swapped pages. A city page needs local specifics (business districts, travel/onsite times from Abbotsford, local industries).
 - Healthcare and law-firm vertical keywords belong to the *Lower Mainland MSP (doctors & lawyers)* routine. Home-user keywords belong to the *home remote support* routine. Link to their pages; don't duplicate them.
 - Don't claim pricing, response times, certifications or partnerships until the owner confirms them. Mark these `<!-- TODO owner: ... -->`.

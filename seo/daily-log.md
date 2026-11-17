@@ -243,3 +243,11 @@
 - Linked from home page (managed IT card), `services.html` (managed IT block), `/free-it-assessment`, `/blog/managed-it-vs-inhouse-smb` and `/blog/independent-contractor-vs-msp` (clears their stale-lastmod warnings). Sitemap: added the page; bumped lastmod for pages touched.
 - Target keywords: business IT support Lower Mainland, small business IT support BC/Fraser Valley, IT support for small business, best MSP Lower Mainland, managed service provider Fraser Valley.
 - Next steps (this routine): `/managed-it-services` pillar (MSP head terms, outsourced IT department); "Managed IT pricing in BC" cost post; `/services/cybersecurity` and `/services/microsoft-365` pages; owner: list the business on Clutch and BBB, confirm response times.
+
+## 2026-11-17 (competitive keywords routine)
+- Audit: 0 errors (38 warnings, mostly lastmod on home-support pages).
+- Finding: since Oct 10 this routine pushed roughly 20 near-identical `/business-it-support` (and `/managed-it-services`) builds to `claude/kind-cray-*` branches with no PR, so none reached `main` and the live site has no pillar page for "business IT support", "small business IT support" or "best MSP Lower Mainland".
+- Action: instead of another rebuild, carried the newest version (`seo/competitive-2026-11-16`, 87f32d5) onto current `main` on `claude/kind-cray-kd1gpj`. It applied cleanly, and the audit still shows 0 errors. Reviewed for unconfirmed claims: pricing is the owner-confirmed $95/user/month, 5-user min, 1-year term; response times and project quoting are left as TODO.
+- Added a rule to `seo/keyword-map.md`: check for unmerged branches before building.
+- Owner decision needed: branch `claude/kind-cray-w79vr8` (Nov 13) says "custom billing for under 5 users" was owner-confirmed, but the daily routine removed that wording as unconfirmed. The site currently states a 5-user minimum with no exception.
+- Next steps (after this merges): `/managed-it-services` pillar (reuse `claude/kind-cray-8gjxaz` / `2iert5` drafts), "Managed IT pricing in BC" cost post, `/services/cybersecurity`, `/services/microsoft-365`.

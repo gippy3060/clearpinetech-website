@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Physio Clinic Booking Software Security in BC | Clearpine</title>
+<meta name="description" content="Practical steps to secure Jane or other cloud booking and charting software in a BC physio clinic: logins, roles, contractors, devices and exports.">
+<link rel="canonical" href="https://clearpinetech.ca/blog/physio-clinic-booking-software-security-bc">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#123b2f">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Clearpine Technologies">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://clearpinetech.ca/blog/physio-clinic-booking-software-security-bc">
+<meta property="og:title" content="Physio Clinic Booking Software Security in BC">
+<meta property="og:description" content="Practical steps to secure Jane or other cloud booking and charting software in a BC physio clinic: logins, roles, contractors, devices and exports.">
+<meta property="og:image" content="https://clearpinetech.ca/img/og-clearpine.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/css/styles.css" as="style">
+<link rel="stylesheet" href="/css/styles.css">
+<script defer src="/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://clearpinetech.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://clearpinetech.ca/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "How to secure booking and charting software in a BC physio clinic", "item": "https://clearpinetech.ca/blog/physio-clinic-booking-software-security-bc" }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://clearpinetech.ca/blog/physio-clinic-booking-software-security-bc#article",
+      "headline": "How to secure booking and charting software in a BC physio clinic",
+      "description": "Practical steps to secure Jane or other cloud booking and charting software in a BC physio clinic: logins, roles, contractors, devices and exports.",
+      "url": "https://clearpinetech.ca/blog/physio-clinic-booking-software-security-bc",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://clearpinetech.ca/blog/physio-clinic-booking-software-security-bc" },
+      "datePublished": "2026-11-18",
+      "dateModified": "2026-11-18",
+      "inLanguage": "en-CA",
+      "image": "https://clearpinetech.ca/img/og-clearpine.png",
+      "author": { "@id": "https://clearpinetech.ca/#organization" },
+      "publisher": { "@id": "https://clearpinetech.ca/#organization" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="Clearpine Technologies logo" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="9" fill="#123b2f"/>
+        <path d="M20 8l6.5 11h-3.6L27 26.5h-4.4L20 32l-2.6-5.5H13L17.1 19h-3.6L20 8z" fill="#2d8a6b"/>
+        <rect x="18.7" y="27" width="2.6" height="6" rx="1.1" fill="#c9a227"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Clearpine</span>
+        <span class="brand-tag">Technologies</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/industries">Industries</a></li>
+        <li><a href="/projects">Case studies</a></li>
+        <li><a href="/capabilities">Capabilities</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="nav-phone"><a href="tel:+12362583060">(236) 258-3060</a></li>
+        <li><a class="btn btn-primary" href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li>How to secure booking and charting software in a BC physio clinic</li>
+        </ol>
+      </nav>
+      <h1>How to secure booking and charting software in a BC physio clinic</h1>
+      <p class="post-meta">Physiotherapy clinics &middot; <time datetime="2026-11-18">18 November 2026</time></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <article class="post-content">
+
+<p>In a physiotherapy clinic, the booking and charting platform is the clinic. It holds the schedule, every patient's contact details, treatment notes, exercise programs, insurer and ICBC or WorkSafeBC claim details, and often stored payment cards. Most BC physio clinics now run a cloud platform for this, and most owners assume the vendor takes care of security. The vendor does secure its own servers. What it cannot do is control who signs in to your account, from which device, with which password, and what happens to the reports and exports your staff download. That part is yours. This guide walks through the practical steps for a multi-practitioner physio clinic, and most of it applies equally to chiropractic, massage therapy and kinesiology clinics. It is general information, not legal advice; check current guidance from your regulatory college and the BC Office of the Information and Privacy Commissioner for obligations that apply to you.</p>
+
+<h2>What the vendor secures, and what you secure</h2>
+<p>A cloud booking and charting platform (Jane, Cliniko and similar products are common in BC clinics) is a shared-responsibility arrangement. Roughly:</p>
+<ul>
+  <li><strong>The vendor</strong> is responsible for its data centres, server patching, encryption of stored data, its own backups and the security of its code.</li>
+  <li><strong>The clinic</strong> is responsible for who has an account, what each account can see, how people sign in, the computers and tablets they use, the clinic network, anything exported or downloaded, and noticing when something looks wrong.</li>
+</ul>
+<p>Under BC's Personal Information Protection Act (PIPA), a private clinic must make reasonable security arrangements for the personal information it holds. Choosing a reputable vendor is part of that, but it does not cover the clinic's side of the line. <!-- TODO owner: confirm current PIPA wording and any College of Physical Therapists of BC (or successor college) guidance on electronic records before citing specifics. --></p>
+<p>When problems happen in small clinics, they almost always happen on the clinic's side: a shared front-desk password, a former contractor who can still sign in, a reception computer that nobody updates, or a spreadsheet of patient contacts sitting in someone's Downloads folder.</p>
+
+<h2>Step 1: one person, one login, with multi-factor authentication</h2>
+<p>Every practitioner, kinesiologist, front-desk staff member, billing clerk and owner should have their own account. Shared logins such as "frontdesk" make it impossible to tell who viewed or changed a chart, and they tend to survive long after the people who knew the password have left.</p>
+<p>Turn on multi-factor authentication (MFA) for every account if your platform supports it, and make it mandatory rather than optional. An authenticator app is a better choice than text-message codes. For the front desk, where several people work the same computer through the day, each person should still sign in as themselves; most platforms make switching users quick, and a short automatic sign-out after inactivity stops one person's session being used by the next.</p>
+<p>Protect the email accounts behind these logins too. If someone can take over a practitioner's email, they can usually reset the booking-platform password. Our <a href="/blog/clinic-email-security-bc">clinic email security guide</a> covers that side.</p>
+
+<h2>Step 2: give each role only the access it needs</h2>
+<p>Booking platforms usually offer permission levels. Use them deliberately:</p>
+<ul>
+  <li><strong>Practitioners</strong> need their own schedule and the charts of patients they treat. Whether they need every patient's chart in the clinic is a decision for the owner, not a default to accept.</li>
+  <li><strong>Front-desk staff</strong> need scheduling, contact details and payments, but usually not clinical notes.</li>
+  <li><strong>Billing staff</strong> need invoices and claims, not treatment notes.</li>
+  <li><strong>Owners and clinic managers</strong> need administrative access, and only they should be able to create accounts, change permissions or run bulk exports.</li>
+</ul>
+<p>Keep the number of full administrator accounts small, ideally two, so the clinic is not locked out if one person is away. Write down who has what level and review it every few months.</p>
+
+<h2>Step 3: on-board and off-board contractors properly</h2>
+<p>Physio clinics are full of people who come and go: associate physiotherapists on contract, massage therapists renting a room, locums covering holidays, kinesiology students. Each one needs a clear start and finish.</p>
+<ul>
+  <li>Create the account on the first day with the right role, not a copy of the most senior account.</li>
+  <li>Agree in writing what devices they will use and that charts stay in the platform, not in personal notes apps.</li>
+  <li>On the last day, disable the account, remove them from shared email and Wi-Fi, and check they have not set up their own exports or calendar sync.</li>
+  <li>If a departing practitioner is entitled to take patient information with them, handle that through a documented process rather than an informal export. <!-- TODO owner: confirm whether Clearpine offers to manage contractor on/offboarding and how room-renting practitioners count toward the per-user price. --></li>
+</ul>
+<p>A common gap in small clinics is the account that was never switched off. A quarterly check of active users against the current staff list catches it.</p>
+
+<h2>Step 4: secure the devices that open the platform</h2>
+<p>A cloud platform is only as safe as the computer or tablet signed in to it. A compromised front-desk PC can capture passwords and session cookies no matter how good the vendor's security is.</p>
+<ul>
+  <li><strong>Clinic-owned computers and tablets</strong> should have current updates, endpoint protection, full-disk encryption, a screen lock and individual Windows or Mac logins.</li>
+  <li><strong>Treatment-room tablets</strong> used for charting should lock quickly and should not stay signed in overnight with the platform open.</li>
+  <li><strong>Practitioners' own phones and laptops</strong> are the hard part. Set a short written minimum: a supported operating system, a passcode, encryption, no shared family logins, and the platform used only through its app or a browser rather than downloaded files.</li>
+  <li><strong>Browsers</strong> should not save the platform password where anyone using the computer can see it. Use a password manager with individual vaults instead.</li>
+</ul>
+
+<h2>Step 5: control exports, reports and downloads</h2>
+<p>Booking platforms make it easy to export patient lists, appointment reports and invoices to spreadsheets. Those files are outside the vendor's protection the moment they are downloaded. They end up in email attachments, on USB sticks, in personal cloud storage and in Downloads folders on shared computers.</p>
+<p>Limit who can run bulk exports, decide where reports may be saved (a clinic-controlled, backed-up location, not a personal drive), and clear old exports regularly. If you send patient lists to a marketing or reminder service, check that you are allowed to, that the service is reputable, and that you only send what is needed.</p>
+
+<h2>Step 6: keep your own copy and know the outage plan</h2>
+<p>The vendor's backups protect the vendor from losing data. They do not necessarily help if someone in your clinic deletes records, if your account is compromised and changed, or if you need to leave the vendor. Find out:</p>
+<ul>
+  <li>Whether the platform offers a full data export, in what format, and how long it takes.</li>
+  <li>Whether deleted records can be recovered, and for how long.</li>
+  <li>What the vendor's status page and support process are during an outage.</li>
+</ul>
+<p>Then decide what your clinic does when the platform is unavailable for a morning: a printed or offline copy of the day's schedule, paper SOAP-note templates, and a way to take payment. The principles in our <a href="/blog/emr-backup-best-practices-bc-clinics">EMR backup best practices</a> and the downtime section of our <a href="/blog/clinic-cyber-incident-response-bc">clinic cyber incident response guide</a> apply directly.</p>
+
+<h2>Step 7: payments, the network and patient Wi-Fi</h2>
+<p>Card terminals, the front-desk computer, treatment-room tablets and patient Wi-Fi should not all sit on one flat network. Put patient and guest Wi-Fi on its own network that cannot reach clinic devices, and keep card terminals separate from general-purpose computers. If your platform stores patient cards for no-show fees or recurring billing, staff should never write card numbers down or email them; the platform's own card entry should be the only route in.</p>
+<p>Change the default passwords on your router and Wi-Fi equipment, keep their firmware current, and do not hand the staff Wi-Fi password to patients.</p>
+
+<h2>Step 8: watch for the warning signs</h2>
+<p>Many platforms keep an audit log of sign-ins and record access. Someone should look at it, at least occasionally. Warning signs include:</p>
+<ul>
+  <li>Sign-ins at odd hours or from unexpected locations.</li>
+  <li>An account viewing far more charts than its owner's caseload would explain.</li>
+  <li>Unexpected exports, new administrator accounts or changed permissions.</li>
+  <li>Patients reporting suspicious emails or texts that appear to come from the clinic.</li>
+</ul>
+<p>If something looks wrong, change the affected passwords, sign the account out of all sessions, contact the vendor and your IT provider, and follow your breach-assessment process. <!-- TODO owner: confirm current BC PIPA breach-notification requirements before stating specifics. --></p>
+
+<h2>Questions to ask your booking-software vendor</h2>
+<ul>
+  <li>Where is our data stored, and is it kept in Canada?</li>
+  <li>Can we require MFA for every user in our account?</li>
+  <li>What permission levels exist, and can we restrict chart access by practitioner?</li>
+  <li>Is there an audit log of sign-ins, chart views and exports, and how long is it kept?</li>
+  <li>How do we get a complete export of our data, and in what format?</li>
+  <li>How are deleted records recovered?</li>
+  <li>How will you tell us about a security incident on your side?</li>
+</ul>
+<p>Keep the answers on file. They are part of showing that you made reasonable security arrangements.</p>
+
+<h2>A quick checklist</h2>
+<ul>
+  <li>Individual accounts for everyone, with MFA required.</li>
+  <li>Roles set so front desk and billing do not see clinical notes they do not need.</li>
+  <li>Two administrators at most, and a written list of who has what access.</li>
+  <li>Contractor start and finish steps written down, with a quarterly user review.</li>
+  <li>Updated, encrypted, locked devices; a written minimum for personal devices.</li>
+  <li>Bulk exports restricted and old downloads cleared.</li>
+  <li>A tested data export and a paper downtime plan.</li>
+  <li>Guest Wi-Fi and card terminals separated from clinic computers.</li>
+  <li>Someone checking the audit log.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<h3>Is a cloud booking platform secure enough for a BC physio clinic?</h3>
+<p>A reputable cloud platform can be a sound choice, often more secure than a server in a back room. Whether your clinic's use of it is secure depends on the steps above: accounts, permissions, devices, exports and monitoring.</p>
+<h3>Can practitioners chart on their own phones?</h3>
+<p>Many clinics allow it. Set a written minimum standard for those devices, keep charting inside the platform's app or browser, and make sure access can be removed the day someone leaves.</p>
+<h3>We only have three physiotherapists and a front desk. Does this apply to us?</h3>
+<p>Yes. Small clinics are targeted precisely because they tend to have fewer controls, and most of these steps are settings and habits rather than purchases.</p>
+<h3>What does it cost to have an IT provider manage this?</h3>
+<p>Our managed IT support is $95 per user per month, with a minimum of five users and a one-year agreement, delivered remotely during business hours. Microsoft 365 licences, after-hours support and on-site visits are billed separately; on-site visits are free if a problem cannot be fixed remotely. Our <a href="/blog/allied-health-clinic-it-support-cost-bc">allied health IT cost guide</a> has example budgets for physio and chiropractic clinics.</p>
+
+<p>Clearpine Technologies is an Abbotsford-based managed IT provider serving clinics and law firms across the Lower Mainland and Fraser Valley. See our <a href="/industries/allied-health">IT support for physiotherapy, chiropractic and counselling clinics</a>, or read about <a href="/blog/pipeda-compliance-clinic-it">PIPEDA and clinic IT</a> and <a href="/blog/five-clinic-security-gaps">five common clinic security gaps</a>.</p>
+
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <h2>Want your clinic's booking-software set-up checked?</h2>
+        <p>Book a free IT assessment and we'll review accounts, devices, network and backups around your booking and charting platform.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="/free-it-assessment">Book a free IT assessment</a>
+          <a class="btn btn-light" href="tel:+12362583060">Call (236) 258-3060</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Clearpine Technologies</h4>
+        <p>Managed IT, cybersecurity and infrastructure deployment for Canadian clinics and public sector. Abbotsford, British Columbia.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#managed-it">Managed IT support</a></li>
+          <li><a href="/free-it-assessment">Free IT assessment</a></li>
+          <li><a href="/services#cybersecurity">Cybersecurity</a></li>
+          <li><a href="/services#deployment">Hardware deployment</a></li>
+          <li><a href="/services#project-management">Project management</a></li>
+          <li><a href="/services#additional">Additional services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/industries">Industries</a></li>
+          <li><a href="/projects">Case studies</a></li>
+          <li><a href="/capabilities">Capabilities statement</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+12362583060">(236) 258-3060</a></li>
+          <li><a href="mailto:info@clearpinetech.ca">info@clearpinetech.ca</a></li>
+          <li>Abbotsford, BC, Canada &middot; <a href="https://maps.app.goo.gl/QUKnd2QTRrVnYjWF9" rel="noopener">Google Maps</a></li>
+          <li><a href="https://g.page/r/CSSKcdn393goEBM/review" rel="noopener">Leave us a Google review</a></li>
+          <li>Serving the Fraser Valley,<br>Lower Mainland &amp; Canada-wide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Clearpine Technologies Inc. All rights reserved.</span>
+      <span>Corporation number 1818348-1 &middot; BC registration A0143401</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -375,3 +375,17 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. Owner to confirm remote tools / payment / two-session wording and French support, then reconcile all pages (Xfinity and Mac pages still name Quick Assist/LogMeIn; Xfinity still says "all major credit and debit cards" and "up to two sessions").
 3. US ISP pages: Verizon Fios, Cox. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
 4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).
+
+## 2026-11-18
+- Added ISP page `/home-support/wifi-router-help/verizon-fios/` ("Independent Help with Your Verizon Fios Wi-Fi, $100 CAD Flat"), the fourth US ISP page. Large call buttons with hours (Eastern equivalent listed first for New York / Northeast readers), the never-call-first statement and the Verizon disclaimer at top and bottom. Six problem cards (slow or dropping Wi-Fi, weak rooms, lost/new password, devices that won't connect, Fios extenders, your own router on Fios). An 8-step checklist: safe power restart, don't press the reset hole, leave the fiber box (ONT) alone and check the cable to the router, outage check, test next to the router, placement, keep the router sticker (Wi-Fi password and separate settings password) private. Fios notes: two boxes (ONT + Fios router), a beeping battery backup unit is about home-phone backup and not Wi-Fi or a hacker, your own router can often replace the Fios router but Fios TV boxes may need it (then add your system behind it), 5G Home Internet is different, we never ask for the Verizon account password. Honest limits (no Fios TV fixes), 7-question FAQ (including "what is the box in my garage" and "someone called saying they're Verizon"), FTC link, scam blog link, price with CAD note, hours, BC phone note, family-member/seniors link, Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: router model names, light colours, settings address and MoCA/coax configuration steps (vary by model and change).
+- Linked from the US ISP card on the Wi-Fi & router hub and from the AT&T page. AT&T and Fios disclaimers now name all four US providers they link to. Added to `sitemap.xml`; bumped hub and AT&T lastmod.
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions.
+- Target keywords (US): Verizon Fios Wi-Fi slow, Fios router password, restart Fios router, Fios ONT box, Fios battery backup beeping, own router with Fios, Fios extender setup. Cities: New York, Philadelphia, Boston area, Washington DC area, Northern Virginia.
+- Note: Videotron (`seo/home-2026-11-16`) and Microsoft 365 (`seo/home-2026-11-12-microsoft-365`) branches are still unmerged.
+
+### Next steps
+1. Merge pending Videotron and Microsoft 365 branches; then cross-link Canadian ISP pages, and add AT&T/Fios to the Xfinity and Spectrum pages' related links (updating their disclaimers).
+2. Owner to confirm remote tools / payment / two-session wording and French support, then reconcile all pages (Xfinity and Mac pages still name Quick Assist/LogMeIn; Xfinity still says "all major credit and debit cards" and "up to two sessions").
+3. US ISP page: Cox. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
+4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).

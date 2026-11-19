@@ -93,6 +93,22 @@
         },
         {
           "@type": "Question",
+          "name": "How should a small law firm protect its trust accounting system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Give everyone who touches trust records their own login with multi-factor authentication, limit who can post entries or release funds, release funds only from a managed and patched computer, confirm any change to payment instructions by phone on a number you already have, back up the accounting data separately and test the restore, and remove a departing person's access the same day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do we need a document management system, or is Microsoft 365 enough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on how your firm works. Many small firms manage well with the document storage in their practice-management software or a well-structured Microsoft 365 library with matter-level permissions. A dedicated document management system makes more sense when you need advanced email filing, version control or ethical screens across many matters. The important thing is to choose one home for client files and use it consistently."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Do you serve solo lawyers as well as larger firms?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -209,11 +225,60 @@
             <li><strong>Email and Microsoft 365 security.</strong> Multi-factor authentication, phishing protection, sensible mailbox permissions and conditional access. Business email compromise and payment-redirection fraud target lawyers because of the money that moves through their accounts.</li>
             <li><strong>Secure remote and mobile work.</strong> Encrypted laptops, managed devices and safe access to files from home, court or a client's office.</li>
             <li><strong>Backup you have actually tested.</strong> Client files, practice-management data and accounting records backed up to a stated recovery objective, with restores tested rather than assumed. See <a href="/blog/backups-probably-not-working">why backups quietly fail</a>.</li>
-            <li><strong>Practice-management and accounting platforms.</strong> A stable, patched environment for tools such as Clio, PCLaw, Actionstep or LEAP, with access controls matching who needs to see what. Trust-accounting data deserves the strongest protection in the office.</li>
+            <li><strong>Practice-management and accounting platforms.</strong> A stable, patched environment for tools such as Clio, PCLaw, Actionstep or LEAP, with access controls matching who needs to see what. Trust-accounting data deserves the strongest protection in the office; see <a href="#trust-accounting">protecting your trust accounting system</a> and <a href="#document-management">document management</a> below.</li>
             <li><strong>Cloud due diligence.</strong> Help reviewing where client data is stored, who can access it, and what the provider's security and exit terms look like, so you can document your decision.</li>
             <li><strong>Incident readiness.</strong> Logging, an incident response outline and a clear plan for who to call first if something goes wrong. Your obligations after a breach depend on the facts, so seek your own legal and insurer advice.</li>
             <li><strong>Responsive support.</strong> A named point of contact and defined response times, so a printer or login problem does not eat a billable hour.</li>
           </ul>
+
+          <h3 id="trust-accounting">Protecting your trust accounting system</h3>
+          <p>
+            The trust account is where a breach turns from embarrassing into expensive. Most of the
+            risk is not in the accounting software itself but around it: who can log in, which
+            computer is used for online banking, and how payment instructions are checked. The
+            controls below cost little and close the gaps we most often see in small offices.
+          </p>
+          <ul class="checklist">
+            <li><strong>Named logins only.</strong> Every lawyer, bookkeeper and assistant who touches trust records gets their own account in the accounting software and in online banking, with multi-factor authentication. No shared "accounting" login, so the audit trail shows who did what.</li>
+            <li><strong>Least privilege.</strong> Only the people who post trust entries or release funds have those rights. Staff who just need to look up a balance get read-only access, and administrator rights stay with as few people as possible.</li>
+            <li><strong>A clean computer for banking.</strong> Releasing trust funds is done from a managed, fully patched computer with endpoint protection, not a personal laptop or a shared reception PC. Browser extensions and stray software are kept off it.</li>
+            <li><strong>Two people, two channels for payments.</strong> Changes to payment instructions are confirmed by phone using a number you already have on file, never one in the email. Where your bank supports it, a second person approves electronic transfers. See <a href="/blog/law-firm-email-security-bc">email security for BC law firms</a> for the full call-back routine.</li>
+            <li><strong>Separate backup and restore test.</strong> Accounting data is backed up on its own schedule, including after month-end, and we prove we can restore it to a known date. If your accounting runs on an office server or workstation, as locally installed products such as PCLaw typically do, that database is the single most important thing in the backup.</li>
+            <li><strong>Prompt offboarding.</strong> When a bookkeeper or lawyer leaves, their access to the accounting software, banking and email is removed the same day, and any shared credentials they knew are changed.</li>
+          </ul>
+          <p>
+            Law Society rules set out which trust records you must keep, how they are reconciled and
+            for how long they must be retained. <!-- TODO owner: confirm whether to cite the current Law Society of BC rule references for trust records (Part 3, Division 7) and record retention, and link to the Law Society's trust-accounting resources. -->
+            Our job is to make sure those records are available, protected and recoverable; your
+            compliance with the rules themselves is a matter for you and the Law Society's trust
+            assurance staff.
+          </p>
+
+          <h3 id="document-management">Document management: knowing where client files live</h3>
+          <p>
+            In many small firms, a single client matter is spread across a practice-management
+            platform, a shared drive, several inboxes, a scanner folder and somebody's Downloads.
+            That makes files hard to find, hard to back up and hard to hand over when a file is
+            closed or a lawyer leaves. Before buying anything new, we help you settle a few
+            questions:
+          </p>
+          <ul class="checklist">
+            <li><strong>One home for each matter.</strong> Decide whether documents live in your practice-management software, a document management system or a structured Microsoft 365 library (SharePoint or Teams), and stop saving final copies anywhere else.</li>
+            <li><strong>Permissions by matter or team.</strong> Most files can be open to the whole firm, but some cannot: a matter behind a conflict screen, family or employment files, or a partner's HR records. Your storage should let you lock those down without a workaround.</li>
+            <li><strong>Email filed to the matter.</strong> Client correspondence is part of the file. A consistent way to save important email to the matter means it is not lost when a mailbox is cleaned up or an account is closed.</li>
+            <li><strong>Safe external sharing.</strong> Large documents go to clients and opposing counsel through a client portal or an expiring, access-controlled link rather than unprotected attachments or personal file-sharing accounts.</li>
+            <li><strong>Scanning and originals.</strong> Scanned documents are named and filed consistently, and the scanner sends to a protected location rather than an open network folder or a personal email address.</li>
+            <li><strong>Closed files and retention.</strong> Closed matters move to an archive that is still backed up and searchable, with a documented retention period and a deliberate process for destroying files when that period ends.</li>
+          </ul>
+          <p>
+            Cloud practice-management tools such as Clio, Actionstep and LEAP include document storage
+            of their own, and for many small firms that is enough. Others prefer a dedicated document
+            management system or Microsoft 365. There is no single right answer, but there should be
+            one answer for your firm, written down and followed. If you are weighing a cloud option,
+            our guide to <a href="/blog/clio-law-society-bc-security">vetting Clio and other cloud
+            practice software against Law Society expectations</a> lists the questions to ask.
+            <!-- TODO owner: list any document management systems (e.g. NetDocuments, Worldox, iManage) the team has actually deployed or supported, if any; until then the page names none. -->
+          </p>
 
           <h3>How we work with firms</h3>
           <ul class="checklist">
@@ -260,6 +325,10 @@
 <p>The Law Society of BC has published guidance on cloud computing for lawyers. In general, lawyers remain responsible for protecting client confidentiality when information is held by a third-party provider, so the provider, its security controls and your contract with it need to be reviewed. Check the Law Society's current guidance for the details.</p>
 <h3>Can you support Clio, PCLaw or LEAP?</h3>
 <p>We support the workstations, network, identity, backup and security around your practice-management and accounting software, and we coordinate with the software vendor on application-level issues. We do not replace the vendor's own support.</p>
+<h3>How should a small law firm protect its trust accounting system?</h3>
+<p>Give everyone who touches trust records their own login with multi-factor authentication, limit who can post entries or release funds, release funds only from a managed and patched computer, confirm any change to payment instructions by phone on a number you already have, back up the accounting data separately and test the restore, and remove a departing person's access the same day.</p>
+<h3>Do we need a document management system, or is Microsoft 365 enough?</h3>
+<p>It depends on how your firm works. Many small firms manage well with the document storage in their practice-management software or a well-structured Microsoft 365 library with matter-level permissions. A dedicated document management system makes more sense when you need advanced email filing, version control or ethical screens across many matters. The important thing is to choose one home for client files and use it consistently.</p>
 <h3>Do you serve solo lawyers as well as larger firms?</h3>
 <p>Yes. Sole practitioners and small firms are the focus. We scope support to the size of the practice rather than forcing a large-firm package.</p>
 <h3>How much does managed IT support cost for a law firm?</h3>

@@ -249,3 +249,15 @@
 - Added to `blog/index.html` (list + JSON-LD) and `sitemap.xml`. Linked from `/industries/allied-health` (booking/charting bullet), `/blog/allied-health-clinic-it-support-cost-bc` (confidential notes section; also clears its stale dateModified) and `/blog/clinic-email-security-bc` (staff-reminders section). Bumped lastmod/dateModified for all.
 - Target keywords: physio clinic software security, Jane app security physiotherapy, physiotherapy clinic IT BC, booking software privacy BC clinic, chiropractic clinic data security.
 - Next steps: link `/blog/clinic-cyber-incident-response-bc` from the dental, allied-health and veterinary industry pages; a law-firm post on the Law Society of BC cloud-computing checklist; deepen `/industries/law-firms` with a document-management/trust-accounting section; owner to resolve TODOs.
+
+## 2026-11-19
+- Audit: 0 errors at start (36 warnings, all on pages owned by other routines or older non-vertical pages); 0 errors at end (36 warnings).
+- Deepened `/industries/law-firms` (~1,900 → ~2,900 words) with two new sections:
+  - "Protecting your trust accounting system" (`#trust-accounting`): named logins + MFA, least privilege, a managed clean computer for releasing funds, two-person/two-channel payment confirmation, separate accounting-data backup with restore tests (locally installed products such as PCLaw), same-day offboarding.
+  - "Document management: knowing where client files live" (`#document-management`): one home per matter, matter/team permissions and conflict screens, filing email to the matter, safe external sharing, scanning, closed files and retention; practice-software storage vs DMS vs Microsoft 365.
+  - Two new FAQs (visible + FAQPage JSON-LD): protecting a small firm's trust accounting system; DMS vs Microsoft 365. The practice-management bullet now links to both sections.
+  - TODO owner comments: Law Society of BC rule references for trust records/retention; which document management systems (if any) the team has deployed. No DMS vendor is named as supported.
+- Housekeeping from the last run's next steps: `/industries/dental`, `/industries/allied-health` and `/industries/veterinary` ransomware bullets now also link `/blog/clinic-cyber-incident-response-bc`.
+- Sitemap: bumped lastmod for law-firms, dental, allied-health and veterinary.
+- Target keywords: law firm trust accounting security, trust account fraud prevention BC lawyers, law firm document management BC, PCLaw backup, IT support for law firms BC.
+- Next steps: blog post on the Law Society of BC cloud-computing checklist; blog post on law-firm document management (SharePoint vs DMS for small BC firms); deepen `/industries/medical-clinics` with an EMR-specific section (OSCAR Pro, Accuro, PS Suite, Med Access hosting models); owner to resolve TODOs.

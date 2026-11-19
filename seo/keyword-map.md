@@ -1,7 +1,7 @@
 # Competitive keyword map: Lower Mainland business IT
 
 Owned by the **Daily SEO, competitive keywords** routine. That routine re-checks
-competitors each week and updates this file. Last updated: 2026-11-18.
+competitors each week and updates this file. Last updated: 2026-11-19.
 
 ## Who we're competing with (Oct 2026 snapshot)
 
@@ -94,7 +94,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 ### 3. Comparison & cost (buyers researching)
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
-| managed IT services cost BC, how much does an MSP cost Canada | blog: "Managed IT pricing in BC" (use the benchmarks above, cite sources) | A | todo |
+| managed IT services cost BC, how much does an MSP cost Canada | `/blog/managed-it-services-cost-bc` | A | done (2026-11-19) |
 | free IT assessment, IT audit small business, network assessment Abbotsford | `/free-it-assessment` | A | done (/free-it-assessment) |
 | break-fix vs managed IT | blog | B | todo |
 | how to choose an MSP, questions to ask an IT provider | `/business-it-support` section (8-question checklist); a standalone blog post can expand it later | B | partial |

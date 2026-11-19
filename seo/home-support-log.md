@@ -389,3 +389,17 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. Owner to confirm remote tools / payment / two-session wording and French support, then reconcile all pages (Xfinity and Mac pages still name Quick Assist/LogMeIn; Xfinity still says "all major credit and debit cards" and "up to two sessions").
 3. US ISP page: Cox. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface.
 4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).
+
+## 2026-11-19
+- Added ISP page `/home-support/wifi-router-help/cox/` ("Independent Help with Your Cox Wi-Fi, $100 CAD Flat"), the fifth US ISP page, which finishes the US ISP list. It has large call buttons with hours and a note for Arizona readers: most of Arizona stays on Mountain Standard Time, so in winter our hours there are 9 am – 9 pm and in summer they match Pacific Time. The never-call-first statement and the Cox disclaimer appear at top and bottom. Six problem cards: slow or dropping Wi-Fi, weak rooms, lost or new password, devices that won't connect, Panoramic Wifi pods, and your own router behind the gateway. An 8-step checklist covers a safe power restart, not pressing the reset hole, checking the coax cable is finger-tight, an outage check, testing next to the gateway, placement, and keeping the sticker private. Cox notes cover the gateway being modem plus router, the gateway usually sitting where the cable comes in (why pods or mesh are often easier than moving it), using your own router behind the gateway (some Cox app and pod features may switch off; your own modem must be Cox-supported), Cox TV being separate, and the fact that we never ask for the Cox account password. Also on the page: honest limits, a 7-question FAQ, the FTC link, the scam blog link, price with the CAD note, hours, the BC phone note, the family-member/seniors link, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: gateway model names, light colours, settings address, the approved-modem list and exact bridge-mode steps, because these vary and change.
+- Linked from the US ISP card on the Wi-Fi & router hub and from the AT&T and Verizon Fios pages. Their disclaimers now name Cox. Added to `sitemap.xml`; bumped the lastmod for the hub, AT&T and Fios.
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions.
+- Target keywords (US): Cox Wi-Fi slow, Cox Wi-Fi password, restart Cox gateway, Cox Panoramic Wifi pods setup, Cox Wi-Fi weak upstairs, own router with Cox. Cities and areas: Phoenix, Tucson, Las Vegas, San Diego, Orange County, Oklahoma City, Hampton Roads VA, Rhode Island, New Orleans, Omaha.
+- Note: the Videotron (`seo/home-2026-11-16`) and Microsoft 365 (`seo/home-2026-11-12-microsoft-365`) branches are still unmerged.
+
+### Next steps
+1. Merge the pending Videotron and Microsoft 365 branches. Then cross-link the Canadian ISP pages, and add AT&T, Fios and Cox to the related links on the Xfinity and Spectrum pages (updating their disclaimers).
+2. The owner needs to confirm the remote tools, payment methods, two-session wording and French support; then reconcile all pages. The Xfinity and Mac pages still name Quick Assist/LogMeIn, and Xfinity still says "all major credit and debit cards" and "up to two sessions".
+3. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface. Later: Ring/Arlo/Nest and Samsung Galaxy/iPhone brand pages.
+4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).

@@ -403,3 +403,16 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. The owner needs to confirm the remote tools, payment methods, two-session wording and French support; then reconcile all pages. The Xfinity and Mac pages still name Quick Assist/LogMeIn, and Xfinity still says "all major credit and debit cards" and "up to two sessions".
 3. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface. Later: Ring/Arlo/Nest and Samsung Galaxy/iPhone brand pages.
 4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).
+
+## 2026-11-20
+- Added router brand page `/home-support/wifi-router-help/eero/` ("Independent Help with Your Eero Mesh Wi-Fi, $100 CAD Flat"), the first of the remaining router brands (D-Link, Linksys, Eero). Same layout as the TP-Link page. It has large call buttons with hours, plus the never-call-first statement and the eero/Amazon disclaimer at top and bottom. Six problem cards cover new setup, weak rooms, an eero showing offline, app sign-in trouble, changing the Wi-Fi name or password, and eero behind a provider's modem. An 8-step checklist covers one device or all, finding the gateway eero, restarting in order, reading the app, the light (steady white = fine, red on the gateway = no internet), placement, a cable test and reset caution. The "specific to eero" notes say it is app-only with no computer settings page, that sign-in uses one-time codes you should never read to a caller, that Amazon ownership makes account linking optional, that a provider's modem can create two networks, and that some ISPs supply eero units. Also on the page: honest limits (we can't get into an eero account for you), a 7-question FAQ (including "someone asked for my sign-in code" and "do I need eero Plus"), CAFC and FTC report links, price with the CAD note, hours, the BC phone note, the family-member/seniors link, links to the TP-Link and Netgear pages, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: light colours beyond white/red, eero model names, exact bridge-mode steps and eero Plus pricing (these vary and change).
+- Linked from the Eero card on the Wi-Fi & router hub. Added to `sitemap.xml`; bumped the hub's lastmod.
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions.
+- Target keywords (CA + US): eero setup help, eero Wi-Fi slow, eero offline, eero red light, can't log in to eero app, eero verification code, eero with Rogers/Bell/Xfinity modem, eero weak signal upstairs.
+
+### Next steps
+1. Merge the pending Videotron (#90) and Microsoft 365 (#81) branches. Many older home-support PRs (#3, #30, #34, #40, #42, #50, #52, #56, #70, #72) look superseded by work already on main; the owner may want to close them.
+2. Owner to confirm remote tools, payment methods, two-session wording and French support, then reconcile all pages.
+3. Routers: Linksys (Velop), D-Link, Google Nest Wifi, ASUS. Computers: ASUS, Acer, Microsoft Surface. Add AT&T/Fios/Cox to the Xfinity and Spectrum related links.
+4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).

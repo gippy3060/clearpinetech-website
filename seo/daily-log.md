@@ -261,3 +261,12 @@
 - Sitemap: bumped lastmod for law-firms, dental, allied-health and veterinary.
 - Target keywords: law firm trust accounting security, trust account fraud prevention BC lawyers, law firm document management BC, PCLaw backup, IT support for law firms BC.
 - Next steps: blog post on the Law Society of BC cloud-computing checklist; blog post on law-firm document management (SharePoint vs DMS for small BC firms); deepen `/industries/medical-clinics` with an EMR-specific section (OSCAR Pro, Accuro, PS Suite, Med Access hosting models); owner to resolve TODOs.
+
+## 2026-11-20 (competitive keywords)
+- Audit: 0 errors at start (36 warnings); 0 errors at end (31 warnings, 85 pages).
+- New pillar page `/business-it-support` (~1,650 words): "Small business IT support in the Lower Mainland". What's included, published pricing ($95/user/month, min 5, 1-year, custom billing under 5 users, extras billed separately, on-site free if not fixable remotely) with an honest note that other Lower Mainland providers publish roughly $80 to $180+/user/month, an eight-question "How to choose the best MSP in the Lower Mainland" checklist with where Clearpine does and doesn't fit (no 24/7 in base price), service-area links to all 11 location pages, industries, switching process, 7 FAQs. Service (Offer, areaServed cities) + FAQPage + BreadcrumbList JSON-LD. No review/rating markup. TODO owner comments: publishable reviews/references; a non-healthcare client type to mention.
+- Linked from home page (services section), `services.html`, `/free-it-assessment`, `/blog/managed-it-vs-inhouse-smb` (CTA; dateModified bumped), and the A-priority city pages Abbotsford, Surrey, Langley, Chilliwack (one sentence each).
+- Fix: `services.html` meta description 204 → 159 chars, now names Lower Mainland and Fraser Valley.
+- Sitemap: added `/business-it-support`; bumped lastmod for all pages touched. Keyword map updated (Nov competitor re-check, cluster marked done).
+- Target keywords: small business IT support Lower Mainland, business IT support BC, best MSP Lower Mainland, IT support for small business Fraser Valley, managed IT pricing.
+- Next steps: `/managed-it-services` pillar (managed IT services Lower Mainland, MSP Fraser Valley, outsourced IT department); blog "Managed IT pricing in BC"; `/services/cybersecurity` and `/services/microsoft-365` pages; owner: create a Clutch profile and ask clients for Google reviews.

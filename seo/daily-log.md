@@ -261,3 +261,16 @@
 - Sitemap: bumped lastmod for law-firms, dental, allied-health and veterinary.
 - Target keywords: law firm trust accounting security, trust account fraud prevention BC lawyers, law firm document management BC, PCLaw backup, IT support for law firms BC.
 - Next steps: blog post on the Law Society of BC cloud-computing checklist; blog post on law-firm document management (SharePoint vs DMS for small BC firms); deepen `/industries/medical-clinics` with an EMR-specific section (OSCAR Pro, Accuro, PS Suite, Med Access hosting models); owner to resolve TODOs.
+
+## 2026-11-20
+- Audit: 0 errors at start (36 warnings, all on pages owned by other routines or older non-vertical pages); 0 errors at end (36 warnings, 84 pages).
+- Deepened `/industries/medical-clinics` (~1,700 → ~2,300 words of text):
+  - New section "Your EMR: on-site server, vendor-hosted or cloud" (`#emr`): what the clinic is responsible for under each hosting model (patching on the vendor schedule, consistent database backups and restore tests, UPS/encryption for on-site servers; internet failover, client/printer mapping and MFA for vendor-hosted; MFA, managed devices, browser hygiene and paper downtime for browser-based), plus the data that leaks outside the EMR (scans, e-fax, lab reports, email, desktop files). EMR brands named only as examples; no claim about which vendor uses which model.
+  - New "What managed IT costs" block with the owner-confirmed $95/user/month terms and the free on-site/remote assessment.
+  - Two new FAQs (visible + FAQPage JSON-LD): whether a vendor-hosted EMR still needs IT support; what managed IT costs for a medical clinic. On-site FAQ now mentions the 300 km assessment.
+  - Final CTA now "Book a free IT assessment" + "Call (236) 258-3060" (was call + contact).
+  - Refocused on medical clinics since `/industries/dental` exists: title "Medical Clinic IT Support in BC | EMR & Privacy | Clearpine" (59 chars), new meta description (157 chars), H1/breadcrumb "medical clinics". URL unchanged.
+  - TODO owner comments: which EMR products/hosting models the team has worked with directly and any provincial integrations to mention (lab results, PharmaNet, CareConnect); how part-time physicians, locums and shared front-desk staff count as users.
+- Sitemap: bumped lastmod for `/industries/medical-clinics`.
+- Target keywords: medical clinic IT support BC, EMR IT support, OSCAR Pro server support, Accuro hosted IT, family practice IT support Abbotsford/Surrey/Vancouver, cloud EMR security.
+- Next steps: blog post on the Law Society of BC cloud-computing checklist; blog post on law-firm document management (SharePoint vs DMS for small BC firms); a medical-clinic post on "on-site vs hosted EMR: what changes for your clinic's IT" could expand the new section; check location pages' anchor text for the medical-clinics link; owner to resolve TODOs.

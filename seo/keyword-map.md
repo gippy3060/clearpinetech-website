@@ -69,7 +69,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
 | managed IT services Lower Mainland, managed service provider BC, MSP Fraser Valley | `/managed-it-services` (new pillar) | A | todo |
-| business IT support Lower Mainland, small business IT support BC, IT support for small business | `/business-it-support` (new pillar) | A | todo |
+| business IT support Lower Mainland, small business IT support BC, IT support for small business, best MSP Lower Mainland, how to choose an MSP | `/business-it-support` (new pillar) | A | done (/business-it-support, 2026-11-21) |
 | IT company Abbotsford, IT services Abbotsford, managed IT Abbotsford | `/locations/abbotsford` (strengthen) | A | todo |
 | IT support Surrey, managed IT Surrey | `/locations/surrey` (strengthen) | A | todo |
 | IT support Langley, managed IT Langley | `/locations/langley` (strengthen) | A | todo |
@@ -96,8 +96,8 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 |---|---|---|---|
 | managed IT services cost BC, how much does an MSP cost Canada | blog: "Managed IT pricing in BC" (use the benchmarks above, cite sources) | A | todo |
 | free IT assessment, IT audit small business, network assessment Abbotsford | `/free-it-assessment` | A | done (/free-it-assessment) |
-| break-fix vs managed IT | blog | B | todo |
-| how to choose an MSP, questions to ask an IT provider | blog | B | todo |
+| break-fix vs managed IT | `/business-it-support#support-models` (section); full blog post still todo | B | partial |
+| how to choose an MSP, questions to ask an IT provider | `/business-it-support#choosing-an-msp` (10 questions); full blog post still todo | B | partial |
 | switching IT providers, MSP onboarding | blog | C | todo |
 | managed IT vs in-house | `/blog/managed-it-vs-inhouse-smb` | — | done |
 | independent contractor vs MSP | `/blog/independent-contractor-vs-msp` | — | done |

@@ -101,6 +101,38 @@
         },
         {
           "@type": "Question",
+          "name": "Our EMR is hosted by the vendor. What IT does our clinic still need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The vendor looks after the servers, database and its own backups, but the clinic still owns the user accounts and multi-factor authentication, the computers people chart on, the internet connection and a backup connection, scanners, printers and e-fax, and a downtime procedure. It is also worth confirming how long the vendor keeps backups and how you would get a full export of your data."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should a clinic handle locum and part-time physician access?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Give every locum and physician their own named login with the right EMR role and multi-factor authentication, set an end date so access is removed when the locum leaves, and review the list of active accounts every quarter. Shared logins make it impossible to show who accessed a chart."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does managed IT support cost for a medical clinic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our managed IT support is $95 per user per month, with a minimum of 5 users and a 1-year agreement. It is delivered remotely during business hours. Microsoft 365 licences, after-hours support and on-site visits are billed separately, although on-site visits are free if the problem cannot be fixed remotely. A free IT assessment will tell you what your clinic needs before you commit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you assess our clinic on site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our free IT assessment is free with no obligation, and can be done on site at any location within 300 km of Abbotsford, or remotely."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Where do you provide on-site service for clinics?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -187,7 +219,7 @@
 
           <h3>What clinics typically need</h3>
           <ul class="checklist">
-            <li><strong>A stable environment for your EMR or practice software.</strong> Whether you run OSCAR Pro, Accuro, TELUS PS Suite, Med Access or dental and optometry practice-management software, the workstations, server (if any), network and permissions around it need to be patched, documented and fast. We work alongside your software vendor rather than replacing their support.</li>
+            <li><strong>A stable environment for your EMR or practice software.</strong> Whether you run OSCAR Pro, Accuro, TELUS PS Suite, Med Access or dental and optometry practice-management software, the workstations, server (if any), network and permissions around it need to be patched, documented and fast. We work alongside your software vendor rather than replacing their support. See <a href="#emr-hosting">how the hosting model changes what needs looking after</a>.</li>
             <li><strong>Privacy safeguards you can show.</strong> Unique user accounts, role-based access, encryption of laptops and servers, screen locks and audit-friendly logging. These are the technical side of your obligations under PIPA; see <a href="/blog/pipeda-compliance-clinic-it">PIPEDA and clinic IT</a> for how we translate them.</li>
             <li><strong>Backups that restore.</strong> Backup to a stated recovery objective, including the EMR database and imaging, with restores tested rather than assumed. See <a href="/blog/emr-backup-best-practices-bc-clinics">EMR backup best practices for BC clinics</a> and <a href="/blog/backups-probably-not-working">why backups quietly fail</a>.</li>
             <li><strong>Ransomware readiness.</strong> Patching, endpoint protection, multi-factor authentication, network segmentation and an offline or immutable backup copy, plus a plain-language plan for the first hour of an incident. See <a href="/blog/five-clinic-security-gaps">five security gaps we see in clinics</a> and <a href="/blog/clinic-cyber-incident-response-bc">cyber incident response for BC clinics</a>.</li>
@@ -195,6 +227,75 @@
             <li><strong>Email that protects patient information.</strong> MFA, spoofing protection and clear rules on what should not go by ordinary email. See <a href="/blog/clinic-email-security-bc">email security for BC clinics</a>.</li>
             <li><strong>Imaging and diagnostic equipment.</strong> Vendor software with specific requirements and long replacement cycles has to integrate cleanly without exposing the rest of your network.</li>
             <li><strong>Front-desk reliability.</strong> Printers, card terminals, phones and Wi-Fi that work, with support that responds in clinic hours so your staff are not troubleshooting between patients.</li>
+          </ul>
+
+          <h3 id="emr-hosting">Your EMR's hosting model decides what your IT has to cover</h3>
+          <p>
+            "We use Accuro" or "we're on OSCAR Pro" does not tell an IT provider very much on its own.
+            What matters is <em>where the EMR runs and who looks after each layer</em>. Depending on the
+            product and your contract, the same EMR brand may be hosted by the vendor, installed on a
+            server in your clinic, or run from a data centre by a third party. Your vendor agreement is
+            the source of truth; if nobody in the clinic is sure which model you are on, that is the
+            first thing we find out.
+            <!-- TODO owner: confirm which EMR products and hosting models the team has supported in practice, so specific experience can be stated here. -->
+          </p>
+
+          <h4>Vendor-hosted (cloud) EMR</h4>
+          <p>
+            The vendor runs the servers, database and application backups. That removes a lot of risk,
+            but it does not remove the clinic's share of the work. Your side still includes:
+          </p>
+          <ul>
+            <li><strong>Accounts and access.</strong> One named login per physician, MOA and locum, with multi-factor authentication where the EMR or your sign-in supports it, and the same-day removal of anyone who leaves.</li>
+            <li><strong>The computers people chart on.</strong> Patched, encrypted, screen-locking workstations and laptops. A cloud EMR is only as safe as the browser and device used to open it.</li>
+            <li><strong>Your internet connection.</strong> If the connection drops, nobody can see the schedule. A second connection or a cellular backup, plus a downtime procedure, keeps the front desk working.</li>
+            <li><strong>Everything around the EMR.</strong> Scanners, label and prescription printers, e-fax, signature pads and the downloads folder where exported reports and lab PDFs pile up.</li>
+            <li><strong>Knowing what the vendor backs up.</strong> Ask how long backups are kept, where they are stored, how you would get a full export of your data, and what happens if the contract ends.</li>
+          </ul>
+
+          <h4>EMR on a server in your clinic</h4>
+          <p>
+            Some clinics still run the EMR database on their own server, often because that is how the
+            practice was first set up. Here the clinic carries far more of the load, and this is where
+            we most often find gaps:
+          </p>
+          <ul>
+            <li><strong>Server care.</strong> Operating-system and database updates scheduled with the EMR vendor so an update does not break the application, monitored disks, and a hardware replacement plan before the warranty runs out.</li>
+            <li><strong>Backups of the database itself.</strong> Copies made in the way the vendor supports (not just a copy of open files), kept off site and offline or immutable, and restored in a test at least a few times a year. See <a href="/blog/emr-backup-best-practices-bc-clinics">EMR backup best practices</a>.</li>
+            <li><strong>Remote access done safely.</strong> Physicians charting from home through a VPN or managed gateway with MFA, never through a remote-desktop port left open to the internet.</li>
+            <li><strong>Power and physical security.</strong> A battery backup that shuts the server down cleanly, and a locked room or rack rather than a tower under the reception desk.</li>
+            <li><strong>A plan for the next move.</strong> Many clinics on a local server are weighing a move to a hosted version. We can help you plan the network, devices and data migration around the vendor's own process.</li>
+          </ul>
+
+          <h4>Hosted by a third party</h4>
+          <p>
+            Where a hosting company or another organization runs the server for you, the questions are
+            about the contract: who patches what, who backs up, where the data is stored, how fast
+            they respond when the clinic is down, and how you would get your data back. We review
+            these with you and handle the clinic end: devices, network, accounts and the connection to
+            the host.
+          </p>
+
+          <h4>Whatever the model: connections to provincial systems</h4>
+          <p>
+            Many BC clinics also connect to provincial systems and services, such as PharmaNet or
+            CareConnect, which can set their own requirements for how workstations, networks and
+            user access are configured. We work to the requirements the program and your EMR vendor
+            set, and keep a record of how your clinic meets them.
+            <!-- TODO owner: confirm experience with PharmaNet/CareConnect connection requirements before expanding this paragraph. -->
+          </p>
+
+          <h3 id="locums">Physicians, locums and shared workstations</h3>
+          <p>
+            Medical clinics have a staffing pattern most offices do not: physicians who work some days
+            a week, locums who appear for a fortnight, students and residents, and MOAs who move
+            between rooms all day. IT has to keep up with that without anyone sharing a password.
+          </p>
+          <ul>
+            <li><strong>A standard locum checklist.</strong> Account created before the first shift, the right EMR role, MFA set up, and an end date set so access is removed automatically when the locum leaves.</li>
+            <li><strong>Fast, private switching on shared computers.</strong> Exam-room and front-desk machines set up so each person signs in as themselves, with short screen-lock times that do not drive staff to disable them.</li>
+            <li><strong>Personal devices kept out of the chart.</strong> A clear rule, and a technical setup to match, for whether physicians may chart from their own laptops or phones.</li>
+            <li><strong>A quarterly access review.</strong> A short list of who has access to the EMR, email and files, checked against who actually works at the clinic.</li>
           </ul>
 
           <h3>How we work with clinics</h3>
@@ -205,6 +306,19 @@
             <li>On-site attendance across the Lower Mainland and Fraser Valley, plus remote support Canada-wide</li>
           </ul>
 
+          <h3 id="pricing">What managed IT costs</h3>
+          <p>
+            Managed IT support is <strong>$95 per user per month</strong>, with a minimum of 5 users and
+            a 1-year agreement, delivered remotely during business hours. Microsoft 365 licences,
+            after-hours support and on-site visits are billed separately. On-site visits are free if
+            the problem cannot be fixed remotely.
+            <!-- TODO owner: confirm how part-time physicians, locums and shared front-desk logins count as users. -->
+          </p>
+          <p>
+            Our free IT assessment is free with no obligation, and can be done on site at any
+            location within 300 km of Abbotsford, or remotely.
+          </p>
+
           <p>
             We are not a law firm or a regulator and do not give legal advice. We help implement and
             document technical safeguards; what applies to your particular practice is a question
@@ -213,6 +327,7 @@
           </p>
 
           <a class="btn btn-primary" href="/free-it-assessment">Book a free IT assessment</a>
+          <a class="btn btn-outline" href="tel:+12362583060">Call (236) 258-3060</a>
         </div>
       </article>
     </div>
@@ -230,6 +345,14 @@
 <p>Private-sector health practices in BC are generally subject to the Personal Information Protection Act (PIPA), and some organizations may also be subject to other legislation depending on how they are funded and structured. Your regulatory college and your own counsel can confirm what applies to you. We help put the technical safeguards in place and document them.</p>
 <h3>Do you work with dental offices, physiotherapists and other allied-health practices?</h3>
 <p>Yes. The IT needs of a dental office, optometry clinic, physiotherapy or chiropractic practice, counselling office or veterinary clinic are similar in shape: regulated personal information, imaging or practice software, front-desk reliability and a need for backups that actually restore. We scope support to the practice.</p>
+<h3>Our EMR is hosted by the vendor. What IT does our clinic still need?</h3>
+<p>The vendor looks after the servers, database and its own backups, but the clinic still owns the user accounts and multi-factor authentication, the computers people chart on, the internet connection and a backup connection, scanners, printers and e-fax, and a downtime procedure. It is also worth confirming how long the vendor keeps backups and how you would get a full export of your data.</p>
+<h3>How should a clinic handle locum and part-time physician access?</h3>
+<p>Give every locum and physician their own named login with the right EMR role and multi-factor authentication, set an end date so access is removed when the locum leaves, and review the list of active accounts every quarter. Shared logins make it impossible to show who accessed a chart.</p>
+<h3>How much does managed IT support cost for a medical clinic?</h3>
+<p>Our managed IT support is $95 per user per month, with a minimum of 5 users and a 1-year agreement. It is delivered remotely during business hours. Microsoft 365 licences, after-hours support and on-site visits are billed separately, although on-site visits are free if the problem cannot be fixed remotely. A free IT assessment will tell you what your clinic needs before you commit.</p>
+<h3>Can you assess our clinic on site?</h3>
+<p>Yes. Our free IT assessment is free with no obligation, and can be done on site at any location within 300 km of Abbotsford, or remotely.</p>
 <h3>Where do you provide on-site service for clinics?</h3>
 <p>From our Abbotsford head office we attend on site across the Fraser Valley and Lower Mainland, and provide remote support across Canada.</p>
 
@@ -255,8 +378,8 @@
         <h2>Is your clinic's IT where it should be?</h2>
         <p>Tell us how your practice runs. We will tell you honestly what we would change.</p>
         <div class="cta-actions">
-          <a class="btn btn-light" href="tel:+12362583060">Call (236) 258-3060</a>
-          <a class="btn btn-ghost-light" href="/contact">Start a conversation</a>
+          <a class="btn btn-light" href="/free-it-assessment">Book a free IT assessment</a>
+          <a class="btn btn-ghost-light" href="tel:+12362583060">Call (236) 258-3060</a>
         </div>
       </div>
     </div>

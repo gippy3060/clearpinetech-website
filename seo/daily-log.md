@@ -261,3 +261,17 @@
 - Sitemap: bumped lastmod for law-firms, dental, allied-health and veterinary.
 - Target keywords: law firm trust accounting security, trust account fraud prevention BC lawyers, law firm document management BC, PCLaw backup, IT support for law firms BC.
 - Next steps: blog post on the Law Society of BC cloud-computing checklist; blog post on law-firm document management (SharePoint vs DMS for small BC firms); deepen `/industries/medical-clinics` with an EMR-specific section (OSCAR Pro, Accuro, PS Suite, Med Access hosting models); owner to resolve TODOs.
+
+## 2026-11-21
+- Audit: 0 errors at start (36 warnings, all on pages owned by other routines or older non-vertical pages); 0 errors at end (36 warnings, 84 pages).
+- Deepened `/industries/medical-clinics` (~1,200 → ~1,960 words of body content), following the 2026-11-19 next step:
+  - "Your EMR's hosting model decides what your IT has to cover" (`#emr-hosting`): vendor-hosted cloud EMR (what the clinic still owns: accounts/MFA, charting devices, internet redundancy, scanners/printers/e-fax/downloads, vendor backup and data-export questions), EMR on a local server (vendor-coordinated patching, vendor-supported database backups with restore tests, VPN/MFA instead of open RDP, UPS and physical security, planning a move to hosted), third-party hosting (contract questions), and provincial-system connections (PharmaNet/CareConnect, stated generically). OSCAR Pro, Accuro, PS Suite and Med Access are named only as examples; no claim is made about which hosting model each product uses. The EMR bullet now links to the section.
+  - "Physicians, locums and shared workstations" (`#locums`): locum checklist with end-dated access, private switching on shared computers, personal-device rule, quarterly access review.
+  - "What managed IT costs" (`#pricing`): owner-confirmed pricing and free-assessment facts only.
+  - Four new FAQs (visible + FAQPage JSON-LD): cloud EMR responsibilities, locum access, cost, on-site assessment.
+  - CTAs: in-body "Book a free IT assessment" + "Call (236) 258-3060"; the bottom CTA now leads with "Book a free IT assessment" (was call + contact).
+  - TODO owner comments: which EMR products/hosting models the team has supported; PharmaNet/CareConnect experience; how part-time physicians, locums and shared front-desk logins count as users.
+- Fix: the secondary "Call" button on `/industries/law-firms` (and the new one on medical-clinics) used the unstyled class `btn-ghost`; changed to the existing `btn-outline`.
+- Sitemap: bumped lastmod for medical-clinics and law-firms.
+- Target keywords: IT support for medical clinics BC, EMR hosting cloud vs server clinic, OSCAR Pro / Accuro IT support, locum EMR access, managed IT cost medical clinic.
+- Next steps: blog post on the Law Society of BC cloud-computing checklist; blog post on law-firm document management (SharePoint vs DMS for small BC firms); blog post "Moving your clinic's EMR from a local server to the cloud" (link from `#emr-hosting`); owner to resolve TODOs.

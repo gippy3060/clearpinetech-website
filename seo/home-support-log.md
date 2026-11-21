@@ -403,3 +403,17 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. The owner needs to confirm the remote tools, payment methods, two-session wording and French support; then reconcile all pages. The Xfinity and Mac pages still name Quick Assist/LogMeIn, and Xfinity still says "all major credit and debit cards" and "up to two sessions".
 3. Routers: D-Link, Linksys, Eero. Computers: ASUS, Acer, Microsoft Surface. Later: Ring/Arlo/Nest and Samsung Galaxy/iPhone brand pages.
 4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).
+
+## 2026-11-21
+- Added router brand page `/home-support/wifi-router-help/linksys/` ("Independent Help with Your Linksys Router or Velop, $100 CAD Flat"). Same layout as the TP-Link page. It has large call buttons with hours, and the never-call-first statement and the Linksys disclaimer (which also names TP-Link, Netgear, Xfinity, Spectrum, Rogers and Bell, since the page links to them) at top and bottom. Six problem cards: Velop setup, a node with a red or yellow light, weak rooms, Linksys app sign-in, a new Wi-Fi name or password, and older routers. An 8-step checklist covers one device or all, finding the main node, the internet-port cable, restarting in order, lights (steady blue = fine, red = lost connection, yellow = too far, "on most models"), placement, a cable test and reset caution. The "specific to Linksys" notes cover Velop vs single routers, the app account vs Wi-Fi vs router password, using Linksys behind an ISP box (with links to the Xfinity, Spectrum, Rogers and Bell pages), and older models that no longer get updates (we tell you honestly; replacing is your choice). Also on the page: honest limits, a 7-question FAQ (including "someone called saying my Linksys was hacked"), CAFC and FTC links, the scam blog link, price with the CAD note, hours, the BC phone note, the family-member/seniors note, links to TP-Link and Netgear, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: model numbers, the settings-page address, light meanings beyond blue/red/yellow, and Linksys subscription features or pricing (these vary and change).
+- Linked from the Linksys card on the Wi-Fi & router hub. Added to `sitemap.xml`; bumped the hub's lastmod.
+- Merge note: the eero branch (`seo/home-2026-11-20`) is still unmerged. It edits the hub card on the line next to the Linksys card, and the same hub lastmod line, so expect a small conflict: keep both card links and the newer lastmod (2026-11-21).
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions.
+- Target keywords (CA + US): Linksys Velop setup help, Linksys Velop red light, Velop yellow light, Linksys app can't log in, Linksys Wi-Fi slow, Linksys router password, old Linksys router update, Linksys behind Xfinity/Rogers modem.
+
+### Next steps
+1. Merge the pending eero (11-20), Videotron (#90) and Microsoft 365 (#81) branches. The owner may want to close the older superseded home-support PRs.
+2. Owner to confirm remote tools, payment methods, two-session wording and French support, then reconcile all pages.
+3. Routers: D-Link, Google Nest Wifi, ASUS. Computers: ASUS, Acer, Microsoft Surface. Add AT&T/Fios/Cox to the Xfinity and Spectrum related links; cross-link TP-Link/Netgear pages to Linksys and eero.
+4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).

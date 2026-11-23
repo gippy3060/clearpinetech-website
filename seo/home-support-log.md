@@ -417,3 +417,17 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. Owner to confirm remote tools, payment methods, two-session wording and French support, then reconcile all pages.
 3. Routers: D-Link, Google Nest Wifi, ASUS. Computers: ASUS, Acer, Microsoft Surface. Add AT&T/Fios/Cox to the Xfinity and Spectrum related links; cross-link TP-Link/Netgear pages to Linksys and eero.
 4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).
+
+## 2026-11-23
+- Added computer brand page `/home-support/computer-help/surface/` ("Independent Help with Your Microsoft Surface, $100 CAD Flat"). It uses the same layout as the Lenovo page: large call buttons with hours, plus the Microsoft disclaimer (which also names Dell, HP and Lenovo, since the page links to them) and the never-call-first statement at top and bottom. Six problem cards: Surface Pro keyboard stopped working, won't charge, battery stops at 80%, pen or touchscreen, slow Surface, and new Surface setup. A 7-step "keyboard not working" checklist covers reseating the magnetic keyboard, cleaning the contacts, restarting, the on-screen keyboard for sign-in, Windows Update (where Surface fixes come from), the forced restart (hold power about 20 seconds "on most models") and knowing when it's a hardware job. The Surface-specific notes cover the magnetic charger and its light, the Surface app and the serial number under the kickstand, updates coming through Windows Update (no "driver updater" programs), some newer Surfaces using Arm chips (older programs and printer drivers may not work, so we check before you move), and "Microsoft will not call you" (scam link). Also on the page: honest limits, an 8-question FAQ (including "someone called saying they are from Microsoft"), CAFC and FTC links, the scam blog link, price with the CAD note, hours, the BC phone note, the family-member/seniors note, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: model numbers, exact Surface app menu names and UEFI steps, the connector light's colours and meanings, and warranty or repair prices (these vary and change).
+- Linked from the computer-help hub and from the Lenovo and HP pages (both disclaimers already name Microsoft). Added to `sitemap.xml`; bumped lastmod for the computer-help hub, Lenovo and HP.
+- Branched from `main` and touches no router pages, so it shouldn't conflict with the pending eero (#98) and Google Nest Wifi (11-22) branches. Only `sitemap.xml` (a different area) and this log are shared.
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions.
+- Target keywords (CA + US): Surface Pro keyboard not working, Surface won't charge, Surface battery stops at 80, Surface Pen not working, Surface black screen won't turn on, Surface serial number, new Surface setup help, Microsoft calling about virus scam.
+
+### Next steps
+1. Merge the pending eero (#98), Google Nest Wifi (11-22), Videotron (#90) and Microsoft 365 (#81) branches.
+2. Owner to confirm remote tools, payment methods, two-session wording and French support, then reconcile all pages.
+3. Computers: ASUS, Acer (then add a Surface link on the Dell page's related links). Routers: D-Link, ASUS. Printers: Lexmark, Xerox.
+4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).

@@ -81,7 +81,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 ### 2. Service-specific (high commercial intent)
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
-| cybersecurity services small business BC, managed security Fraser Valley | `/services/cybersecurity` | A | todo |
+| cybersecurity services small business BC, managed security Fraser Valley | `/services/cybersecurity` | A | done (/services/cybersecurity, branch pending merge) |
 | Microsoft 365 support, Microsoft 365 migration, Office 365 admin BC | `/services/microsoft-365` | A | todo |
 | co-managed IT, co-managed IT services Vancouver | `/services/co-managed-it` | A | todo |
 | backup and disaster recovery small business, data backup Abbotsford | `/services/backup-disaster-recovery` | B | todo |

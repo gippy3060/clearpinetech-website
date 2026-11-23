@@ -109,6 +109,22 @@
         },
         {
           "@type": "Question",
+          "name": "How should a dental office back up CBCT and X-ray images?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Back up the practice-management database and every imaging store together, following the imaging vendor's guidance, with at least one copy off site that ransomware cannot alter. CBCT volumes are large, so storage and off-site backup capacity should be planned before the unit is installed, and restores should be tested with a real patient image."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should hygienists and front-desk staff share a login?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Each person should have their own practice-software login with permissions matched to their role, so the office can tell who opened or changed a record. Operatory computers can stay signed in to Windows for imaging while the practice software locks after a short idle time."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Can you assess our office on site?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -195,7 +211,7 @@
           <h3>What dental offices typically need</h3>
           <ul class="checklist">
             <li><strong>A stable environment for practice-management software.</strong> Whether you run Dentrix, Eaglesoft, Open Dental or another product, the server or workstations, database, permissions and network around it need to be patched, documented and fast. We work alongside your vendor rather than replacing their support. <!-- TODO owner: confirm which dental software the team has supported before naming specific products as experience. --></li>
-            <li><strong>Digital imaging that just works.</strong> Intraoral sensors, panoramic and CBCT units and their capture stations have specific driver, storage and network requirements. We plan changes around them so an update does not take imaging down in the middle of a day.</li>
+            <li><strong>Digital imaging that just works.</strong> Intraoral sensors, panoramic and CBCT units and their capture stations have specific driver, storage and network requirements. We plan changes around them so an update does not take imaging down in the middle of a day. More on <a href="#imaging">imaging below</a>.</li>
             <li><strong>Backups that restore.</strong> Practice database and image storage backed up to a stated recovery objective, with restores tested rather than assumed. The same principles apply as in our guide to <a href="/blog/emr-backup-best-practices-bc-clinics">EMR backup best practices for BC clinics</a>.</li>
             <li><strong>Patient privacy safeguards you can show.</strong> Unique logins, role-based access, encrypted laptops and servers, screen locks and offboarding that actually removes access. See <a href="/blog/pipeda-compliance-clinic-it">PIPEDA and clinic IT</a>.</li>
             <li><strong>Predictable cost.</strong> See <a href="/blog/dental-office-it-support-cost-bc">how much IT support costs for a dental office in BC</a>, with example budgets at $95 per user per month.</li>
@@ -203,6 +219,48 @@
             <li><strong>Operatory and front-desk reliability.</strong> Workstation performance, Wi-Fi, printers, phones and card terminals that work, with support during business hours so staff are not troubleshooting between patients.</li>
             <li><strong>New builds, moves and expansions.</strong> Network cabling plans, equipment lists, imaging integration and cut-over scheduling for new or relocated offices. See what a setup involves in <a href="/blog/optometry-clinic-it-setup-cost">our clinic setup cost guide</a>.</li>
           </ul>
+
+          <h3 id="imaging">Imaging: sensors, pans, CBCT and intraoral scanners</h3>
+          <p>
+            Imaging is where dental IT is most different from a general office. Each device usually
+            comes with its own capture software, drivers and storage location, and each has a vendor
+            that decides which Windows versions, updates and settings it supports. Most imaging
+            problems we are asked about come from changes made without checking those requirements:
+            an automatic Windows update, a new workstation with the wrong USB driver, or a server move
+            that changed the path the imaging software expects.
+          </p>
+          <ul class="checklist">
+            <li><strong>Know where every image is actually stored.</strong> Intraoral X-rays, pans, CBCT volumes, intraoral camera photos and scanner files may each land in a different folder or database. We map them so backups cover all of them, not only the practice-management database.</li>
+            <li><strong>Control updates on capture workstations.</strong> Operatory and imaging computers get security updates, but on a schedule that respects the imaging vendor's supported versions, with a way to roll back if a sensor stops being detected.</li>
+            <li><strong>Plan storage for CBCT.</strong> CBCT volumes are much larger than two-dimensional X-rays, so a CBCT unit changes how much storage, network speed and off-site backup capacity the office needs. We size that before the unit arrives rather than after the server fills up. <!-- TODO owner: add typical storage planning guidance only if based on the team's own installs. --></li>
+            <li><strong>Treat lab and scanner portals as patient data.</strong> Intraoral scans and photos sent to labs or aligner providers through cloud portals should use named accounts with multi-factor authentication, not one shared login on a sticky note.</li>
+            <li><strong>Keep imaging devices off the guest network.</strong> Imaging computers and the server sit on a separate network from patient Wi-Fi, card terminals and smart TVs in the waiting room.</li>
+          </ul>
+
+          <h3 id="accounts">Dentists, hygienists, associates and the front desk</h3>
+          <p>
+            Dental offices share computers more than most workplaces: hygienists move between
+            operatories, associates work certain days, and the front desk covers for each other all
+            day. Shared logins are the easy answer and the one that causes trouble later, because
+            nobody can tell who opened a chart or changed a treatment plan.
+          </p>
+          <ul class="checklist">
+            <li>Every dentist, hygienist, assistant and front-desk team member gets their own practice-software login, with permissions matched to their role (for example, only the people who need it can adjust fees or write off balances).</li>
+            <li>Operatory computers can stay signed in to Windows for imaging, while the practice software itself locks after a short idle time and asks each person to sign back in.</li>
+            <li>Associates, locum dentists and temporary staff get access with an end date, and access is removed the day someone leaves.</li>
+            <li>Email and Microsoft 365 accounts use multi-factor authentication, since a compromised inbox is a common route into practice systems and supplier payments. See <a href="/blog/clinic-email-security-bc">clinic email security in BC</a>.</li>
+          </ul>
+          <!-- TODO owner: confirm how part-time hygienists, associates and shared front-desk positions count toward the per-user price. -->
+
+          <h3 id="front-desk">Card terminals, phones and the waiting room</h3>
+          <p>
+            The front desk is where patients notice IT problems first. Card terminals, phones,
+            printers for receipts and treatment plans, and waiting-room Wi-Fi all share the office
+            internet connection. We keep payment terminals and patient Wi-Fi separated from the
+            clinical network, document which devices depend on which network, and plan what happens
+            if the internet goes down: which systems keep working, and whether a backup connection
+            is worth it for your office.
+          </p>
 
           <h3>What managed IT costs</h3>
           <p>
@@ -248,6 +306,10 @@
 <p>We support the computers, network, storage and permissions that imaging depends on, and we work with your imaging vendor so drivers, software versions and storage keep working together. Imaging equipment often has strict vendor requirements, so we review them before making changes.</p>
 <h3>What privacy rules apply to a dental office's IT in BC?</h3>
 <p>Private dental practices in BC are generally subject to the Personal Information Protection Act (PIPA), and the College of Dental Surgeons of BC sets professional expectations for patient records. Your college, professional association and counsel can confirm what applies to you. We help put technical safeguards in place and document them.</p>
+<h3>How should a dental office back up CBCT and X-ray images?</h3>
+<p>Back up the practice-management database and every imaging store together, following the imaging vendor's guidance, with at least one copy off site that ransomware cannot alter. CBCT volumes are large, so storage and off-site backup capacity should be planned before the unit is installed, and restores should be tested with a real patient image.</p>
+<h3>Should hygienists and front-desk staff share a login?</h3>
+<p>No. Each person should have their own practice-software login with permissions matched to their role, so the office can tell who opened or changed a record. Operatory computers can stay signed in to Windows for imaging while the practice software locks after a short idle time.</p>
 <h3>Can you assess our office on site?</h3>
 <p>Yes. Our free IT assessment is free with no obligation, and can be done on site at any location within 300 km of Abbotsford, or remotely.</p>
 

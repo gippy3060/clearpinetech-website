@@ -261,3 +261,16 @@
 - Sitemap: bumped lastmod for law-firms, dental, allied-health and veterinary.
 - Target keywords: law firm trust accounting security, trust account fraud prevention BC lawyers, law firm document management BC, PCLaw backup, IT support for law firms BC.
 - Next steps: blog post on the Law Society of BC cloud-computing checklist; blog post on law-firm document management (SharePoint vs DMS for small BC firms); deepen `/industries/medical-clinics` with an EMR-specific section (OSCAR Pro, Accuro, PS Suite, Med Access hosting models); owner to resolve TODOs.
+
+## 2026-11-23
+- Audit: 0 errors at start (36 warnings, all on pages owned by other routines or older non-vertical pages); 0 errors at end.
+- Checked open PRs first: #97/#99 (medical-clinics EMR), #101 (law-firm document management) and #84 (law-firm remote work) are still open, so those topics were not repeated. Followed the 2026-11-22 next step instead.
+- Deepened `/industries/dental` (~1,850 → ~2,700 words) with three new sections:
+  - "Imaging: sensors, pans, CBCT and intraoral scanners" (`#imaging`): mapping every image store for backups, controlled updates on capture workstations, planning storage and off-site capacity before a CBCT unit arrives, named MFA accounts for lab/aligner scanner portals, keeping imaging off guest Wi-Fi. The imaging bullet now links to it.
+  - "Dentists, hygienists, associates and the front desk" (`#accounts`): individual role-based practice-software logins, idle lock on shared operatory computers, end-dated associate/locum access, MFA on email.
+  - "Card terminals, phones and the waiting room" (`#front-desk`): segmentation of payment terminals and patient Wi-Fi, internet-outage planning.
+  - Two new FAQs (visible + FAQPage JSON-LD): backing up CBCT and X-ray images; shared logins for hygienists/front desk.
+  - TODO owner comments: CBCT storage guidance only if from the team's own installs; how part-time hygienists, associates and shared front-desk positions count toward the per-user price.
+- Sitemap: bumped lastmod for `/industries/dental`.
+- Target keywords: dental office IT support BC, CBCT storage backup, dental imaging IT support, dental X-ray sensor not detected after update, dental office network security, IT support for orthodontists.
+- Next steps: dental imaging backup blog post (counterpart to the optometry image-backup guide, linking `#imaging`); `/industries/chiropractic` or a chiro/massage section on allied-health; law-firm post on secure client portals/e-signature; once #84 and #101 merge, cross-link them; owner to resolve TODOs and clear the open-PR backlog.

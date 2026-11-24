@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Dental X-ray &amp; CBCT Image Backups in BC | Clearpine</title>
+<meta name="description" content="Where dental X-rays, pans, CBCT volumes and intraoral scans really live, and how BC dental offices can back them up, beat ransomware and test a restore.">
+<link rel="canonical" href="https://clearpinetech.ca/blog/dental-imaging-backup-bc">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#123b2f">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Clearpine Technologies">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://clearpinetech.ca/blog/dental-imaging-backup-bc">
+<meta property="og:title" content="Dental X-ray and CBCT Image Backups for BC Dental Offices">
+<meta property="og:description" content="Where dental X-rays, pans, CBCT volumes and intraoral scans really live, and how BC dental offices can back them up, beat ransomware and test a restore.">
+<meta property="og:image" content="https://clearpinetech.ca/img/og-clearpine.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/css/styles.css" as="style">
+<link rel="stylesheet" href="/css/styles.css">
+<script defer src="/js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://clearpinetech.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://clearpinetech.ca/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "How to back up dental X-rays, pans and CBCT scans in a BC dental office", "item": "https://clearpinetech.ca/blog/dental-imaging-backup-bc" }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://clearpinetech.ca/blog/dental-imaging-backup-bc#article",
+      "headline": "How to back up dental X-rays, pans and CBCT scans in a BC dental office",
+      "description": "Where dental X-rays, pans, CBCT volumes and intraoral scans really live, and how BC dental offices can back them up, beat ransomware and test a restore.",
+      "url": "https://clearpinetech.ca/blog/dental-imaging-backup-bc",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://clearpinetech.ca/blog/dental-imaging-backup-bc" },
+      "datePublished": "2026-11-24",
+      "dateModified": "2026-11-24",
+      "inLanguage": "en-CA",
+      "image": "https://clearpinetech.ca/img/og-clearpine.png",
+      "author": { "@id": "https://clearpinetech.ca/#organization" },
+      "publisher": { "@id": "https://clearpinetech.ca/#organization" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <svg class="brand-mark" viewBox="0 0 40 40" role="img" aria-label="Clearpine Technologies logo" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="9" fill="#123b2f"/>
+        <path d="M20 8l6.5 11h-3.6L27 26.5h-4.4L20 32l-2.6-5.5H13L17.1 19h-3.6L20 8z" fill="#2d8a6b"/>
+        <rect x="18.7" y="27" width="2.6" height="6" rx="1.1" fill="#c9a227"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Clearpine</span>
+        <span class="brand-tag">Technologies</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation menu">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/industries">Industries</a></li>
+        <li><a href="/projects">Case studies</a></li>
+        <li><a href="/capabilities">Capabilities</a></li>
+        <li><a href="/about">About</a></li>
+        <li class="nav-phone"><a href="tel:+12362583060">(236) 258-3060</a></li>
+        <li><a class="btn btn-primary" href="/contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li>How to back up dental X-rays, pans and CBCT scans in a BC dental office</li>
+        </ol>
+      </nav>
+      <h1>How to back up dental X-rays, pans and CBCT scans in a BC dental office</h1>
+      <p class="post-meta">Dental offices &middot; <time datetime="2026-11-24">24 November 2026</time></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <article class="post-content">
+
+<p>In most dental offices the practice-management database gets backed up every night and someone gets an email saying it worked. The images are another story. Bitewings and periapicals may sit in an imaging program's own database. The pan may save to the computer bolted to the wall beside it. CBCT volumes may live on a separate drive because they filled the server. Intraoral scans may exist only in a scanner vendor's cloud and on the scanner's laptop. When a server fails or ransomware hits, the chart often comes back long before the X-rays do, and sometimes the X-rays don't come back at all. This guide explains how to find every place your dental images are stored and how to back them up so you could actually restore them. It is general technical information, not legal or clinical advice; the College of Dental Surgeons of BC, your association and your own advisors can confirm what applies to your records.</p>
+
+<h2>Why dental images need their own backup plan</h2>
+<p>Dental imaging has a few traits that make it easy to under-protect:</p>
+<ul>
+  <li><strong>Several systems, not one.</strong> Intraoral sensors, phosphor plate scanners, panoramic and cephalometric units, CBCT, intraoral cameras and intraoral scanners each tend to come with their own capture software. Some write into a shared imaging database; some keep their own; some hand files to a cloud portal.</li>
+  <li><strong>The practice software usually just points to them.</strong> Clicking an X-ray in the chart often opens a separate imaging program through a "bridge". The chart backup can be perfect and still contain none of the actual images.</li>
+  <li><strong>CBCT changes the scale.</strong> A single CBCT volume is far larger than a set of two-dimensional X-rays. An office that adds a CBCT unit can outgrow a backup plan that worked fine for years, and the off-site copy is usually the first thing to fall behind.</li>
+  <li><strong>Images can't be retaken after the fact.</strong> The radiograph that documented a condition before treatment is evidence of what was there. Retaking it later isn't the same record, and taking extra radiographs just to replace lost ones is not something you want to explain to a patient.</li>
+</ul>
+<p>Private dental practices in BC are generally subject to the Personal Information Protection Act (PIPA), which expects reasonable security arrangements for personal information, and the College sets record-keeping expectations. Radiographs and scans are part of the dental record, so they need the same protection as the chart. <!-- TODO owner: confirm whether to cite the College of Dental Surgeons of BC's current record-keeping or retention guidance here, and its exact wording. --></p>
+
+<h2>Step 1: map every image source in the office</h2>
+<p>Walk the office, operatory by operatory, and list every device that produces an image. For each one, write down:</p>
+<ol>
+  <li><strong>The device</strong> (sensor, plate scanner, pan/ceph, CBCT, intraoral camera, intraoral scanner) and which computer it connects to.</li>
+  <li><strong>The capture software</strong> and whether it is the same imaging program the rest of the office uses or a separate one supplied with the device.</li>
+  <li><strong>Where originals are saved:</strong> a shared imaging database on the server, a folder on a mapped drive, the local drive of the capture computer, or a vendor cloud.</li>
+  <li><strong>What the chart holds:</strong> the full image, a link to it, or only a thumbnail.</li>
+  <li><strong>How much space it uses now</strong> and roughly how fast it is growing.</li>
+</ol>
+<p>Pay special attention to three places that are often missed:</p>
+<ul>
+  <li><strong>The pan or CBCT computer.</strong> Many units come with a dedicated workstation, and some save each acquisition locally before (or instead of) sending it to the server. CBCT reconstruction software may keep the full volume locally and send only a report or screenshots onward.</li>
+  <li><strong>Intraoral scanner files.</strong> Digital impressions are often stored on the scanner's computer and in the manufacturer's or lab's cloud portal. Find out whether your office keeps its own copy, and whether the portal keeps cases indefinitely or deletes them after a period.</li>
+  <li><strong>Photo folders.</strong> Intraoral camera photos, clinical photography from a DSLR and smile-design images often end up in a desktop folder on one computer.</li>
+</ul>
+<p>The result is a one-page image map: device, software, storage location, size. It is the foundation for everything below, and it is the first thing a new IT provider or a replacement server installer will need.</p>
+
+<h2>Step 2: set recovery targets your schedule can live with</h2>
+<p>Two decisions shape the design:</p>
+<ul>
+  <li><strong>How much imaging can you afford to lose?</strong> If the server dies at 3 p.m., is losing the day's radiographs acceptable? For most offices the answer is no, because those images document treatment already done.</li>
+  <li><strong>How fast do you need images back?</strong> Hygiene appointments and treatment can often continue for a day with today's images only. Comparing against last year's bitewings, reviewing a CBCT before surgery, or sending images to a specialist can't.</li>
+</ul>
+<p>A common answer is: back up imaging at least as often as the practice-management database (more often during the day if the software supports it), keep a local copy that can restore recent images within hours, and accept a slower restore for the full multi-year archive from off site. Writing that down turns "we have backups" into something you can actually check.</p>
+
+<h2>Step 3: build three copies, with one ransomware can't touch</h2>
+<p>The 3-2-1 approach is a sensible baseline for dental imaging:</p>
+<ul>
+  <li><strong>The live imaging store</strong> on the server, with redundant drives so one failed drive doesn't stop the day. Redundant drives are not a backup: they don't protect against deletion, a corrupt database or ransomware.</li>
+  <li><strong>A local backup</strong> on a separate device in the office. This is what you restore from when a database corrupts or someone deletes a patient's images by mistake. A USB drive that stays plugged in permanently isn't enough on its own, since anything that encrypts the server can usually reach it.</li>
+  <li><strong>An off-site copy that is encrypted and immutable or offline</strong>, meaning it can't be changed or deleted for a set period, even by an administrator account. Ransomware attacks commonly go after backups first, so this is the copy that lets the office recover without negotiating.</li>
+</ul>
+<p>Know where the off-site copy is physically stored and record it; patients and the College may reasonably ask. Encrypt it in transit and at rest. <!-- TODO owner: confirm whether Clearpine has a preferred backup platform or Canadian-hosted off-site target to name here. --></p>
+
+<h2>Step 4: back up the imaging database and images together</h2>
+<p>Most dental imaging programs keep two things: the image files themselves and a database that records which patient, tooth, date and modality each image belongs to. Back up only the files and you may restore thousands of images with no reliable link to patients. Copy the database while the program is running and the copy may not open.</p>
+<ul>
+  <li>Ask your imaging vendor for their supported backup method and follow it. Some provide a backup utility; some require stopping a service or using a database-aware backup.</li>
+  <li>Back up the database and image store on the same schedule, so they match when restored.</li>
+  <li>Record the imaging software version, licence details and the exact storage paths. Many imaging programs expect images at a specific drive letter or server path; a restore to a different path can leave the chart showing broken links.</li>
+  <li>Keep the bridge settings between your practice software and imaging software with the documentation, so links between charts and images can be rebuilt on a new server.</li>
+  <li>Keep sensor and device drivers, and the vendor's install media or download details, somewhere you can find them. A restored server is not much use if the sensors can't be reinstalled on new operatory computers.</li>
+</ul>
+
+<h2>Step 5: give CBCT its own capacity plan</h2>
+<p>CBCT is where dental backup plans most often break. Because each scan is large, a CBCT unit can change how much storage the server needs, how long nightly backups take and how much off-site capacity the office pays for. Plan for it before the unit is installed, not after the first backup failure:</p>
+<ul>
+  <li>Ask the CBCT vendor where full volumes are stored, whether the acquisition workstation keeps a local copy, and how the volumes reach the server.</li>
+  <li>Estimate growth from your expected scan volume and check that live storage, the local backup and the off-site copy can all hold several years of it. <!-- TODO owner: add typical CBCT storage planning figures only if based on the team's own installs. --></li>
+  <li>Check that the office internet upload speed can send each day's new volumes off site overnight. If it can't, the off-site copy will slowly fall behind without anyone noticing.</li>
+  <li>Decide how CBCT scans are shared with oral surgeons, orthodontists and other specialists. A secure portal or encrypted transfer is better than a USB stick or an emailed link anyone could open, and you will want a record of what was sent and to whom.</li>
+</ul>
+
+<h2>Step 6: don't let originals live only on a capture computer</h2>
+<p>Capture computers beside pans and CBCT units are often older, may be held on a specific Windows version by the imaging vendor, and are easy to leave out of a backup plan because "everything goes to the server". If the software saves locally first and transfers later, a failed drive or a stuck transfer can take images with it.</p>
+<p>Where the vendor supports it, have capture software save directly to the central imaging store, and check from time to time that nothing is accumulating locally. If a workstation must keep its own copy, include it in the backup plan. Before installing backup agents or security software on these computers, check the vendor's requirements: an unsupported change can stop a sensor or a pan from working mid-morning. Keep imaging computers on their own network segment, away from guest Wi-Fi, card terminals and waiting-room TVs. Our page on <a href="/industries/dental#imaging">dental imaging IT</a> covers update control and network separation in more detail.</p>
+
+<h2>Step 7: test a restore with a real patient's images</h2>
+<p>A backup is proven only when someone has restored from it. Several times a year, and after any server, imaging software or practice-software upgrade:</p>
+<ol>
+  <li>Choose a patient with bitewings, a pan and, if you have it, a CBCT scan.</li>
+  <li>Restore their images and matching database records from the local backup to a test location, so live data isn't overwritten.</li>
+  <li>Open them in the imaging software and confirm they belong to the right patient, tooth numbers and dates, and that the CBCT volume opens in the viewer and can be manipulated, not just previewed.</li>
+  <li>Every so often, do the same from the off-site copy and time how long a large restore takes.</li>
+  <li>Write down what was tested, what worked, what didn't and how long it took.</li>
+</ol>
+<p>First tests often find something: an imaging database that was never included, a CBCT folder on a second drive the backup didn't cover, or an off-site job that has been failing quietly for months. See <a href="/blog/backups-probably-not-working">your backups are probably not working</a> for the common reasons.</p>
+
+<h2>Changing practice or imaging software? Plan the images first</h2>
+<p>Offices switching practice-management or imaging software often focus on moving charts and appointments, then discover that the image history doesn't convert cleanly. Before signing with a new vendor, ask how existing radiographs, pans, CBCT volumes and photos will be migrated, whether tooth numbers and dates carry over, and what happens to images that can't be converted. Keep a complete, tested backup of the old imaging system, and a way to view it, until you are sure everything you need is in the new one.</p>
+
+<h2>What to ask your imaging and practice-software vendors</h2>
+<ul>
+  <li>Where does each device save the original image, and does anything stay on the capture computer?</li>
+  <li>What is your supported method for backing up the imaging database and image store together?</li>
+  <li>What paths, drive letters and bridge settings do we need to document to restore onto a new server?</li>
+  <li>If you host any of our images (including intraoral scans in a cloud portal), where are they stored, how long are they kept, and how do we get a complete copy?</li>
+  <li>Which Windows versions, updates and security software are supported on capture and operatory computers?</li>
+</ul>
+
+<h2>A dental image-backup checklist</h2>
+<ul>
+  <li>Written map of every imaging device, its software and where originals are stored</li>
+  <li>Agreed targets for how much imaging you can lose and how fast you need it back</li>
+  <li>Live imaging store on redundant storage, plus a separate local backup</li>
+  <li>Encrypted off-site copy that is immutable or offline</li>
+  <li>Imaging database and image files backed up together, following vendor guidance</li>
+  <li>Paths, bridge settings, software versions and drivers documented</li>
+  <li>CBCT storage, backup window and off-site capacity planned before installation</li>
+  <li>No originals left only on capture computers; imaging computers on their own network segment</li>
+  <li>Restore test with a real patient's images, including CBCT, documented several times a year</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<h3>Our practice software backs up every night. Doesn't that include the X-rays?</h3>
+<p>Often it doesn't. Many practice-management programs link to a separate imaging program, and the practice-software backup covers the chart, not the imaging database or image files. Check what your backup job actually includes, then confirm by restoring a real patient's radiographs.</p>
+<h3>Our CBCT came with its own computer. Is it backed up?</h3>
+<p>Only if someone set that up. Ask the vendor where full volumes are stored. If they stay on the acquisition workstation, either have them saved to the server's imaging store or include that computer in the backup plan, following the vendor's guidance.</p>
+<h3>Are intraoral scans stored by the lab or scanner company a backup?</h3>
+<p>Not one you control. Portals may keep cases only for a set period and may not give you an easy way to export everything. Keep your own copy of the scans you need as part of the record, and back it up with your other images.</p>
+<h3>What does managed IT support cost for a dental office?</h3>
+<p>Our managed IT support is $95 per user per month, with a minimum of 5 users and a 1-year agreement, delivered remotely during business hours. Microsoft 365 licences, after-hours support and on-site visits are billed separately; on-site visits are free if the problem cannot be fixed remotely. Our guide to <a href="/blog/dental-office-it-support-cost-bc">IT support costs for a dental office in BC</a> has example budgets, and <a href="/industries/dental">IT support for dental offices</a> covers what's included. <!-- TODO owner: confirm whether backup storage or an off-site backup service is included in the per-user price or billed separately before stating either. --></p>
+<h3>Can you check whether our images are backed up?</h3>
+<p>Yes. Our <a href="/free-it-assessment">free IT assessment</a> is free with no obligation, on site at any location within 300 km of Abbotsford, or remote. It can include mapping where your radiographs, CBCT volumes and scans are stored and reviewing how they are backed up. Optometry clinics face a similar problem with OCT archives; see <a href="/blog/optometry-image-backup-bc">backing up OCT and retinal images</a>.</p>
+
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <h2>Not sure your X-rays and CBCT scans are backed up?</h2>
+        <p>Book a free IT assessment and we'll map where your radiographs, CBCT volumes and scans live and check that they can be restored.</p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="/free-it-assessment">Book a free IT assessment</a>
+          <a class="btn btn-light" href="tel:+12362583060">Call (236) 258-3060</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Clearpine Technologies</h4>
+        <p>Managed IT, cybersecurity and infrastructure deployment for Canadian clinics and public sector. Abbotsford, British Columbia.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#managed-it">Managed IT support</a></li>
+          <li><a href="/free-it-assessment">Free IT assessment</a></li>
+          <li><a href="/services#cybersecurity">Cybersecurity</a></li>
+          <li><a href="/services#deployment">Hardware deployment</a></li>
+          <li><a href="/services#project-management">Project management</a></li>
+          <li><a href="/services#additional">Additional services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/industries">Industries</a></li>
+          <li><a href="/projects">Case studies</a></li>
+          <li><a href="/capabilities">Capabilities statement</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+12362583060">(236) 258-3060</a></li>
+          <li><a href="mailto:info@clearpinetech.ca">info@clearpinetech.ca</a></li>
+          <li>Abbotsford, BC, Canada &middot; <a href="https://maps.app.goo.gl/QUKnd2QTRrVnYjWF9" rel="noopener">Google Maps</a></li>
+          <li><a href="https://g.page/r/CSSKcdn393goEBM/review" rel="noopener">Leave us a Google review</a></li>
+          <li>Serving the Fraser Valley,<br>Lower Mainland &amp; Canada-wide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Clearpine Technologies Inc. All rights reserved.</span>
+      <span>Corporation number 1818348-1 &middot; BC registration A0143401</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -431,3 +431,17 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. Owner to confirm remote tools, payment methods, two-session wording and French support, then reconcile all pages.
 3. Computers: ASUS, Acer (then add a Surface link on the Dell page's related links). Routers: D-Link, ASUS. Printers: Lexmark, Xerox.
 4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).
+
+## 2026-11-24
+- Added computer brand page `/home-support/computer-help/asus/` ("Independent Help with Your ASUS Computer, $100 CAD Flat"). It uses the same layout as the Surface page: large call buttons with hours, plus the ASUS disclaimer (which also names Microsoft, Dell, HP and Lenovo, since the page links to them) and the never-call-first statement at top and bottom. Six problem cards: battery stops at 60% or 80%, touchpad stopped working, won't turn on, keys do the wrong thing (function lock), slow ASUS, new ASUS setup. A 7-step "touchpad not working" checklist covers the touchpad key (or Fn + it), unplugging a mouse, the Windows touchpad setting, restart, Windows Update/MyASUS updates, a forced power-off, and knowing when to stop (including the swollen-battery safety warning). ASUS-specific notes cover the MyASUS app, Battery Health Charging, Armoury Crate power modes on ROG/TUF gaming laptops, the S/N sticker and no "driver updater" programs, ASUS routers being a separate topic (link to the Wi-Fi hub), and "nobody from ASUS or Microsoft will call you". Also on the page: honest limits, an 8-question FAQ (including "won't turn on", the Fn + Esc function lock and the scam call), CAFC and FTC links, the scam blog link, price with the CAD note, hours, the BC phone note, the family-member/seniors note, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: model numbers, exact MyASUS menu names, which F-key toggles the touchpad on each model, BIOS steps and warranty or repair prices. "On many models" is used for the 40-second power-button reset and Fn + Esc.
+- Linked from the computer-help hub, the Surface page and the Dell page. The Dell page now also links to Surface (a next step from 11-23); the Dell and Surface disclaimers now name every brand they link to. Added to `sitemap.xml`; bumped lastmod for the computer-help hub, Dell and Surface.
+- Touches only computer-help pages, `sitemap.xml` (computer-help area) and this log, so it should not conflict with the pending eero (#98) and Google Nest Wifi (11-22) router branches.
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions.
+- Target keywords (CA + US): ASUS laptop battery not charging to 100, ASUS battery stuck at 80 / 60, ASUS touchpad not working, ASUS laptop won't turn on, ASUS function keys not working Fn lock, MyASUS help, ASUS VivoBook / ZenBook slow, new ASUS laptop setup help.
+
+### Next steps
+1. Merge the pending eero (#98), Google Nest Wifi (11-22), Videotron (#90) and Microsoft 365 (#81) branches.
+2. Owner to confirm remote tools, payment methods, two-session wording and French support, then reconcile all pages.
+3. Computers: Acer (then link it from the ASUS, Dell and Surface pages). Routers: D-Link, ASUS. Printers: Lexmark, Xerox.
+4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).

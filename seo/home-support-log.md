@@ -445,3 +445,16 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. Owner to confirm remote tools, payment methods, two-session wording and French support, then reconcile all pages.
 3. Computers: Acer (then link it from the ASUS, Dell and Surface pages). Routers: D-Link, ASUS. Printers: Lexmark, Xerox.
 4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings).
+
+## 2026-11-25
+- Added computer brand page `/home-support/computer-help/acer/` ("Independent Help with Your Acer Computer, $100 CAD Flat"). It uses the same layout as the ASUS page: large call buttons with hours, plus the Acer disclaimer (which also names Microsoft, Google, ASUS, Dell, HP and Lenovo) and the never-call-first statement at top and bottom. Six problem cards: won't turn on, battery stops at 80%, touchpad stopped working, slow Acer, updates and pop-ups, new Acer setup. A 7-step "Acer laptop won't turn on" checklist covers charging first, unplugging extras, holding the power button, the battery reset hole underneath ("many Acer laptops", paper clip, files not erased), checking for a screen-only fault, updates, and knowing when to stop (including the swollen-battery warning). A short touchpad tip covers Fn + the touchpad key ("often F7"). Acer-specific notes cover Acer Care Center / AcerSense, the battery charge limit, NitroSense/PredatorSense power modes, the S/N and SNID sticker with no "driver updater" programs, Acer Chromebooks being different, and "nobody from Acer or Microsoft will call you". Also on the page: honest limits, a 9-question FAQ, CAFC and FTC links, the scam blog link, price with the CAD note, hours, the BC phone note, the family-member/seniors note, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: model numbers, exact app menu names, how long to hold the reset pin on each model, BIOS steps and warranty or repair prices.
+- Linked from the computer-help hub and from the ASUS, Dell and Surface pages (their disclaimers now name Acer). Added to `sitemap.xml`; bumped lastmod for the computer-help hub, ASUS, Dell and Surface.
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions, and whether Chromebook (ChromeOS) support is offered.
+- Target keywords (CA + US): Acer laptop won't turn on, Acer battery reset hole, Acer battery stuck at 80, Acer touchpad not working Fn F7, Acer Care Center / AcerSense help, Acer Aspire slow, Acer Nitro slow, Acer SNID serial number, new Acer laptop setup help.
+
+### Next steps
+1. Merge the pending eero (#98), Google Nest Wifi (11-22), Videotron (#90) and Microsoft 365 (#81) branches.
+2. Owner to confirm remote tools, payment methods, two-session wording, French support and Chromebook support, then reconcile all pages.
+3. Computer brand list is now complete. Routers: D-Link, ASUS. Printers: Lexmark, Xerox. Then phone/TV/camera brand pages (iPhone, Samsung Galaxy, Ring).
+4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings); add Acer to HP and Lenovo related links.

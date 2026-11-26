@@ -1,7 +1,7 @@
 # Competitive keyword map: Lower Mainland business IT
 
 Owned by the **Daily SEO, competitive keywords** routine. That routine re-checks
-competitors each week and updates this file. Last updated: 2026-10-09.
+competitors each week and updates this file. Last updated: 2026-11-26. Run log: `seo/competitive-log.md`.
 
 ## Who we're competing with (Oct 2026 snapshot)
 
@@ -19,6 +19,8 @@ competitors each week and updates this file. Last updated: 2026-10-09.
 | Glimpse Networks | Vancouver | Outsourced IT department **or** co-managed, M365 backup |
 | Resolved IT, Superion, IX Solutions | Surrey | Managed IT, Microsoft 365, cybersecurity |
 | Raxxos | Cloverdale | Langley/Surrey managed IT |
+
+**Nov 2026 re-check:** searches for "best MSP Lower Mainland" are dominated by Clutch directory pages (Vancouver, Abbotsford, Burnaby, Surrey, BC) and vendor "how to choose an MSP" buyer guides (TeckPath, Resolute, Miles IT). Hexafusion now has city pages incl. Langley plus a Vancouver cost blog. Implication: answer the "best MSP" query with an honest selection checklist, and get a Clutch profile with reviews (owner action).
 
 **Patterns worth copying, done honestly:**
 1. One landing page per **service × city** pair, but only where the content is really different.
@@ -69,7 +71,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
 | managed IT services Lower Mainland, managed service provider BC, MSP Fraser Valley | `/managed-it-services` (new pillar) | A | todo |
-| business IT support Lower Mainland, small business IT support BC, IT support for small business | `/business-it-support` (new pillar) | A | todo |
+| business IT support Lower Mainland, small business IT support BC, IT support for small business, best MSP Lower Mainland, how to choose an MSP | `/business-it-support` (new pillar) | A | done (/business-it-support) |
 | IT company Abbotsford, IT services Abbotsford, managed IT Abbotsford | `/locations/abbotsford` (strengthen) | A | todo |
 | IT support Surrey, managed IT Surrey | `/locations/surrey` (strengthen) | A | todo |
 | IT support Langley, managed IT Langley | `/locations/langley` (strengthen) | A | todo |
@@ -97,9 +99,9 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | managed IT services cost BC, how much does an MSP cost Canada | blog: "Managed IT pricing in BC" (use the benchmarks above, cite sources) | A | todo |
 | free IT assessment, IT audit small business, network assessment Abbotsford | `/free-it-assessment` | A | done (/free-it-assessment) |
 | break-fix vs managed IT | blog | B | todo |
-| how to choose an MSP, questions to ask an IT provider | blog | B | todo |
+| how to choose an MSP, questions to ask an IT provider | `/business-it-support#choosing` (checklist); standalone blog later if it earns impressions | B | partly done |
 | switching IT providers, MSP onboarding | blog | C | todo |
-| managed IT vs in-house | `/blog/managed-it-vs-inhouse-smb` | — | done |
+| managed IT vs in-house, in-house it vs managed services | `/blog/managed-it-vs-inhouse-smb` (title/description rewritten, pricing + CTA added 2026-11-26) | — | done |
 | independent contractor vs MSP | `/blog/independent-contractor-vs-msp` | — | done |
 
 ## Rules for this map

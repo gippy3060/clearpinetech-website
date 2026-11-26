@@ -458,3 +458,17 @@ Separate from the business/MSP SEO work. Scope: `/home-support/` URLs only.
 2. Owner to confirm remote tools, payment methods, two-session wording, French support and Chromebook support, then reconcile all pages.
 3. Computer brand list is now complete. Routers: D-Link, ASUS. Printers: Lexmark, Xerox. Then phone/TV/camera brand pages (iPhone, Samsung Galaxy, Ring).
 4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings); add Acer to HP and Lenovo related links.
+
+## 2026-11-26
+- Added router brand page `/home-support/wifi-router-help/asus/` ("Independent Help with Your ASUS Router or AiMesh, $100 CAD Flat"). Same layout as the Linksys page: large call buttons with hours, plus the never-call-first statement and the ASUS disclaimer (which also names Linksys, TP-Link, Netgear, Xfinity, Spectrum, Rogers and Bell, since the page links to them) at top and bottom. Six problem cards: new router setup, red internet light, AiMesh/ZenWiFi, updates and security, parental controls, new Wi-Fi name or password. An 8-step checklist covers one device or all, the internet (WAN) light ("on many newer ASUS routers"), the WAN port cable, restarting in order, placement, a cable test, checking for a firmware update and reset caution. The ASUS-specific notes cover the ASUS Router app vs the web settings page, AiMesh, the many extra settings (ROG/TUF gaming models), keeping it updated (reported attacks on un-updated routers from several makers, including some ASUS models; change the sign-in password; keep remote access from the internet off), the two passwords, and using ASUS behind an ISP box. Also on the page: honest limits, an 8-question FAQ, CAFC and FTC links, the scam blog link, price with the CAD note, hours, the BC phone note, the family-member/seniors note, and Service + Offer + FAQPage + Breadcrumb JSON-LD.
+- Deliberately left out: model numbers, the settings-page address, light meanings beyond "red internet light", specific vulnerabilities or botnet names, and AiProtection subscription details or prices (these vary and change).
+- Linked from the ASUS card on the Wi-Fi & router hub, from the ASUS computer page (which used to send router questions to the general hub) and from the Linksys page (its disclaimer now names ASUS). Added to `sitemap.xml`; bumped lastmod for the Wi-Fi hub, Linksys and the ASUS computer page.
+- Merge note: the pending eero and Google Nest Wifi branches also edit the hub card list and the hub lastmod line. If they conflict, keep all card links and the newest lastmod.
+- Owner TODOs on the page: remote tool, payment methods, follow-up sessions.
+- Target keywords (CA + US): ASUS router setup help, ASUS router red light, ASUS WAN light red, AiMesh setup, ZenWiFi setup help, ASUS router firmware update, ASUS router parental controls, ASUS router slow Wi-Fi, ASUS router behind Xfinity/Rogers modem.
+
+### Next steps
+1. Merge the pending eero (#98), Google Nest Wifi (11-22), Videotron (#90) and Microsoft 365 (#81) branches.
+2. Owner to confirm remote tools, payment methods, two-session wording, French support and Chromebook support, then reconcile all pages.
+3. Routers: D-Link (last on the router list). Printers: Lexmark, Xerox. Then phone/TV/camera brand pages (iPhone, Samsung Galaxy, Ring). Add ASUS to the TP-Link and Netgear related links (update their disclaimers).
+4. Housekeeping: bump stale home-support sitemap lastmod values (audit warnings); add Acer to HP and Lenovo related links.

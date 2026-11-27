@@ -18,7 +18,7 @@ Owned by the **Daily SEO, competitive keywords** routine. Vertical (clinic/law) 
 - Audit: 0 errors at start; 0 errors at end (30 warnings, 94 pages).
 - **Found a stuck pipeline:** none of this routine's work has ever reached `main`. Since 2026-10-10 it pushed to ~50 `claude/kind-cray-*` branches without opening PRs, and rebuilt the same `/business-it-support` page on 40+ of them. Finished pages from 2026-11-19 to 2026-11-23 were also stranded.
 - No new page written today. Instead, consolidated the stranded work onto one branch on top of current `main` (plus yesterday's `seo/competitive-2026-11-26` pillar + MSP checklist):
-  - `/managed-it-services` pillar (from `kind-cray-4g7hpe`, 2026-11-22): managed service provider BC, MSP Fraser Valley, outsourced IT department.
+  - `/managed-it-services` pillar (from `kind-cray-4g7hpe`, 2026-11-22): managed service provider BC, MSP Fraser Valley. Does not yet use "outsourced IT department" wording; add a section next run.
   - `/blog/managed-it-services-cost-bc` (from `kind-cray-addhzh`, 2026-11-19): BC managed IT pricing guide with worked examples for 5–25 staff; datePublished set to 2026-11-27. TODO owner: confirm publishing the market price ranges.
   - `/services/cybersecurity` (from `kind-cray-z42ptm`, 2026-11-23): small business cybersecurity service page. TODO owner: standalone security project pricing.
   - Wired in: sitemap, blog index (list + JSON-LD), home page managed-IT and cybersecurity cards, services.html (managed-IT intro + cybersecurity block), `/business-it-support` (pricing section, cybersecurity link, sidebar), `/blog/onsite-it-support-cost-fraser-valley` (link to pricing guide).

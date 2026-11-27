@@ -1,7 +1,7 @@
 # Competitive keyword map: Lower Mainland business IT
 
 Owned by the **Daily SEO, competitive keywords** routine. That routine re-checks
-competitors each week and updates this file. Last updated: 2026-11-26. Run log: `seo/competitive-log.md`.
+competitors each week and updates this file. Last updated: 2026-11-27. Run log: `seo/competitive-log.md`.
 
 ## Who we're competing with (Oct 2026 snapshot)
 
@@ -70,7 +70,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 ### 1. Core MSP / business IT support (head terms)
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
-| managed IT services Lower Mainland, managed service provider BC, MSP Fraser Valley | `/managed-it-services` (new pillar) | A | todo |
+| managed IT services Lower Mainland, managed service provider BC, MSP Fraser Valley | `/managed-it-services` (new pillar) | A | done (/managed-it-services) |
 | business IT support Lower Mainland, small business IT support BC, IT support for small business, best MSP Lower Mainland, how to choose an MSP | `/business-it-support` (new pillar) | A | done (/business-it-support) |
 | IT company Abbotsford, IT services Abbotsford, managed IT Abbotsford | `/locations/abbotsford` (strengthen) | A | todo |
 | IT support Surrey, managed IT Surrey | `/locations/surrey` (strengthen) | A | todo |
@@ -83,7 +83,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 ### 2. Service-specific (high commercial intent)
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
-| cybersecurity services small business BC, managed security Fraser Valley | `/services/cybersecurity` | A | todo |
+| cybersecurity services small business BC, managed security Fraser Valley | `/services/cybersecurity` | A | done (/services/cybersecurity) |
 | Microsoft 365 support, Microsoft 365 migration, Office 365 admin BC | `/services/microsoft-365` | A | todo |
 | co-managed IT, co-managed IT services Vancouver | `/services/co-managed-it` | A | todo |
 | backup and disaster recovery small business, data backup Abbotsford | `/services/backup-disaster-recovery` | B | todo |
@@ -96,7 +96,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 ### 3. Comparison & cost (buyers researching)
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
-| managed IT services cost BC, how much does an MSP cost Canada | blog: "Managed IT pricing in BC" (use the benchmarks above, cite sources) | A | todo |
+| managed IT services cost BC, how much does an MSP cost Canada | `/blog/managed-it-services-cost-bc` | A | done (/blog/managed-it-services-cost-bc) |
 | free IT assessment, IT audit small business, network assessment Abbotsford | `/free-it-assessment` | A | done (/free-it-assessment) |
 | break-fix vs managed IT | blog | B | todo |
 | how to choose an MSP, questions to ask an IT provider | `/business-it-support#choosing` (checklist); standalone blog later if it earns impressions | B | partly done |
@@ -105,6 +105,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | independent contractor vs MSP | `/blog/independent-contractor-vs-msp` | — | done |
 
 ## Rules for this map
+- **Before building anything, check whether the work already exists on an unmerged branch** (`git branch -r`, `git log origin/main..<branch>`). Between 2026-10-10 and 2026-11-26 this routine rebuilt `/business-it-support` on 40+ branches because its pushes never became PRs and never reached `main`. Carry finished work forward instead of rewriting it.
 - Never mass-produce city-swapped pages. A city page needs local specifics (business districts, travel/onsite times from Abbotsford, local industries).
 - Healthcare and law-firm vertical keywords belong to the *Lower Mainland MSP (doctors & lawyers)* routine. Home-user keywords belong to the *home remote support* routine. Link to their pages; don't duplicate them.
 - Don't claim pricing, response times, certifications or partnerships until the owner confirms them. Mark these `<!-- TODO owner: ... -->`.

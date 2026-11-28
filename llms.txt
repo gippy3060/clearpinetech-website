@@ -1,0 +1,52 @@
+# Clearpine Technologies
+
+> Clearpine Technologies Inc. is a managed IT service provider (MSP) headquartered in Abbotsford, British Columbia, Canada. It provides managed IT support, co-managed IT, cybersecurity, hardware deployment and IT project management for small and mid-sized businesses, healthcare clinics, law firms and public sector organizations across the Fraser Valley and Metro Vancouver (Lower Mainland), with remote support across Canada.
+
+## Key facts
+
+- Legal name: Clearpine Technologies Inc. (federally incorporated under the CBCA; registered extraprovincially in BC). Founded 2026.
+- Head office: Abbotsford, BC, Canada.
+- Phone: (236) 258-3060. Email: info@clearpinetech.ca. Website: https://clearpinetech.ca/
+- On-site service area: Abbotsford, Chilliwack, Mission, Langley, Maple Ridge, Surrey, New Westminster, Burnaby, Vancouver, North Vancouver and Whistler. Remote support Canada-wide.
+- Managed IT support price: $95 CAD per user per month, minimum 5 users, 1-year agreement, delivered remotely during business hours. Custom billing for fewer than 5 users. Microsoft 365 licences, after-hours support and on-site visits are billed separately; on-site visits are free if the problem cannot be fixed remotely.
+- Free, no-obligation IT assessment: on site anywhere within 300 km of Abbotsford for a business of any size, or remotely.
+- Home tech support (separate service for households): remote help for households in Canada and the USA, flat $100 CAD per session.
+
+## Business services
+
+- [Small business IT support](https://clearpinetech.ca/business-it-support): what managed IT includes, pricing, service area and how to compare providers
+- [Services](https://clearpinetech.ca/services): managed IT, co-managed IT, cybersecurity, hardware deployment, IT project management
+- [Free IT assessment](https://clearpinetech.ca/free-it-assessment)
+- [Capabilities statement](https://clearpinetech.ca/capabilities): for procurement and public sector buyers
+- [About](https://clearpinetech.ca/about)
+- [Contact](https://clearpinetech.ca/contact)
+
+## Industries
+
+- [Medical clinics](https://clearpinetech.ca/industries/medical-clinics)
+- [Dental offices](https://clearpinetech.ca/industries/dental)
+- [Optometry clinics](https://clearpinetech.ca/industries/optometry)
+- [Physiotherapy and allied health](https://clearpinetech.ca/industries/allied-health)
+- [Chiropractic and massage therapy](https://clearpinetech.ca/industries/chiropractic)
+- [Counselling and psychology](https://clearpinetech.ca/industries/counselling)
+- [Veterinary clinics](https://clearpinetech.ca/industries/veterinary)
+- [Law firms](https://clearpinetech.ca/industries/law-firms)
+
+## Locations
+
+- [Abbotsford](https://clearpinetech.ca/locations/abbotsford)
+- [Chilliwack](https://clearpinetech.ca/locations/chilliwack)
+- [Mission](https://clearpinetech.ca/locations/mission)
+- [Langley](https://clearpinetech.ca/locations/langley)
+- [Maple Ridge](https://clearpinetech.ca/locations/maple-ridge)
+- [Surrey](https://clearpinetech.ca/locations/surrey)
+- [New Westminster](https://clearpinetech.ca/locations/new-westminster)
+- [Burnaby](https://clearpinetech.ca/locations/burnaby)
+- [Vancouver](https://clearpinetech.ca/locations/vancouver)
+- [North Vancouver](https://clearpinetech.ca/locations/north-vancouver)
+- [Whistler](https://clearpinetech.ca/locations/whistler)
+
+## Optional
+
+- [Insights blog](https://clearpinetech.ca/blog/): IT cost guides, security and backup guides for BC clinics, law firms and small businesses
+- [Home tech support](https://clearpinetech.ca/home-support/)

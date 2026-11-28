@@ -1,7 +1,7 @@
 # Competitive keyword map: Lower Mainland business IT
 
 Owned by the **Daily SEO, competitive keywords** routine. That routine re-checks
-competitors each week and updates this file. Last updated: 2026-10-09.
+competitors each week and updates this file. Last updated: 2026-11-28.
 
 ## Who we're competing with (Oct 2026 snapshot)
 
@@ -69,7 +69,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | Keywords | Target page | Pri | Status |
 |---|---|---|---|
 | managed IT services Lower Mainland, managed service provider BC, MSP Fraser Valley | `/managed-it-services` (new pillar) | A | todo |
-| business IT support Lower Mainland, small business IT support BC, IT support for small business | `/business-it-support` (new pillar) | A | todo |
+| business IT support Lower Mainland, small business IT support BC, IT support for small business, best MSP Lower Mainland, how to choose an MSP | `/business-it-support` (new pillar, incl. `#choosing` buyer checklist) | A | done (/business-it-support) |
 | IT company Abbotsford, IT services Abbotsford, managed IT Abbotsford | `/locations/abbotsford` (strengthen) | A | todo |
 | IT support Surrey, managed IT Surrey | `/locations/surrey` (strengthen) | A | todo |
 | IT support Langley, managed IT Langley | `/locations/langley` (strengthen) | A | todo |
@@ -97,7 +97,7 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 | managed IT services cost BC, how much does an MSP cost Canada | blog: "Managed IT pricing in BC" (use the benchmarks above, cite sources) | A | todo |
 | free IT assessment, IT audit small business, network assessment Abbotsford | `/free-it-assessment` | A | done (/free-it-assessment) |
 | break-fix vs managed IT | blog | B | todo |
-| how to choose an MSP, questions to ask an IT provider | blog | B | todo |
+| how to choose an MSP, questions to ask an IT provider | `/business-it-support#choosing` (done); a longer blog version later | B | partial |
 | switching IT providers, MSP onboarding | blog | C | todo |
 | managed IT vs in-house | `/blog/managed-it-vs-inhouse-smb` | — | done |
 | independent contractor vs MSP | `/blog/independent-contractor-vs-msp` | — | done |
@@ -106,3 +106,12 @@ Priority: A = build first, B = next, C = later. Status: `todo` / `done (URL)`.
 - Never mass-produce city-swapped pages. A city page needs local specifics (business districts, travel/onsite times from Abbotsford, local industries).
 - Healthcare and law-firm vertical keywords belong to the *Lower Mainland MSP (doctors & lawyers)* routine. Home-user keywords belong to the *home remote support* routine. Link to their pages; don't duplicate them.
 - Don't claim pricing, response times, certifications or partnerships until the owner confirms them. Mark these `<!-- TODO owner: ... -->`.
+
+## Competitive routine log
+
+### 2026-11-28
+- Built `/business-it-support` (~1,600 words): Service + Offer (UnitPriceSpecification $95 CAD/user/mo) + FAQPage (6 Qs) + BreadcrumbList JSON-LD. Sections: what's included, pricing with 5/10/15/20-user budgets, break-fix vs managed vs in-house, "How to choose the best MSP in the Lower Mainland" (8 questions, no "we're the best" claims), service area linking all 11 location pages, industries, getting started, FAQ. TODO owner: publish after-hours/on-site rates.
+- Linked from `services.html` (#managed-it), `index.html` (Where we work), pricing section of Abbotsford/Chilliwack/Surrey/Langley/Vancouver location pages, and `/blog/managed-it-vs-inhouse-smb`. Added to sitemap; bumped lastmods.
+- Added `/llms.txt` (did not exist): plain-language business facts, pricing, service area and key URLs, all taken from existing pages.
+- Competitor check (web search): Lower Mainland SMB results are dominated by Clutch/BBB/YP directory listings plus Glimpse Networks, GAM Tech (20-200 users, 24/7, "5-minute response"), Hexafusion ("15-minute first response"), Network Shape (Delta), Coleman Technologies (Langley), Com Pro. "Best MSP" queries in BC are mostly about the Medical Services Plan, so pages must say "managed service provider (MSP)" / "IT" explicitly. Off-site gap: Clearpine has no Clutch or BBB profile yet; those directories are what rank for "best MSP" lists.
+- Next (A): `/managed-it-services` pillar (managed IT services Lower Mainland / MSP Fraser Valley, outsourced IT department); strengthen `/locations/chilliwack`, `/locations/surrey`, `/locations/abbotsford` (Search Console queries); `/services/cybersecurity` and `/services/microsoft-365`. Blog: "Managed IT pricing in BC" using the benchmark table above.
